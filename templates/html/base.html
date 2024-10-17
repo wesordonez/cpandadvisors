@@ -17,12 +17,12 @@
 
     <title>{% block title %}{% endblock title %} {% settings_value "PROJECT_TITLE" %}</title>
     <meta name="description" 
-            content="{% block description %}Building websites that brings you business{% endblock description %}">
+            content="{% block description %}CP & A is an accounting firm in St. Louis specializing in personalized tax and accounting services for the Latino community. Helping businesses and individuals manage their finances with confidence.{% endblock description %}">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="{% block socialTitle %}{% endblock socialTitle %} Project" />
+    <meta property="og:title" content="{% block socialTitle %}CP & Advisors{% endblock socialTitle %} Project" />
     <meta property="og:description" 
-                        content="{% block socialDescription %}Description Here{% endblock socialDescription %}" />
+                        content="{% block socialDescription %}CP & A is an accounting firm in St. Louis specializing in personalized tax and accounting services for the Latino community. Helping businesses and individuals manage their finances with confidence.{% endblock socialDescription %}" />
     <meta property="og:type" content="{% block pageType %}website{% endblock pageType %}" />
     <meta property="og:url" content="{% block pageLink %}{{request.build_absolute_uri}}{% endblock pageLink %}" />
     <meta property="og:image" content="{% block pageImage %}{{ request.scheme }}://{{request.get_host}}{% static "./assets/images/home/hiking4.jpg" %}{% endblock pageImage %}" />
@@ -59,6 +59,12 @@
         gtag('config', '{% settings_value "ANALYTICS_TAG_ID" %}');
     </script>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+
     {% block head_tags %}
     {% endblock head_tags %}
 
@@ -90,8 +96,8 @@
                     tw-text-black
                     ">
 
-        <a class="tw-w-[50px] tw-h-[50px] tw-p-[4px]" href="{% url "home" %}">
-            <img src="{% static "assets/logos/logo1.png" %}" 
+        <a class="tw-w-[100px] tw-h-[50px] tw-p-[4px]" href="{% url "home" %}">
+            <img src="{% static "assets/logos/cp&a-logo.png" %}" 
                   alt="logo" class="tw-w-full tw-h-full tw-object-contain">
 
         </a>
@@ -112,6 +118,9 @@
                 <a class="header-links" href="{% url "home" %}">
                     About us
                 </a>
+                <a class="header-links" href="{% url "home" %}">
+                    Services and Pricing
+                </a>
                 <a class="header-links" href="{% url "blogs" %}"
                         rel="noreferrer"
                         >
@@ -129,39 +138,21 @@
                         max-lg:tw-w-full
                          max-lg:tw-place-items-start
                          ">
-                <a href="https://www.facebook.com/" 
-                        target="_blank" 
-                        rel="noreferrer"
-                        aria-label="facebook"
+                <a href="" 
                         class=" header-links
                                 tw-transition-colors
                                 tw-duration-[0.3s]
                                 "
                         >
-                    <i class="bi bi-facebook"></i>
+                    Español
                 </a>
-
-                <a href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label="instagram"
-                        class="header-links
+                <a href="" 
+                        class=" header-links
                                 tw-transition-colors
                                 tw-duration-[0.3s]
                                 "
-                            >
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://github.com/PaulleDemon"
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label="github"
-                        class="header-links
-                                tw-transition-colors
-                                tw-duration-[0.3s]
-                                "
-                            >
-                    <i class="bi bi-github"></i>
+                        >
+                    English
                 </a>
             </div>
         </div>
