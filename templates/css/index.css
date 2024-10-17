@@ -7,6 +7,8 @@
     --btn-bg: #101010;/* button bg color*/
 
     --primary-text-color: #1d1b1b;
+
+    --primary-bg-color: #EFF2F5;
 }
 
 
@@ -16,7 +18,7 @@ html {
 }
 
 header{
-    background-color: #fff;
+    background-color: var(--primary-bg-color);
     color: #000;
 }
 
@@ -201,6 +203,13 @@ header > .collapsable-header{
 .dots-container .active,
 .dot:hover {
     background-color: #717171;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-bg-color);
+    color: #000;
 }
 
 .footer-link{

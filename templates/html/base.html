@@ -92,7 +92,6 @@
                     lg:tw-justify-around
                     tw-absolute tw-top-0 tw-px-[10%]
                     max-lg:tw-mr-auto
-                    tw-bg-white
                     tw-text-black
                     ">
 
@@ -169,57 +168,56 @@
     <div class="tw-w-full tw-h-full tw-mt-[50px]">
         {% block content %}{% endblock content %}
     </div>
-    <footer class="tw-flex max-md:tw-flex-col tw-w-full tw-p-[5%]
-                    tw-px-[10%] tw-place-content-around tw-gap-3 
-                    tw-text-black
-                    tw-mt-auto
-                    ">
-        <div class="tw-h-full tw-w-[250px] tw-flex tw-flex-col 
-                    tw-gap-6 tw-place-items-center max-md:tw-w-full">
-            
-            <img src="{% static "assets/logos/logo1.png" %}" 
-                alt="logo"  class="tw-max-w-[150px] max-md:tw-max-w-[120px]">
-            <div>
-                2 Lord Edward St,   
-                <br>
-                D02 P634,
-                <br>
-                United States
+    <footer class="tw-w-full tw-p-[5%] tw-px-[3%] tw-mt-auto tw-border-t tw-border-gray-300 tw-bg-gray-100">
+        <div class="tw-flex tw-place-content-around tw-gap-10 tw-flex-wrap max-md:tw-flex-col">
+            <!-- Left Section: Logo and Contact Information -->
+            <div class="tw-flex tw-gap-10 tw-items-start max-md:tw-flex-col">
+                <img src="{% static 'assets/logos/cp&a-logo.png' %}" 
+                     alt="logo" 
+                     class="tw-max-h-[150px] max-md:tw-max-w-[120px] tw-flex-col">
+                <div class="tw-flex tw-flex-col tw-text-black tw-gap-4">
+                    <p class="tw-text-lg tw-font-bold">Contact Info:</p>
+                    <p>Telephone: +1 (314) 789-6524</p>
+                    <p>Email: cpandacct@gmail.com</p>
+                    <p>Address: 11520 Rock Rd. St. Charles, MO</p>
+                </div>
             </div>
-            <div class="tw-mt-3 tw-font-semibold tw-text-lg">
-                Follow us
+    
+            <!-- Center Section: Navigation Links -->
+            <div class="tw-flex tw-flex-col tw-gap-4 tw-text-lg tw-text-black">
+                <h2 class="tw-text-2xl tw-font-bold max-md:tw-text-xl">Links</h2>
+                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
+                    <a href="{% url 'home' %}" class="footer-link">Home</a>
+                    <a href="{% url 'home' %}" class="footer-link">About Us</a>
+                    <a href="{% url 'home' %}" class="footer-link">Services and Pricing</a>
+                    <a href="{% url 'home' %}" class="footer-link">Blogs</a>
+                </div>
             </div>
-            <div class="tw-flex tw-gap-4 tw-text-2xl">
-                <a href="https://facebook.com/" aria-label="Facebook">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a href="https://twitter.com/pauls_freeman" aria-label="Twitter">
-                    <i class="bi bi-twitter"></i>
-                </a>
-                <a href="https://instagram.com/" class="tw-w-[40px] tw-h-[40px]" aria-label="Instagram">
-                   <i class="bi bi-instagram"></i>
-                </a>
+    
+            <!-- Right Section: Social Icons -->
+            <div class="tw-flex tw-flex-col tw-gap-4 tw-text-black">
+                <p class="tw-mt-3 tw-font-semibold tw-text-lg">Follow us</p>
+                <div class="tw-flex tw-gap-4 tw-text-2xl">
+                    <a href="https://facebook.com/" aria-label="Facebook" class="tw-text-black tw-hover:text-gray-600">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/pauls_freeman" aria-label="Twitter" class="tw-text-black tw-hover:text-gray-600">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/" aria-label="Instagram" class="tw-text-black tw-hover:text-gray-600">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
             </div>
         </div>
-
-        <div class="tw-h-full tw-w-[250px] tw-flex tw-flex-col 
-                    tw-gap-4">
-
-            <h2 class="tw-text-3xl max-md:tw-text-xl">
-                Resources
-            </h2>
-            <div class=" tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                <a href="{% url "home" %}" class="footer-link">About us</a>
-                <a href="" class="footer-link">FAQ</a>
-                <a href="{% url "contact-us" %}" class="footer-link">Contact Us</a>
-                <a href="" class="footer-link">Privacy policy</a>
-            </div>
-
+    
+        <!-- Bottom Section: Copyright and Footer Link -->
+        <div class="tw-mt-8 tw-border-t tw-border-gray-300 tw-pt-4 tw-text-sm tw-text-gray-600 tw-flex tw-justify-center tw-items-center">
+            <p>&copy; 2024 Claudia Principal CPA. All rights reserved. --</p>
+            <a href="https://www.dunosis.com" class="tw-hover:underline">-- Made by Dunosis</a>
         </div>
 
-        {% block footer %}
-        {% endblock footer %}
-
+        {% block footer %}{% endblock footer %}
     </footer>
 </body>
 
