@@ -4,7 +4,7 @@
 :root{
 
     --btn-color: #fdfdfd;/* button color*/
-    --btn-bg: #101010;/* button bg color*/
+    --btn-bg: #DED0FA;/* button bg color*/
 
     --primary-text-color: #1d1b1b;
 
@@ -14,7 +14,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -84,10 +84,12 @@ header > .collapsable-header{
     align-items: center;
     display: flex;
     cursor: pointer;
+    font-weight: 700;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .btn:hover{
-
+    box-shadow: 8px 8px 0.1px 0px #BEE2EE;
 }
 
 .btn:disabled{
@@ -379,4 +381,14 @@ footer {
         color: black;
     }
     
+}
+
+/*  Miscellaneous */
+
+.hero-image {
+    transition: box-shadow 0.3s;
+}
+
+.hero-image:hover {
+    box-shadow: 8px 10px 0.1px 0 #DED0FA, 16px 20px 0.1px 0 #BEE2EE;
 }
