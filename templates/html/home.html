@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load static %}
 
 {% load custom_tags %}
@@ -337,21 +337,20 @@
 
     </section> {% endcomment %}
 
-    <div class="tw-fixed
+    {% comment %} <div class="tw-fixed
                 tw-top-[50%] tw-translate-y-[-50%]
                 tw-left-[50%] tw-translate-x-[-50%]
                 tw-w-[450px] tw-max-h-[450px] 
                 max-md:tw-w-[350px]
                 tw-z-40
                 tw-p-3
-                tw-hidden
                 tw-flex 
                 tw-flex-col
                 tw-rounded-md
                 tw-shadow-2xl
                 tw-bg-white"
                 id="modal"
-                >
+                > {% endcomment %}
         {% comment %} feedback modal {% endcomment %}
         <div class="tw-w-full tw-relative tw-h-[40px]">
             <button class="tw-text-4xl 
@@ -395,7 +394,6 @@
 {% block scripts %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 
     <script src="{% static "./js/home.js" %}"></script>
 
