@@ -9,6 +9,9 @@
     --primary-text-color: #1d1b1b;
 
     --primary-bg-color: #EFF2F5;
+
+    --primary-color: #DED0FA;
+    --secondary-color: #BEE2EE;
 }
 
 
@@ -390,7 +393,7 @@ footer {
 }
 
 .hero-image:hover {
-    box-shadow: 8px 10px 0.1px 0 #DED0FA, 16px 20px 0.1px 0 #BEE2EE;
+    box-shadow: 8px 10px 0.1px 0 var(--primary-color), 16px 20px 0.1px 0 var(--secondary-color);
 }
 
 .card-container {
@@ -400,7 +403,7 @@ footer {
     height: 400px;
     display: flex;
     flex-direction: column;
-    background-color: #BEE2EE;
+    background-color: var(--primary-color);
     border-radius: 30px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -409,7 +412,7 @@ footer {
 
 .card-container:hover {
     transform: translateY(-10px);
-    box-shadow: 8px 10px 0.1px 0 #DED0FA;
+    box-shadow: 8px 10px 0.1px 0 var(--primary-color);
 }
 
 /* Card content */
@@ -420,7 +423,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #BEE2EE;
+  background-color: var(--secondary-color);
   transition: transform 0.2s;
   position: relative;
 }
@@ -474,4 +477,8 @@ footer {
     .card-content {
         height: 400px;
     }
+}
+
+.cta-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
 }
