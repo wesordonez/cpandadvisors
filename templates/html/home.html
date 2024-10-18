@@ -74,7 +74,7 @@
                     ">
 
             <div class="card-container">
-        
+
                 <!-- Image at the top -->
                 <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
                     class="card-img">
@@ -82,17 +82,18 @@
                 <!-- Card content -->
                 <div class="card-content">
                     <h3 class="card-title">Service Title</h3>
-                    <p class="tw-text-justify tw-mt-3
-                        tw-hidden">
+                    <p class="card-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
-                </div>
-                
-                <!-- Slide-up button on hover -->
-                <div class="tw-absolute tw-inset-x-0 tw-bottom-0 tw-transform tw-translate-y-full hover:tw-translate-y-0 tw-transition-all tw-duration-300 tw-bg-blue-100 tw-flex tw-justify-center tw-items-center tw-py-4">
-                    <button class="tw-bg-purple-500 tw-text-white tw-py-2 tw-px-4 tw-rounded-lg tw-flex tw-items-center">
-                    <span class="tw-mr-2">Más Información</span>
-                    <i class="bi bi-chevron-right"></i>
-                    </button>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
                 </div>
             </div>  
             <div class="card-container">
@@ -117,42 +118,52 @@
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
-                
             </div> 
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-phone-fill 
-                        tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-text-center tw-mt-5">Responsive UI</h2>
+            <div class="card-container">
+        
+                <!-- Image at the top -->
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
             </div>  
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-database-fill 
-                        tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-text-center tw-mt-5">
-                    Postgres / Sqlite <br> Database
-                </h2>
-            </div>    
-
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-google
-                        tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-text-center tw-mt-5">SEO optimization</h2>
-            </div>   
-
+            <div class="card-container">
+        
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </section>
