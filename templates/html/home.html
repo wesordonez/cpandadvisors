@@ -63,23 +63,62 @@
                     "
                     >
 
-        <h2 class="tw-text-5xl max-md:tw-text-3xl">Features made for perfect delivery</h2>
+        <h2 class="tw-text-5xl tw-font-bold max-md:tw-text-3xl">Servicios Contables Para Tu Negocio</h2>
+        <p class="tw-text-justify tw-p-5 tw-mt-5 tw-max-w-[800px] tw-text-xl max-md:tw-text-base">
+            En St. Louis, MO, ofrecemos una amplia gama de servicios contables para ayudarte a administrar tu negocio de manera eficiente y efectiva. Desde la preparación de impuestos hasta la planificación financiera, estamos aquí para brindarte la ayuda que necesitas para alcanzar tus metas financieras. Nuestros servicios incluyen:
+        </p>
 
         <div class="tw-flex max-lg:tw-flex-col tw-w-full tw-gap-8 
                     tw-place-content-center tw-mt-10 tw-p-4
                     tw-place-items-center
                     ">
 
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-cloud-upload-fill 
-                            tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-mt-5">Production ready</h2>
-            </div>   
+            <div class="card-container">
+        
+                <!-- Image at the top -->
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="tw-text-justify tw-mt-3
+                        tw-hidden">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                </div>
+                
+                <!-- Slide-up button on hover -->
+                <div class="tw-absolute tw-inset-x-0 tw-bottom-0 tw-transform tw-translate-y-full hover:tw-translate-y-0 tw-transition-all tw-duration-300 tw-bg-blue-100 tw-flex tw-justify-center tw-items-center tw-py-4">
+                    <button class="tw-bg-purple-500 tw-text-white tw-py-2 tw-px-4 tw-rounded-lg tw-flex tw-items-center">
+                    <span class="tw-mr-2">Más Información</span>
+                    <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>  
+            <div class="card-container">
+        
+                <!-- Image at the top -->
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                
+            </div> 
             <div class="tw-w-[250px] tw-h-[250px] 
                         tw-flex tw-flex-col tw-shadow-xl
                         tw-rounded-lg
