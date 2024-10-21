@@ -5,8 +5,18 @@
 
 {% block content %}
 
-<h1>About</h1>
-<p>This is the about page; a work in progress</p>
+<section class="about-hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title>">About Us</h1>
+            <p class="hero-text">We are a team of professionals who are passionate about what we do. We are dedicated to providing our clients with the best service possible.</p>
+        </div>
+        <div class="hero-contact">
+            <a href="{% url 'contact-us' %}" class="btn btn-primary">Contact Us</a>
+        </div>
+    </div>
+</section>
+            
 
 {% endblock content %}
 
