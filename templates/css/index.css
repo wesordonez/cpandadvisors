@@ -483,3 +483,22 @@ footer {
 .cta-section {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
 }
+
+/* Contact From */
+
+.form-container {
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.form-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 10px 0.1px 0 var(--primary-color);
+}
+
+.contact-form {
+    margin: auto;
+    border-radius: 30px;
+    background-color: var(--primary-bg-color) !important;
+}
