@@ -11,7 +11,6 @@
     <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfTdsYpAAAAAE3ePEpkWUwh9sEf0dugErefYQxy"></script>
 {% endblock head %} {% endcomment %}
 
-
 {% block title %}Contact us Form - {% endblock title %}
 {% block description %}Contact us{% endblock description %}
 
@@ -31,7 +30,7 @@
                     >
         
             <form
-                method="POST"
+                method="post"
                 action="{% url "contact-us" %}"
                 onsubmit="return onSubmit(event)"
                 class="tw-flex tw-flex-col tw-gap-[5%] tw-h-full tw-mt-[5%]"
@@ -60,8 +59,8 @@
                                 name="name"
                                 maxlength="30"
                                 required
-                                value="{{data.name}}"
-                                placeholder="name"
+                                value="{{ data.name }}"
+                                placeholder="Claudia Principal"
                             />
                         </div>
                         <div class="tw-flex tw-flex-col tw-gap-1">
@@ -77,11 +76,11 @@
                                     class="input tw-w-[70%]"
                                     maxlength="15"
                                     required
-                                    value="{{data.phone|phone_number}}"
+                                    value="{{ data.phone|phone_number }}"
                                     name="phone-number"
-                                    placeholder="phone"
+                                    placeholder="123 456 7890"
                                 />
-                                <input type="hidden" value="{{data.phone}}" name="phone" value="" />
+                                <input type="hidden" value="{{ data.phone }}" name="phone" value="" />
                             </div>
                         </div>
                         <div class="tw-flex tw-flex-col tw-gap-1">
@@ -92,22 +91,22 @@
                                 required
                                 name="email"
                                 maxlength="250"
-                                placeholder="email"
-                                value="{{data.email}}"
+                                placeholder="example@email.com"
+                                value="{{ data.email }}"
                                 id="email"
                             />
                         </div>
 
                         <div class="tw-flex tw-flex-col tw-w-full tw-gap-2">
-                            <div class="tw-text-gray-500">Enquiry</div>
+                            <div class="tw-text-gray-500">Message</div>
                             <textarea
                                 class="input tw-resize-y tw-w-full tw-max-h-[250px] tw-min-h-[40px]"
                                 name="description"
                                 maxlength="1200"
                                 required
-                                value="{{data.description}}"
-                                placeholder="enquiry"
-                            >{{data.description}}</textarea
+                                value="{{ data.description }}"
+                                placeholder="I'm interested in your accounting services!"
+                            >{{ data.description }}</textarea
                             >
                         </div>
                     </div>
@@ -123,7 +122,6 @@
             </form>
 
     </section>
-
 
 {% endblock content %}
 
