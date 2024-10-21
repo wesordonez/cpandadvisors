@@ -74,7 +74,7 @@ if not DEBUG:
     CSRF_TRUSTED_ORIGINS = env('ALLOWED_CORS').replace(' ', '').split(',')
 
 
-PROJECT_TITLE = 'Project' # name of the project
+PROJECT_TITLE = 'CP & Advisors' # name of the project
 
 if DEBUG:
     DOMAIN = "http://localhost:8000"

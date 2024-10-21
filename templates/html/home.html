@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load static %}
 
 {% load custom_tags %}
@@ -10,29 +10,29 @@
                         id="hero-section"
                         >
             
-            <div class="tw-w-full tw-h-full tw-p-[5%]
+            <div class="tw-w-full tw-h-full tw-p-[5%] tw-gap-4
                         tw-place-content-center tw-min-h-[100vh]
                         tw-justify-around tw-place-items-center
                         tw-flex max-lg:tw-flex-col">
 
                 <div class="tw-flex tw-flex-col tw-place-content-center tw-max-w-[650px] tw-min-w-[550px] 
                             max-md:tw-min-w-[300px]">
-                    <h1 class="tw-text-6xl tw-font-semibold tw-uppercase 
+                    <h1 class="tw-text-6xl tw-font-bold tw-uppercase 
                             tw-leading-normal max-md:tw-text-5xl max-md:tw-leading-[70px]">
-                        Supercharge your Django 
-                        apps with Templates 🚀
+                        Tu Confianza, Nuestro Compromiso
                     </h1>
                     <div class="tw-mt-5 tw-p-2 tw-text-justify max-md:tw-max-w-full">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi consequuntur provident, aperiam blanditiis quia quae fugit commodi aliquam fugiat earum repellendus impedit ex perspiciatis iste a, sint possimus cupiditate odio? Delectus, recusandae! Iure porro illum sint labore, expedita inventore sapiente fugit, consectetur totam nemo temporibus sunt eligendi, odio esse!
+                        Ofrecemos soluciones contables personalizadas para la comunidad Latina en St. Louis, MO.
+                        Simplificamos tus finanzas para que puedas enfocarte en lo que realmente importa: hacer crecer tu negocio y alcanzar tus metas. Desde impuestos hasta planificación financiera, estamos aquí para apoyarte en cada paso del camino, brindándote confianza y tranquilidad en St. Louis y sus alrededores.
                     </div>
                     
-                    <a href="https://github.com/PaulleDemon/Django-website-template" 
+                    <a href="{% url 'contact-us' %}" 
                                         class="btn tw-mt-5 tw-ml-auto 
                                                 tw-duration-[0.3s]
                                                 tw-transition-transform
                                                 hover:tw-translate-x-2
                                                 ">
-                        <span>Get started</span>
+                        <span>Contáctanos Ahora</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -41,19 +41,16 @@
                             tw-place-content-center
                             tw-place-items-center
                             tw max-md:!tw-mt-10">
-                    <div class="tw-rounded-lg tw-overflow-clip tw-shadow-xl ">
-                        <img src="{% static './assets/images/home/dashboard.png' %}" 
+                    <div class="tw-rounded-lg tw-overflow-clip tw-shadow-xl hero-image">
+                        <img src="{% static './assets/images/home/stlouis.jpg' %}" 
                                 alt="dashboard" class="tw-w-full tw-h-full">
                     </div>
                     <div class="tw-mt-5 tw-p-2 tw-text-justify tw-text-2xl">
-                        Code Less. Deliver More
+                        Se Habla Español | English Spoken
                     </div>
                 </div>
-
             </div>
-        
     </section>
-
 
     <section class="tw-w-full  tw-max-w-[100vw]
                     tw-flex tw-flex-col tw-overflow-hidden tw-relative 
@@ -63,57 +60,107 @@
                     "
                     >
 
-        <h2 class="tw-text-5xl max-md:tw-text-3xl">Features made for perfect delivery</h2>
+        <h2 class="tw-text-5xl tw-font-bold max-md:tw-text-3xl">Servicios Contables Para Tu Negocio</h2>
+        <p class="tw-text-justify tw-p-5 tw-mt-5 tw-max-w-[800px] tw-text-xl max-md:tw-text-base">
+            En St. Louis, MO, ofrecemos una amplia gama de servicios contables para ayudarte a administrar tu negocio de manera eficiente y efectiva. Desde la preparación de impuestos hasta la planificación financiera, estamos aquí para brindarte la ayuda que necesitas para alcanzar tus metas financieras. Nuestros servicios incluyen:
+        </p>
 
-        <div class="tw-flex max-lg:tw-flex-col tw-w-full tw-gap-8 
+        <div class="tw-flex tw-flex-row tw-flex-wrap max-lg:tw-flex-row max-lg:tw-flex-wrap tw-w-full tw-gap-8 
                     tw-place-content-center tw-mt-10 tw-p-4
                     tw-place-items-center
                     ">
 
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-cloud-upload-fill 
-                            tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-mt-5">Production ready</h2>
-            </div>   
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-phone-fill 
-                        tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-text-center tw-mt-5">Responsive UI</h2>
+            <div class="card-container">
+
+                <!-- Image at the top -->
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
             </div>  
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-database-fill 
-                        tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-text-center tw-mt-5">
-                    Postgres / Sqlite <br> Database
-                </h2>
-            </div>    
-
-            <div class="tw-w-[250px] tw-h-[250px] 
-                        tw-flex tw-flex-col tw-shadow-xl
-                        tw-rounded-lg
-                        tw-place-content-center tw-place-items-center
-                        ">
-                <i class="bi bi-google
-                        tw-text-[#2c2a2a]
-                            tw-text-6xl"></i>
-                <h3 class="tw-text-xl tw-text-center tw-mt-5">SEO optimization</h2>
-            </div>   
-
+            <div class="card-container">
+        
+                <!-- Image at the top -->
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div> 
+            <div class="card-container">
+        
+                <!-- Image at the top -->
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>  
+            <div class="card-container">
+        
+                <img src="{% static './assets/images/home/service-placeholder.webp' %}" alt="Service Image" 
+                    class="card-img">
+                
+                <!-- Card content -->
+                <div class="card-content">
+                    <h3 class="card-title">Service Title</h3>
+                    <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                card-button
+                                                ">
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -126,16 +173,58 @@
                     tw-place-items-center
                     max-md:tw-flex-col
                     tw-overflow-hidden
+                    cta-section
                     "
                     >
         <div class="tw-flex tw-flex-col tw-place-items-center tw-gap-2">
-            <h3 class="tw-text-4xl max-md:tw-text-3xl">Make it yours</h3>
+            <h3 class="tw-text-4xl tw-text-white tw-font-bold max-md:tw-text-3xl">¡Simplifica tu vida financiera hoy! Confía en nuestros expertos contables para llevar tus finanzas al siguiente nivel.</h3>
             <a class="btn tw-mt-4 tw-rounded-xl hover:tw-scale-[1.05] tw-duration-[0.3s]"
-                href="https://github.com/PaulleDemon/Django-website-template"
+                href="{% url 'contact-us' %}"
             >
-                Get now!
+                Comienza Ahora!
             </a>
         </div>
+    </section>
+
+    <section class="tw-w-full tw-flex tw-flex-col tw-mt-[50px] max-md:tw-flex-row 
+                tw-items-center tw-px-[10%] tw-gap-[5%] tw-my-10 tw-py-5">
+
+        <!-- Left Text Box -->
+        <div class="tw-w-full max-md:tw-w-full tw-bg-[#f3f4f6] tw-p-5 tw-rounded-lg tw-shadow-lg tw-max-w-[500px]">
+            <h2 class="tw-text-3xl max-md:tw-text-2xl tw-font-bold tw-mb-4 primary-text-color">
+                Nuestra firma
+            </h2>
+            <p class="tw-text-justify tw-text-lg max-md:tw-text-base">
+                Principal Accounting es una firma contable con sede en St. Louis, especializada en proporcionar 
+                soluciones financieras claras y efectivas para pequeñas empresas y emprendedores de la comunidad 
+                latina. Con más de 15 años de experiencia en el mercado, nos enorgullece ofrecer un servicio 
+                personalizado que ayuda a nuestros clientes a manejar sus finanzas con confianza y facilidad. 
+                Nos comprometemos a ofrecer soluciones que se adapten a las necesidades únicas de cada cliente, 
+                manteniéndonos como líderes en asesoría financiera en la región.
+            </p>
+        </div>
+
+        <div class="tw-w-full tw-flex tw-flex-row max-lg:tw-flex-col tw-justify-center tw-items-center tw-my-5 tw-gap-5 tw-mt-4">
+            <!-- Center Image -->
+            <div class="tw-w-1/2 max-lg:tw-w-1/2 tw-flex tw-justify-center tw-items-center tw-my-5">
+                <img src="{% static './assets/images/home/profile-placeholder.webp' %}" alt="About Image"
+                    class="tw-w-[250px] tw-h-[250px] md:tw-w-[300px] md:tw-h-[300px] tw-object-cover tw-rounded-lg tw-shadow-lg">
+            </div>
+        
+            <!-- Right Text Box -->
+            <div class="tw-w-full md:tw-w-full tw-bg-[#f3f4f6] tw-p-5 tw-rounded-lg tw-shadow-lg tw-max-w-[500px]">
+                <h3 class="tw-text-2xl tw-font-bold tw-mb-4">
+                    Hola, soy Claudia Principal
+                </h3>
+                <p class="tw-text-justify tw-text-lg max-md:tw-text-base">
+                    Soy una contadora orgullosamente venezolana con más de 10 años de experiencia. Después de 
+                    emigrar a los Estados Unidos, he dedicado mi carrera a ayudar a la comunidad latina a gestionar 
+                    sus finanzas de manera efectiva y exitosa. Mi pasión es simplificar los procesos contables para 
+                    que mis clientes puedan enfocarse en sus metas y hacer crecer sus negocios.
+                </p>
+            </div>
+        </div>
+
     </section>
 
     <section class="tw-mt-5 tw-w-full tw-flex tw-flex-col tw-p-[5%]
@@ -207,11 +296,11 @@
        
     </section>
 
-    <section class="tw-w-full tw-flex 
+    {% comment %} <section class="tw-w-full tw-flex 
                     tw-flex-col
                     tw-place-content-center 
                     tw-px-[10%]
-                   
+                    tw-mb-[5%]
                     tw-gap-[10%]
                     tw-place-items-center
                     ">
@@ -224,7 +313,6 @@
             <h2 class="tw-text-3xl max-md:tw-text-2xl primary-text-color">Special Newsletter signup</h2>
             <h2 class="tw-text-xl max-md:tw-text-lg">Get to know about our future templates</h2>
             
-            {% comment %} {% include "html/newsletter/form.html" %} {% endcomment %}
 
             <div class="input tw-flex tw-h-[50px]  tw-p-2 
                             tw-overflow-hidden tw-place-items-center ">
@@ -247,25 +335,24 @@
             </div>
         </div>
 
-    </section>
+    </section> {% endcomment %}
 
-    <div class="tw-fixed
+    {% comment %} <div class="tw-fixed
                 tw-top-[50%] tw-translate-y-[-50%]
                 tw-left-[50%] tw-translate-x-[-50%]
                 tw-w-[450px] tw-max-h-[450px] 
                 max-md:tw-w-[350px]
                 tw-z-40
                 tw-p-3
-                tw-hidden
                 tw-flex 
                 tw-flex-col
                 tw-rounded-md
                 tw-shadow-2xl
                 tw-bg-white"
                 id="modal"
-                >
+                > {% endcomment %}
         {% comment %} feedback modal {% endcomment %}
-        <div class="tw-w-full tw-relative tw-h-[40px]">
+        {% comment %} <div class="tw-w-full tw-relative tw-h-[40px]">
             <button class="tw-text-4xl 
                             bi bi-x
                             tw-absolute
@@ -300,14 +387,13 @@
             </a>
         </div>
         
-    </div>
+    </div> {% endcomment %}
     
 {% endblock content %}
 
 {% block scripts %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 
     <script src="{% static "./js/home.js" %}"></script>
 
