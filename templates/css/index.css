@@ -389,10 +389,11 @@ footer {
 /*  Miscellaneous */
 
 .hero-image {
-    transition: box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .hero-image:hover {
+    transform: translateY(-10px);
     box-shadow: 8px 10px 0.1px 0 var(--primary-color), 16px 20px 0.1px 0 var(--secondary-color);
 }
 
