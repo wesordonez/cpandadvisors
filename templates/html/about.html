@@ -6,13 +6,47 @@
 {% block content %}
 
 <section class="about-hero">
-    <div class="hero-container">
-        <div class="hero-content">
-            <h1 class="hero-title>">About Us</h1>
-            <p class="hero-text">We are a team of professionals who are passionate about what we do. We are dedicated to providing our clients with the best service possible.</p>
+    <div class="hero-container w-w-full tw-h-full tw-p-[5%] tw-gap-4
+                        tw-place-content-center
+                        tw-justify-around tw-place-items-center
+                        tw-flex max-lg:tw-flex-col">
+
+        <!-- Left Section: Hero Content -->
+        <div class="hero-content tw-flex tw-flex-col tw-place-content-center tw-max-w-[650px] tw-min-w-[550px] 
+                            max-md:tw-min-w-[300px]">
+            <h1 class="hero-title tw-text-6xl tw-font-bold tw-uppercase 
+                            tw-leading-normal max-md:tw-text-5xl max-md:tw-leading-[70px]>">Conócenos y Contáctanos Hoy</h1>
+            <p class="hero-text tw-mt-5 tw-p-2 tw-text-justify max-md:tw-max-w-full">
+                Nos apasiona brindar soluciones contables personalizadas que simplifican tu vida financiera. 
+                Confiabilidad, experiencia, y un enfoque centrado en la comunidad son los valores que nos definen.
+                Elige a un equipo comprometido con tu éxito y contáctanos hoy mismo para comenzar.
+            </p>
         </div>
-        <div class="hero-contact">
+        
+        <!-- Right Section: Social Icons and Form Link-->
+        <div class="tw-max-w-[750px] 
+        tw-place-content-center
+        tw-place-items-center
+        tw-flex tw-flex-col tw-gap-5
+        tw max-md:!tw-mt-10">
+        <div class="tw-flex tw-flex-col tw-gap-4 tw-text-black">
+            <p class="tw-mt-3 tw-font-semibold tw-text-lg">Follow us</p>
+            <div class="tw-flex tw-gap-4 tw-text-2xl">
+                <a href="https://facebook.com/" aria-label="Facebook" class="tw-text-black tw-hover:text-gray-600">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://twitter.com/pauls_freeman" aria-label="Twitter" class="tw-text-black tw-hover:text-gray-600">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://instagram.com/" aria-label="Instagram" class="tw-text-black tw-hover:text-gray-600">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-contact tw-flex tw-flex-col tw-gap-4 tw-place-items-center tw-text-black">
+            <p class="tw-mt-3 tw-font-semibold tw-text-lg">No esperes, contactanos ya!</p>
             <a href="{% url 'contact-us' %}" class="btn btn-primary">Contact Us</a>
+        </div>
         </div>
     </div>
 </section>
