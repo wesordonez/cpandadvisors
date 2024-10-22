@@ -291,12 +291,6 @@ footer {
     margin-top: 10px;
 }
 
-.collapsible .active,
-.collapsible:hover {
-    /* background-color: #dedddd; */
-}
-
-
 /* --------------------- pagination -------------------- */
 
 .pagination{
