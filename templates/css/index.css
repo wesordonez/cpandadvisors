@@ -503,7 +503,7 @@ footer {
     background-color: var(--primary-bg-color) !important;
 }
 
-*/ Services Section */
+/* Services Section */
 
 .service-tag {
     background-color: var(--primary-color);
@@ -596,4 +596,87 @@ footer {
     color: gray;
     font-size: 0.9rem;
     text-align: center;
+  }
+
+  /* Accordion Pricing Section */
+
+  .accordion-section {
+    width: 100%;
+    padding: 40px 5%;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .accordion-card {
+    background-color: #BEE2EE;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .accordion-card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .accordion-card .toggle-icon {
+    font-size: 1.5rem;
+  }
+  
+  .accordion-card .card-content {
+    padding: 20px;
+    display: none;
+  }
+  
+  .accordion-card.expanded .card-content {
+    display: block;
+  }
+  
+  .accordion-card .service-description {
+    margin: 0 0 20px;
+  }
+  
+  .accordion-card .service-image {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .accordion-card .service-image img {
+    width: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  
+  .accordion-card .service-features {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #E6D3F7;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .accordion-card .service-features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Collapsed effect - removing pink shadow */
+  .accordion-card.collapsed .card-header {
+    background: linear-gradient(to right, #BEE2EE 80%, #E6D3F7 20%);
+  }
+  
+  .accordion-card.expanded .card-header {
+    background-color: #BEE2EE;
   }
