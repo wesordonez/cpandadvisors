@@ -5,10 +5,83 @@
 
 {% block content %}
 
-<section>
-    <h1 class="tw-text-4xl tw-font-bold tw-text-center tw-mb-10">Nuestros Servicios</h1>
-    <p class="tw-text-center tw-mb-10 tw-max-w-[800px] tw-mx-auto">Work in Progress</p>
-</section>
+<section class="tw-w-full tw-min-h-[100vh]  tw-max-w-[100vw]
+                        tw-flex tw-flex-col tw-overflow-hidden tw-relative"
+                        id="hero-section"
+                        >
+            
+            <div class="tw-w-full tw-h-full tw-p-[5%] tw-gap-4
+                        tw-place-content-center tw-min-h-[100vh]
+                        tw-justify-around tw-place-items-center
+                        tw-flex max-lg:tw-flex-col">
+
+                <div class="tw-flex tw-flex-col tw-place-content-center tw-max-w-[650px] tw-min-w-[550px] 
+                            max-md:tw-min-w-[300px]">
+                    <h1 class="tw-text-6xl tw-font-bold tw-uppercase 
+                            tw-leading-normal max-md:tw-text-5xl max-md:tw-leading-[70px]">
+                        Servicios Contables Claros y Transparentes
+                    </h1>
+                    <!-- Section Heading -->
+  <h2 class="tw-text-center tw-text-lg lg:tw-text-xl tw-mb-6">
+    We are a full service accounting and tax firm, learn more about our specific services below.
+  </h2>
+  
+  <div class="tw-flex tw-flex-col lg:tw-flex-row tw-gap-10 tw-justify-center tw-items-start">
+
+    <!-- First Service Card -->
+    <div class="tw-flex tw-items-start tw-gap-4">
+      <div class="tw-flex-shrink-0">
+        <div class="tw-bg-[#22d3ee] tw-w-[40px] tw-h-[40px] tw-rounded-full tw-flex tw-justify-center tw-items-center">
+          <i class="bi bi-check-lg tw-text-white"></i>
+        </div>
+      </div>
+      <div>
+        <h3 class="tw-text-lg tw-font-semibold tw-mb-2">Tax Planning & Prep</h3>
+        <p class="tw-text-base tw-leading-relaxed">
+          All year we'll tackle tax reduction and tax filing.
+        </p>
+      </div>
+    </div>
+
+    <!-- Second Service Card -->
+    <div class="tw-flex tw-items-start tw-gap-4">
+      <div class="tw-flex-shrink-0">
+        <div class="tw-bg-[#22d3ee] tw-w-[40px] tw-h-[40px] tw-rounded-full tw-flex tw-justify-center tw-items-center">
+          <i class="bi bi-check-lg tw-text-white"></i>
+        </div>
+      </div>
+      <div>
+        <h3 class="tw-text-lg tw-font-semibold tw-mb-2">Bookkeeping & CFO</h3>
+        <p class="tw-text-base tw-leading-relaxed">
+          We'll handle all the bookkeeping for you.
+        </p>
+      </div>
+    </div>
+
+  </div>
+                    
+                    <a href="{% url 'contact-us' %}" 
+                                        class="btn tw-mt-5 tw-ml-auto 
+                                                tw-duration-[0.3s]
+                                                tw-transition-transform
+                                                hover:tw-translate-x-2
+                                                ">
+                        <span>Contáctanos Ahora</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="tw-max-w-[750px] 
+                            tw-place-content-center
+                            tw-place-items-center
+                            tw max-md:!tw-mt-10">
+                    <div class="tw-rounded-lg tw-overflow-clip tw-shadow-xl hero-image">
+                        <img src="{% static './assets/images/home/stlouis.jpg' %}" 
+                                alt="dashboard" class="tw-w-full tw-h-full">
+                    </div>
+                </div>
+            </div>
+    </section>
 
 {% endblock content %}
 
