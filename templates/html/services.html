@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% load custom_tags %}
+
+{% block content %}
+
+<section>
+    <h1 class="tw-text-4xl tw-font-bold tw-text-center tw-mb-10">Nuestros Servicios</h1>
+    <p class="tw-text-center tw-mb-10 tw-max-w-[800px] tw-mx-auto">Work in Progress</p>
+</section>
+
+{% endblock content %}
+
+{% block scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="{% static "./js/home.js" %}"></script>
+
+{% endblock scripts %}
