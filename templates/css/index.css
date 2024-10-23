@@ -502,3 +502,10 @@ footer {
     border-radius: 30px;
     background-color: var(--primary-bg-color) !important;
 }
+
+*/ Services Section */
+
+.service-tag {
+    background-color: var(--primary-color);
+    color: var(--btn-color);
+}
