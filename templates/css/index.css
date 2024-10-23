@@ -509,3 +509,88 @@ footer {
     background-color: var(--primary-color);
     color: var(--btn-color);
 }
+
+.pricing-section {
+    width: 100%;
+    padding: 40px 5%;
+    text-align: left;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .pricing-cards {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  .pricing-card {
+    background-color: #BEE2EE;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    box-shadow: 0 0 30px 5px rgba(246, 160, 247, 0.5), 0 0 60px 10px rgba(190, 226, 238, 0.5);
+  }
+  
+  .card-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-period {
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  .card-features {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .card-features li {
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    background-color: #d1d5db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .section-footer {
+    margin-top: 30px;
+    color: gray;
+    font-size: 0.9rem;
+  }
