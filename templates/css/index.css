@@ -524,9 +524,17 @@ footer {
   
   .pricing-cards {
     display: flex;
+    flex: 1 1 calc(33.333% - 20px);
     flex-direction: column;
     gap: 30px;
     align-items: center;
+  }
+
+  @media (min-width: 800px) {
+    .pricing-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
   
   @media (min-width: 768px) {
@@ -537,27 +545,29 @@ footer {
   }
   
   .pricing-card {
-    background-color: #BEE2EE;
+    background-color: var(--secondary-color);
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .pricing-card:hover {
-    box-shadow: 0 0 30px 5px rgba(246, 160, 247, 0.5), 0 0 60px 10px rgba(190, 226, 238, 0.5);
+    transform: translateY(-10px);
+    box-shadow: 8px 10px 0.1px 0 var(--primary-color);
   }
   
-  .card-content {
-    background-color: white;
+  .price-card-content {
+    background-color: var(--primary-bg-color);
     padding: 20px;
-    border-radius: 10px;
+    text-align: center;
+    border-radius: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
   
-  .card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
+  .price-card-title {
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 20px;
   }
   
@@ -581,16 +591,9 @@ footer {
     margin-bottom: 10px;
   }
   
-  .card-button {
-    background-color: #d1d5db;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
-  
   .section-footer {
     margin-top: 30px;
     color: gray;
     font-size: 0.9rem;
+    text-align: center;
   }
