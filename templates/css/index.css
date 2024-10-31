@@ -605,60 +605,76 @@ footer {
     padding: 40px 5%;
   }
   
-  .section-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
   .accordion-card {
-    background-color: #BEE2EE;
-    border-radius: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
     margin-bottom: 15px;
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
   }
   
-  .accordion-card .card-header {
+  .accordion-card .accordion-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     font-size: 1.5rem;
     font-weight: bold;
   }
+
+  .accordion-card .accordion-header .accordion-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 20px;
+  }
+
+  .accordion-card .accordion-header .accordion-icon {
+    width: 150px;
+    height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .accordion-card .accordion-header .accordion-title {
+      font-size: 1.2rem;
+    }
+    .accordion-card .accordion-header .accordion-icon {
+      width: 100px;
+    }
+  }
   
-  .accordion-card .toggle-icon {
+  .accordion-card .accordion-icon .toggle-icon {
     font-size: 1.5rem;
   }
   
-  .accordion-card .card-content {
+  .accordion-card .accordion-content {
     padding: 20px;
     display: none;
   }
   
-  .accordion-card.expanded .card-content {
+  .accordion-card.expanded .accordion-content {
     display: block;
   }
   
-  .accordion-card .service-description {
+  .accordion-card .accordion-description {
     margin: 0 0 20px;
   }
   
-  .accordion-card .service-image {
+  .accordion-card .accordion-image {
     display: flex;
     gap: 20px;
   }
   
-  .accordion-card .service-image img {
+  .accordion-card .accordion-image img {
     width: 300px;
     border-radius: 15px;
     object-fit: cover;
   }
   
-  .accordion-card .service-features {
+  .accordion-card .accordion-features {
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -667,16 +683,16 @@ footer {
     border-radius: 15px;
   }
   
-  .accordion-card .service-features ul {
+  .accordion-card .accordion-features ul {
     list-style: none;
     padding: 0;
   }
   
   /* Collapsed effect - removing pink shadow */
-  .accordion-card.collapsed .card-header {
+  .accordion-card.collapsed .accordion-header {
     background: linear-gradient(to right, #BEE2EE 80%, #E6D3F7 20%);
   }
   
-  .accordion-card.expanded .card-header {
+  .accordion-card.expanded .accordion-header {
     background-color: #BEE2EE;
   }
