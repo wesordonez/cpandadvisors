@@ -653,6 +653,9 @@ footer {
     .accordion-card .accordion-header .accordion-icon {
       width: 100px;
     }
+    .accordion-card .accordion-content {
+      flex-direction: column;
+    }
   }
   
   .accordion-card .accordion-icon .toggle-icon {
@@ -665,7 +668,8 @@ footer {
   }
   
   .accordion-card.expanded .accordion-content {
-    display: block;
+    display: flex;
+    gap: 30px;
   }
 
   .accordion-card.expanded .accordion-header .accordion-icon {
@@ -675,10 +679,12 @@ footer {
   
   .accordion-card .accordion-description {
     margin: 0 0 20px;
+    flex: 1 1 50%;
   }
   
   .accordion-card .accordion-image {
     display: flex;
+    flex: 1 1 50%;
     gap: 20px;
     display: flex;
     flex-direction: column;
