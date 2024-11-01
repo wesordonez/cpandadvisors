@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="shortcut icon" href="{% static 'assets/logos/logo.png' %}" type="image/png">
+    <link rel="shortcut icon" href="{% static 'assets/logos/favicon.ico' %}" type="image/png">
     
     <meta name="theme-color" content="#ffffff">
 
@@ -19,13 +19,15 @@
     <meta name="description" 
             content="{% block description %}CP & A is an accounting firm in St. Louis specializing in personalized tax and accounting services for the Latino community. Helping businesses and individuals manage their finances with confidence.{% endblock description %}">
 
+    <meta name="keywords" content="{% block keywords %}CP & A, accounting, tax, Latino, St. Louis, Missouri{% endblock keywords %}">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="{% block socialTitle %}CP & Advisors{% endblock socialTitle %} Project" />
     <meta property="og:description" 
                         content="{% block socialDescription %}CP & A is an accounting firm in St. Louis specializing in personalized tax and accounting services for the Latino community. Helping businesses and individuals manage their finances with confidence.{% endblock socialDescription %}" />
     <meta property="og:type" content="{% block pageType %}website{% endblock pageType %}" />
-    <meta property="og:url" content="{% block pageLink %}{{request.build_absolute_uri}}{% endblock pageLink %}" />
-    <meta property="og:image" content="{% block pageImage %}{{ request.scheme }}://{{request.get_host}}{% static "./assets/images/home/hiking4.jpg" %}{% endblock pageImage %}" />
+    <meta property="og:url" content="{% block pageLink %}{{ request.build_absolute_uri }}{% endblock pageLink %}" />
+    <meta property="og:image" content="{% block pageImage %}{{ request.scheme }}://{{ request.get_host }}{% static "./assets/images/home/hiking4.jpg" %}{% endblock pageImage %}" />
 
     <!-- Twitter -->
     {% comment %} 
@@ -63,7 +65,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
-
 
     {% block head_tags %}
     {% endblock head_tags %}
@@ -117,7 +118,7 @@
                 <a class="header-links" href="{% url "about" %}">
                     About us
                 </a>
-                <a class="header-links" href="{% url "home" %}">
+                <a class="header-links" href="{% url "services" %}">
                     Services and Pricing
                 </a>
                 <a class="header-links" href="{% url "blogs" %}"
@@ -189,8 +190,8 @@
                 <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
                     <a href="{% url 'home' %}" class="footer-link">Home</a>
                     <a href="{% url 'about' %}" class="footer-link">About Us</a>
-                    <a href="{% url 'home' %}" class="footer-link">Services and Pricing</a>
-                    <a href="{% url 'home' %}" class="footer-link">Blogs</a>
+                    <a href="{% url 'services' %}" class="footer-link">Services and Pricing</a>
+                    <a href="{% url 'blogs' %}" class="footer-link">Blogs</a>
                 </div>
             </div>
     
@@ -213,7 +214,7 @@
     
         <!-- Bottom Section: Copyright and Footer Link -->
         <div class="tw-mt-8 tw-border-t tw-border-gray-300 tw-pt-4 tw-text-sm tw-text-gray-600 tw-flex tw-justify-center tw-items-center">
-            <p>&copy; 2024 Claudia Principal CPA. All rights reserved. --</p>
+            <p>© 2024 Claudia Principal CPA. All rights reserved. --</p>
             <a href="https://www.dunosis.com" class="tw-hover:underline">-- Made by Dunosis</a>
         </div>
 
