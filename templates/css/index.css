@@ -452,7 +452,8 @@ footer {
 }
 
 .card-img {
-  max-height: 320px;
+  height: 80%;
+  width: 100%;
   object-fit: cover;
 }
 
