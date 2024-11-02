@@ -519,7 +519,7 @@ footer {
   .section-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .pricing-cards {
@@ -528,20 +528,6 @@ footer {
     flex-direction: column;
     gap: 30px;
     align-items: center;
-  }
-
-  @media (min-width: 800px) {
-    .pricing-cards {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .pricing-cards {
-      flex-direction: row;
-      justify-content: center;
-    }
   }
   
   .pricing-card {
@@ -594,8 +580,33 @@ footer {
   .section-footer {
     margin-top: 30px;
     color: gray;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     text-align: center;
+  }
+
+  .additional-features {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+
+  @media (min-width: 800px) {
+    .pricing-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .pricing-cards {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .additional-features {
+      flex-direction: row;
+    }
   }
 
   /* Accordion Pricing Section */
