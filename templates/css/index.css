@@ -226,6 +226,27 @@ footer {
     color: #483cf4;
 }
 
+@media screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+    content-justify: center;
+  }
+  .footer-link {
+    display: block;
+    margin: 10px 0;
+  }
+  footer img {
+    display: block;
+    margin: auto;
+  }
+  footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}
+
 
 .review-container {
     position: relative;
