@@ -115,7 +115,7 @@ INSTALLED_APPS = [
 
 
 SITE_ID = 1 # for sitemaps
-# ANALYTICS_TAG_ID = env('GOOGLE_ANALYTICS') # for analytics tag on frontend
+ANALYTICS_TAG_ID = os.envron.get('GOOGLE_ANALYTICS') # for analytics tag on frontend
 
 AUTH_USER_MODEL = "user.User" 
 
