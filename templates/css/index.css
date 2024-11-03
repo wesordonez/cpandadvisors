@@ -518,6 +518,7 @@ footer {
 /* Contact From */
 
 .form-container {
+    width: auto;
     border-radius: 30px;
     background-color: var(--secondary-color);
     transition: transform 0.3s, box-shadow 0.3s;
