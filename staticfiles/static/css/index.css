@@ -226,6 +226,27 @@ footer {
     color: #483cf4;
 }
 
+@media screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+    content-justify: center;
+  }
+  .footer-link {
+    display: block;
+    margin: 10px 0;
+  }
+  footer img {
+    display: block;
+    margin: auto;
+  }
+  footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}
+
 
 .review-container {
     position: relative;
@@ -290,6 +311,12 @@ footer {
     text-align: justify;
     margin-top: 10px;
 }
+
+.collapsible .active,
+.collapsible:hover {
+    /* background-color: #dedddd; */
+}
+
 
 /* --------------------- pagination -------------------- */
 
@@ -383,6 +410,8 @@ footer {
 /*  Miscellaneous */
 
 .hero-image {
+    max-height: 950px;
+    object-fit: cover;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -438,6 +467,7 @@ footer {
     font-weight: 200;
     transition: transform 0.4s ease;
     transform: translateY(30px);
+    margin-bottom: 20px;
 }
 
 .card-container:hover .card-description {
@@ -446,7 +476,8 @@ footer {
 }
 
 .card-img {
-  max-height: 320px;
+  height: 80%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -466,11 +497,17 @@ footer {
 
 @media screen and (max-width: 768px) {
     .card-container {
-        height: 400px;
+        height: 380px;
     }
-
     .card-content {
-        height: 400px;
+        height: 450px;
+    }
+    .card-description {
+        font-size: 0.95rem;
+        transform: translateY(80px);
+    }
+    .card-title {
+        font-size: 1.58rem;
     }
 }
 
@@ -481,6 +518,7 @@ footer {
 /* Contact From */
 
 .form-container {
+    width: auto;
     border-radius: 30px;
     background-color: var(--secondary-color);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -496,3 +534,239 @@ footer {
     border-radius: 30px;
     background-color: var(--primary-bg-color) !important;
 }
+
+/* Services Section */
+
+.service-tag {
+    background-color: var(--primary-color);
+    color: var(--btn-color);
+}
+
+.pricing-section {
+    width: 100%;
+    padding: 40px 5%;
+    text-align: left;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex: 1 1 calc(33.333% - 20px);
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .pricing-card {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 10px 0.1px 0 var(--primary-color);
+  }
+  
+  .price-card-content {
+    background-color: var(--primary-bg-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-card-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .card-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-period {
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  .card-features {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .card-features li {
+    margin-bottom: 10px;
+  }
+  
+  .section-footer {
+    margin-top: 30px;
+    color: gray;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .additional-features {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+
+  @media (min-width: 800px) {
+    .pricing-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .pricing-cards {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .additional-features {
+      flex-direction: row;
+    }
+  }
+
+  /* Accordion Pricing Section */
+
+  .accordion-section {
+    width: 100%;
+    padding: 40px 5%;
+  }
+  
+  .accordion-card {
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+    .accordion-card:hover {
+        transform: translateY(-10px);
+    }
+  
+  .accordion-card .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .accordion-card .accordion-header .accordion-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 20px;
+  }
+
+  .accordion-card .accordion-header .accordion-icon {
+    width: 150px;
+    height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s;
+  }
+
+.accordion-card .accordion-header .accordion-icon:hover {
+    box-shadow: -8px 0px 0.1px 0 #b3a6cf;
+}
+
+  @media (max-width: 768px) {
+    .accordion-card .accordion-header .accordion-title {
+      font-size: 1.2rem;
+    }
+    .accordion-card .accordion-header .accordion-icon {
+      width: 100px;
+    }
+    .accordion-card .accordion-content {
+      flex-direction: column;
+    }
+  }
+  
+  .accordion-card .accordion-icon .toggle-icon {
+    font-size: 1.5rem;
+  }
+  
+  .accordion-card .accordion-content {
+    padding: 20px;
+    display: none;
+  }
+  
+  .accordion-card.expanded .accordion-content {
+    display: flex;
+    gap: 30px;
+  }
+
+  .accordion-card.expanded .accordion-header .accordion-icon {
+    background-color: var(--secondary-color);
+    box-shadow: -8px 0px 0.1px 0 var(--secondary-color);
+  }
+  
+  .accordion-card .accordion-description {
+    margin: 0 0 20px;
+    flex: 1 1 50%;
+  }
+  
+  .accordion-card .accordion-image {
+    display: flex;
+    flex: 1 1 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .accordion-card .accordion-image img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .accordion-card .accordion-features {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .accordion-card .accordion-features .additional-features {
+    width: 100%;
+    
+    justify-content: space-around;
+    margin: 20px auto;
+  }
+  
+  .accordion-card .accordion-features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Collapsed effect - removing pink shadow */
+  .accordion-card.collapsed .accordion-header {
+    background: linear-gradient(to right, #BEE2EE 80%, #E6D3F7 20%);
+  }
+  
+  .accordion-card.expanded .accordion-header {
+    background-color: #BEE2EE;
+  }
