@@ -116,10 +116,10 @@
                         ">
                     
                 <a class="header-links" href="{% url "about" %}">
-                    About us
+                    Sobre Nosotros
                 </a>
                 <a class="header-links" href="{% url "services" %}">
-                    Services and Pricing
+                    Servicios
                 </a>
                 <a class="header-links" href="{% url "blogs" %}"
                         rel="noreferrer"
@@ -129,7 +129,7 @@
                 <a class="header-links" href="{% url "contact-us" %}"
                         rel="noreferrer"
                         >
-                    Contact us
+                    Contáctanos
                 </a>
             </div>
             <div class="tw-flex tw-gap-[20px] tw-place-items-center tw-text-xl
@@ -178,9 +178,10 @@
                      class="tw-max-h-[150px] max-md:tw-max-w-[120px] tw-flex-col">
                 <div class="tw-flex tw-flex-col tw-text-black tw-gap-4">
                     <p class="tw-text-lg tw-font-bold">Contact Info:</p>
-                    <p>Telephone: +1 (314) 789-6524</p>
+                    <p>Telephone: +1 (314) 365-0104</p>
                     <p>Email: cpandacct@gmail.com</p>
-                    <p>Address: 11520 Rock Rd. St. Charles, MO</p>
+                    <p>Address: 11520 Saint Charles Rock Rd. Suite 201</p>
+                    <p>City: Bridgeton, MO 63044</p>
                 </div>
             </div>
     
@@ -188,17 +189,17 @@
             <div class="tw-flex tw-flex-col tw-gap-4 tw-text-lg tw-text-black">
                 <h2 class="tw-text-2xl tw-font-bold max-md:tw-text-xl">Links</h2>
                 <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                    <a href="{% url 'home' %}" class="footer-link">Home</a>
-                    <a href="{% url 'about' %}" class="footer-link">About Us</a>
-                    <a href="{% url 'services' %}" class="footer-link">Services and Pricing</a>
+                    <a href="{% url 'home' %}" class="footer-link">Inicio</a>
+                    <a href="{% url 'about' %}" class="footer-link">Sobre Nosotros</a>
+                    <a href="{% url 'services' %}" class="footer-link">Servicios</a>
                     <a href="{% url 'blogs' %}" class="footer-link">Blogs</a>
                 </div>
             </div>
     
             <!-- Right Section: Social Icons -->
             <div class="tw-flex tw-flex-col tw-gap-4 tw-text-black">
-                <p class="tw-mt-3 tw-font-semibold tw-text-lg">Follow us</p>
-                <div class="tw-flex tw-gap-4 tw-text-2xl">
+                <p class="tw-mt-3 tw-font-semibold tw-text-lg">Síguenos</p>
+                <div class="tw-flex tw-gap-4 tw-text-2xl social-media">
                     <a href="https://facebook.com/" aria-label="Facebook" class="tw-text-black tw-hover:text-gray-600">
                         <i class="bi bi-facebook"></i>
                     </a>
@@ -213,9 +214,9 @@
         </div>
     
         <!-- Bottom Section: Copyright and Footer Link -->
-        <div class="tw-mt-8 tw-border-t tw-border-gray-300 tw-pt-4 tw-text-sm tw-text-gray-600 tw-flex tw-justify-center tw-items-center">
-            <p>© 2024 Claudia Principal CPA. All rights reserved. --</p>
-            <a href="https://www.dunosis.com" class="tw-hover:underline">-- Made by Dunosis</a>
+        <div class="tw-mt-4 tw-border-t tw-border-gray-300 tw-pt-4 tw-text-sm tw-text-gray-600 tw-flex tw-justify-center tw-items-center tw-place-content-around">
+            <p>© 2024 Claudia Principal CPA. All rights reserved.</p>
+            <a href="https://www.dunosis.com" class="tw-underline">Made by <strong>Dunosis</strong></a>
         </div>
 
         {% block footer %}{% endblock footer %}

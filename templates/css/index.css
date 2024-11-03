@@ -226,6 +226,27 @@ footer {
     color: #483cf4;
 }
 
+@media screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+    content-justify: center;
+  }
+  .footer-link {
+    display: block;
+    margin: 10px 0;
+  }
+  footer img {
+    display: block;
+    margin: auto;
+  }
+  footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}
+
 
 .review-container {
     position: relative;
@@ -389,6 +410,8 @@ footer {
 /*  Miscellaneous */
 
 .hero-image {
+    max-height: 950px;
+    object-fit: cover;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -444,6 +467,7 @@ footer {
     font-weight: 200;
     transition: transform 0.4s ease;
     transform: translateY(30px);
+    margin-bottom: 20px;
 }
 
 .card-container:hover .card-description {
@@ -452,7 +476,8 @@ footer {
 }
 
 .card-img {
-  max-height: 320px;
+  height: 80%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -472,11 +497,17 @@ footer {
 
 @media screen and (max-width: 768px) {
     .card-container {
-        height: 400px;
+        height: 380px;
     }
-
     .card-content {
-        height: 400px;
+        height: 450px;
+    }
+    .card-description {
+        font-size: 0.95rem;
+        transform: translateY(80px);
+    }
+    .card-title {
+        font-size: 1.58rem;
     }
 }
 
@@ -487,6 +518,7 @@ footer {
 /* Contact From */
 
 .form-container {
+    width: auto;
     border-radius: 30px;
     background-color: var(--secondary-color);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -519,7 +551,7 @@ footer {
   .section-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .pricing-cards {
@@ -528,20 +560,6 @@ footer {
     flex-direction: column;
     gap: 30px;
     align-items: center;
-  }
-
-  @media (min-width: 800px) {
-    .pricing-cards {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .pricing-cards {
-      flex-direction: row;
-      justify-content: center;
-    }
   }
   
   .pricing-card {
@@ -594,8 +612,33 @@ footer {
   .section-footer {
     margin-top: 30px;
     color: gray;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     text-align: center;
+  }
+
+  .additional-features {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+
+  @media (min-width: 800px) {
+    .pricing-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .pricing-cards {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .additional-features {
+      flex-direction: row;
+    }
   }
 
   /* Accordion Pricing Section */
@@ -694,7 +737,7 @@ footer {
   }
   
   .accordion-card .accordion-image img {
-    max-height: 350px;
+    max-height: 300px;
     object-fit: cover;
   }
   
@@ -705,6 +748,13 @@ footer {
     background-color: var(--primary-color);
     padding: 20px;
     border-radius: 15px;
+  }
+
+  .accordion-card .accordion-features .additional-features {
+    width: 100%;
+    
+    justify-content: space-around;
+    margin: 20px auto;
   }
   
   .accordion-card .accordion-features ul {
