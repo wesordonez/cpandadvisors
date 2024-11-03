@@ -588,7 +588,7 @@ footer {
   .additional-features {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     justify-content: space-between;
     margin: 20px auto;
   }
@@ -706,7 +706,7 @@ footer {
   }
   
   .accordion-card .accordion-image img {
-    max-height: 350px;
+    max-height: 300px;
     object-fit: cover;
   }
   
@@ -717,6 +717,13 @@ footer {
     background-color: var(--primary-color);
     padding: 20px;
     border-radius: 15px;
+  }
+
+  .accordion-card .accordion-features .additional-features {
+    width: 100%;
+    
+    justify-content: space-around;
+    margin: 20px auto;
   }
   
   .accordion-card .accordion-features ul {
