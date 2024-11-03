@@ -467,6 +467,7 @@ footer {
     font-weight: 200;
     transition: transform 0.4s ease;
     transform: translateY(30px);
+    margin-bottom: 20px;
 }
 
 .card-container:hover .card-description {
@@ -496,11 +497,17 @@ footer {
 
 @media screen and (max-width: 768px) {
     .card-container {
-        height: 400px;
+        height: 380px;
     }
-
     .card-content {
-        height: 400px;
+        height: 450px;
+    }
+    .card-description {
+        font-size: 0.95rem;
+        transform: translateY(80px);
+    }
+    .card-title {
+        font-size: 1.58rem;
     }
 }
 
