@@ -483,6 +483,7 @@ footer {
 
 /* Slide-up button */
 .card-button {
+    background-color: var(--primary-color);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -493,6 +494,7 @@ footer {
 
 .card-container:hover .card-button {
     transform: translateY(0);
+    box-shadow: 8px 10px 0.1px 0 var(--secondary-color);
 }
 
 @media screen and (max-width: 768px) {
