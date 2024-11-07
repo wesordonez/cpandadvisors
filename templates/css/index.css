@@ -81,8 +81,8 @@ header > .collapsable-header{
     padding: 10px 15px;
     width: max-content;
     border-radius: 10px;
-    color: var(--btn-color);
-    background-color: var(--btn-bg);
+    color: black;
+    background-color: var(--secondary-color);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -92,7 +92,7 @@ header > .collapsable-header{
 }
 
 .btn:hover{
-    box-shadow: 8px 8px 0.1px 0px #BEE2EE;
+    box-shadow: 8px 8px 0.1px 0px var(--primary-color);
 }
 
 .btn:disabled{
