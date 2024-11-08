@@ -642,9 +642,8 @@ footer {
   }
   
   .section-footer {
-    margin-top: 30px;
+    margin-top: 40px;
     color: gray;
-    font-size: 1.1rem;
     text-align: center;
   }
 
@@ -652,6 +651,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 80%;
+    gap: 30px;
     justify-content: space-between;
     margin: 20px auto;
   }
