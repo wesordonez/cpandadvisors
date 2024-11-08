@@ -716,7 +716,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: box-shadow 0.3s, background-color 0.8s;
+    transition: box-shadow 0.3s 0.5s, background-color 0.5s 0.5s;
   }
 
 .accordion-card .accordion-header .accordion-icon:hover {
@@ -729,6 +729,7 @@ footer {
     }
     .accordion-card .accordion-content {
       flex-direction: column;
+      gap: 30px;
     }
   }
   
@@ -736,6 +737,7 @@ footer {
     padding: 0 20px;
     max-height: 0;
     display: flex;
+    gap: 30px;
     overflow: hidden;
     transition: max-height 0.7s;
   }
