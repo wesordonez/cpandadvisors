@@ -701,17 +701,17 @@ footer {
     align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
+    max-height: 150px;
   }
 
   .accordion-card .accordion-header .accordion-title {
-    font-size: 1.5rem;
-    font-weight: 900;
     padding: 20px;
   }
 
   .accordion-card .accordion-header .accordion-icon {
     width: 150px;
-    height: 100px;
+    height: 200px;
+    overflow: hidden;
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
@@ -724,19 +724,12 @@ footer {
 }
 
   @media (max-width: 768px) {
-    .accordion-card .accordion-header .accordion-title {
-      font-size: 1.2rem;
-    }
     .accordion-card .accordion-header .accordion-icon {
       width: 100px;
     }
     .accordion-card .accordion-content {
       flex-direction: column;
     }
-  }
-  
-  .accordion-card .accordion-icon .toggle-icon {
-    font-size: 1.5rem;
   }
   
   .accordion-card .accordion-content {
@@ -768,6 +761,7 @@ footer {
     background-color: var(--primary-color);
     border-radius: 30px;
     overflow: hidden;
+    max-height: 700px;
   }
   
   .accordion-card .accordion-image img {
