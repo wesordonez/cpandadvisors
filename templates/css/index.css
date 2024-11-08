@@ -410,14 +410,24 @@ footer {
 /*  Miscellaneous */
 
 .hero-image {
-    max-height: 950px;
+    height: 900px;
+    width: 600px;
     object-fit: cover;
+    aspect-ratio: auto;
     transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
 }
 
 .hero-image:hover {
     transform: translateY(-10px);
     box-shadow: 8px 10px 0.1px 0 var(--primary-color), 16px 20px 0.1px 0 var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .hero-image {
+        height: 750px;
+        width: 500px;
+    }
 }
 
 .card-container {
