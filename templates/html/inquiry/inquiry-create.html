@@ -23,16 +23,15 @@
                     tw-mt-2
                     tw-p-4
                     tw-gap-5
-                    tw-min-h-[100vh]
                     tw-place-items-center
                     max-lg:tw-px-0
                     tw-overflow-hidden
                     "
                     >
 
-        <div class="tw-w-full tw-flex tw-flex-col tw-justify-center tw-items-center tw-gap-5 
+        <div class="tw-max-w-750px tw-flex tw-flex-col tw-justify-center tw-items-center tw-gap-5 
                     tw-p-5 max-sm:tw-px-4-1 form-container">
-            <p class="tw-text-2xl max-md:tw-text-xl primary-text-color tw-font-normal tw-p-4">
+            <p class="tw-text-3xl max-md:tw-text-xl primary-text-color tw-font-semibold tw-p-4 tw-max-w-650px tw-text-center">
                 Llene este formulario y alguien de nuestro equipo se comunicará con usted lo más antes posible. ¡Gracias!
             </p>
             <form
@@ -46,10 +45,10 @@
                 {% endif %} {% csrf_token %}
 
                 <div class="tw-flex tw-flex-col tw-gap-2">
-                    <h2 class="tw-text-5xl max-md:tw-text-xl primary-text-color tw-font-medium">
+                    <h2 class="tw-text-5xl max-md:tw-text-xl primary-text-color tw-font-bold tw-mb-[5%]">
                         ¡Contáctanos Ya!
                     </h2>
-                    <h3 class="tw-text-3xl max-md:tw-text-3xl">
+                    <h3 class="tw-text-3xl max-md:tw-text-3xl tw-font-semibold">
                         Te esperamos
                     </h3>
                 </div>
