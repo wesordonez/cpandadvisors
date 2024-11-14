@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% load i18n %}
+
 {% load custom_tags %}
 
 {% block content %}
@@ -21,7 +23,7 @@
                             max-md:tw-min-w-[300px]">
                     <h1 class="tw-text-6xl tw-font-bold tw-uppercase
                             tw-leading-normal max-md:tw-text-5xl max-md:tw-leading-[70px]">
-                        Tu Confianza, Nuestro Compromiso
+                        {% trans "Tu Confianza, Nuestro Compromiso" %}
                     </h1>
                     <div class="tw-mt-5 tw-text-2xl tw-p-2 max-md:tw-max-w-full">
                         Soluciones contables para la comunidad Latina en St. Louis. Simplificamos tus 
@@ -29,7 +31,7 @@
                     </div>
 
                     <div class="tw-mt-5 tw-p-2 tw-text-3xl">
-                        Se Habla Inglés y Español
+                        {% trans "Se Habla Inglés y Español" %}
                     </div>
                     
                     <a href="{% url 'contact-us' %}" 

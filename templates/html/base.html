@@ -1,6 +1,7 @@
 {% load static %}
 {% load static tailwind_tags %}
 {% load django_browser_reload %}
+{% load i18n %}
 
 {% load custom_tags %}
 
@@ -132,30 +133,24 @@
                     Contáctanos
                 </a>
             </div>
-            {% comment %} This section is commented until it's functionality is implemented {% endcomment %}
-            {% comment %} <div class="tw-flex tw-gap-[20px] tw-place-items-center tw-text-xl
+            <div class="tw-flex tw-gap-[20px] tw-place-items-center tw-text-xl
                          max-lg:!tw-text-white
                          max-lg:tw-place-content-center
                         max-lg:tw-w-full
                          max-lg:tw-place-items-start
                          ">
-                <a href="" 
-                        class=" header-links
-                                tw-transition-colors
-                                tw-duration-[0.3s]
-                                "
-                        >
-                    Español
-                </a>
-                <a href="" 
-                        class=" header-links
-                                tw-transition-colors
-                                tw-duration-[0.3s]
-                                "
-                        >
-                    English
-                </a>
-            </div> {% endcomment %}
+                <form action="{% url 'set_language' %}" method="post" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="language" value="es">
+                    <button type="submit">Español</button>
+                </form>
+                
+                <form action="{% url 'set_language' %}" method="post" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="language" value="en">
+                    <button type="submit">English</button>
+                </form>
+            </div> 
         </div>
         <button class="tw-absolute tw-text-black tw-z-50 
                         tw-right-3
