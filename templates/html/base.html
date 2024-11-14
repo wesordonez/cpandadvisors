@@ -139,16 +139,16 @@
                         max-lg:tw-w-full
                          max-lg:tw-place-items-start
                          ">
-                <form action="{% url 'set_language' %}" method="post" style="display: inline;">
+                <form action="{% url 'set_language' %}" method="post" id="langFormEs" style="display: inline;">
                     {% csrf_token %}
                     <input type="hidden" name="language" value="es">
-                    <button type="submit">Español</button>
+                    <button class="language-btn {% if language_code == 'es' %}active{% endif %}" type="submit">Español</button>
                 </form>
                 
-                <form action="{% url 'set_language' %}" method="post" style="display: inline;">
+                <form action="{% url 'set_language' %}" method="post" id="langFormEn" style="display: inline;">
                     {% csrf_token %}
                     <input type="hidden" name="language" value="en">
-                    <button type="submit">English</button>
+                    <button class="language-btn {% if language_code == 'en' %}active{% endif %}" type="submit">English</button>
                 </form>
             </div> 
         </div>

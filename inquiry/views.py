@@ -4,6 +4,8 @@ from django.views.decorators.http import require_http_methods
 
 from django_ratelimit.decorators import ratelimit
 
+from django.utils.translation import get_language
+
 from .models import Inquiry
 from .forms import InquiryForm
 
@@ -12,8 +14,9 @@ from .forms import InquiryForm
 def inquiry_view(request):  
 
     if request.method == 'GET':
+        language_code = get_language()
 
-        return render(request, 'inquiry/inquiry-create.html')
+        return render(request, 'inquiry/inquiry-create.html', {'language_code': language_code})
     
     elif request.method == 'POST':
 
