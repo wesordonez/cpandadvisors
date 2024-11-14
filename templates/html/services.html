@@ -10,7 +10,7 @@
                         id="hero-section"
                         >
             
-            <div class="tw-w-full tw-h-full tw-p-[5%] tw-gap-4
+            <div class="tw-w-full tw-h-full tw-p-[5%] tw-gap-10
                         tw-place-content-center tw-min-h-[100vh]
                         tw-justify-around tw-place-items-center
                         tw-flex max-lg:tw-flex-col">
@@ -18,42 +18,42 @@
                 <div class="tw-flex tw-flex-col tw-place-content-center tw-max-w-[650px] tw-min-w-[550px] 
                             max-md:tw-min-w-[300px]">
                     <h1 class="tw-text-6xl tw-font-bold tw-uppercase 
-                            tw-leading-normal max-md:tw-text-2xl max-md:tw-leading-relaxed tw-mb-[2%]">
+                            tw-leading-normal max-md:tw-text-3xl max-md:tw-leading-relaxed tw-mb-[5%]">
                         Servicios Contables Claros y Transparentes
                     </h1>
                     <!-- Section Heading -->
-                    <h2 class="tw-text-center tw-text-lg max-md:tw-text-1xl tw-mb-[10%]">
+                    <h2 class="tw-text-center tw-text-3xl max-md:tw-text-2xl tw-mb-[5%]">
                       Somos una firma de contabilidad e impuestos de servicio completo. Conoce más sobre nuestros servicios específicos a continuación.
                     </h2>
                     
-                    <div class="tw-flex tw-flex-row max-md:tw-flex-col max-md:tw-place-content-around tw-gap-10 tw-justify-center tw-items-start tw-mt-5">
+                    <div class="tw-flex tw-flex-row max-md:tw-flex-col tw-place-content-around tw-gap-10 tw-justify-center tw-items-start tw-mt-5 tw-mb-[5%]">
 
                         <!-- First Service Card -->
-                        <div class="tw-flex tw-items-start tw-gap-4">
+                        <div class="tw-flex tw-items-start tw-gap-4 tw-w-[40%] max-md:tw-w-full">
                         <div class="tw-flex-shrink-0">
                             <div class="tw-bg-black tw-w-[40px] tw-h-[40px] tw-rounded-[100%] tw-flex tw-justify-center tw-items-center">
                             <i class="bi bi-check-lg tw-text-4xl tw-text-white tw-px-[5%]"></i>
                             </div>
                         </div>
                         <div>
-                            <h3 class="tw-text-lg tw-font-semibold tw-mb-2">Para Individuos</h3>
-                            <p class="tw-text-base tw-leading-relaxed">
-                              Durante todo el año, nos encargamos de la reducción de impuestos, la presentación de declaraciones y otros servicios contables personales específicos para individuos.
+                            <h3 class="tw-text-2xl tw-font-semibold tw-mb-[2%]">Para Individuos</h3>
+                            <p class="tw-text-xl tw-leading-relaxed">
+                              Te acompañamos todo el año con servicios contables personalizados, desde la reducción de impuestos hasta la presentación de declaraciones.
                             </p>
                         </div>
                         </div>
 
                         <!-- Second Service Card -->
-                        <div class="tw-flex tw-items-start tw-gap-4">
+                        <div class="tw-flex tw-items-start tw-gap-4 tw-w-[40%] max-md:tw-w-full">
                         <div class="tw-flex-shrink-0">
                             <div class="tw-bg-black tw-w-[40px] tw-h-[40px] tw-rounded-[100%] tw-flex tw-justify-center tw-items-center">
                             <i class="bi bi-check-lg tw-text-4xl tw-text-white"></i>
                             </div>
                         </div>
                         <div>
-                            <h3 class="tw-text-lg tw-font-semibold tw-mb-2">Para Negocios</h3>
-                            <p class="tw-text-base tw-leading-relaxed">
-                              Nos encargamos de toda la contabilidad para ti y tu negocio, además de ofrecer servicios contables externalizados.
+                            <h3 class="tw-text-2xl tw-font-semibold tw-mb-[2%]">Para Negocios</h3>
+                            <p class="tw-text-xl tw-leading-relaxed">
+                              Gestionamos la contabilidad completa de tu negocio y ofrecemos servicios externalizados para facilitar tu carga administrativa.
                             </p>
                         </div>
                         </div>
@@ -65,17 +65,19 @@
                                                 tw-duration-[0.3s]
                                                 tw-transition-transform
                                                 hover:tw-translate-x-2
+                                                tw-mb-[5%]
                                                 ">
                         <span>Contáctanos Ahora</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
 
-                <div class="tw-max-w-[750px]  
+                <div class="tw-min-w-[450px]  
                             tw-place-content-center
                             tw-place-items-center
-                            tw max-md:!tw-mt-10">
-                    <div class="tw-rounded-lg tw-overflow-clip tw-shadow-xl hero-image">
+                            tw-rounded-3xl
+                            ">
+                    <div class="tw-rounded-lg tw-overflow-hidden tw-shadow-xl hero-image">
                         <img src="{% static './assets/images/home/Claudia-Headshot-3.jpg' %}" 
                                 alt="dashboard" class="tw-w-full tw-h-full">
                     </div>
@@ -84,8 +86,8 @@
     </section>
 
     <section class="pricing-section">
-        <h2 class="section-title">Un Precio Para Cada Tamaño de Empresa</h2>
-        <h2 class="tw-text-left tw-text-lg max-md:tw-text-1xl tw-mb-[5%]">
+        <h2 class="section-title tw-text-5xl tw-font-bold">Un Precio Para Cada Tamaño de Empresa</h2>
+        <h2 class="tw-text-left tw-text-3xl max-md:tw-text-2xl tw-mb-[5%]">
           Desde emprendedores hasta empresas establecidas, tenemos una solución adaptada a tus necesidades.
         </h2>
       
@@ -98,11 +100,13 @@
               <p class="card-period">Empezando desde:</p>
               <p class="card-price">$300</p>
               <p class="card-period">por mes</p>
-              <ul class="card-features">
-                <li>• Complejidad de bajo nivel y planeación de impuestos para pequeños negocios.</li>
-                <li>• Preparación de la declaración de impuestos de fin de año</li>
-                <li>• Planificación fiscal personalizada</li>
-                <li>• Servicios adicionales de contabilidad y nómina</li>
+              <p class="price-card-description tw-text-xl">
+                Ideal para pequeñas empresas y emprendedores con complejidad de bajo nivel y planeación de impuestos para pequeños negocios.
+              </p>
+              <ul class="card-features tw-text-lg tw-font-semibold">
+                <li>✔ Preparación de la declaración de impuestos de fin de año</li>
+                <li>✔ Planificación fiscal personalizada</li>
+                <li>✔ Servicios adicionales de contabilidad y nómina</li>
               </ul>
               <p class="card-period">
                 Paquetes varían dependiendo del ingreso del negocio
@@ -126,12 +130,14 @@
               <p class="card-period">Empezando desde:</p>
               <p class="card-price">$500</p>
               <p class="card-period">por mes</p>
-              <ul class="card-features">
-                <li>• De pequenas a medianas empresas con operaciones a medio nivel</li>
-                <li>• Todo lo incluido en el paquete "Emprendedor"</li>
-                <li>• Contabilidad personalizada para necesidades complejas</li>
-                <li>• Gestión de nómina optimizada</li>
-                <li>• Estrategias fiscales proactivas</li>
+              <p class="price-card-description tw-text-xl">
+                Ideal para pequeñas a medianas empresas con operaciones a medio nivel.
+              </p>
+              <ul class="card-features tw-text-lg tw-font-semibold">
+                <li>✔ Todo lo incluido en el paquete "Emprendedor"</li>
+                <li>✔ Contabilidad personalizada para necesidades complejas</li>
+                <li>✔ Gestión de nómina optimizada</li>
+                <li>✔ Estrategias fiscales proactivas</li>
               </ul>
               <p class="card-period">
                 Paquetes varían dependiendo del ingreso del negocio
@@ -155,11 +161,13 @@
               <p class="card-period">Empezando desde:</p>
               <p class="card-price">$1000</p>
               <p class="card-period">por mes</p>
-              <ul class="card-features">
-                <li>• Para equipos grandes y compañías establecidas</li>
-                <li>• Contabilidad integral</li>
-                <li>• Gestión de nómina</li>
-                <li>• Planificación fiscal avanzada</li>
+              <p class="price-card-description tw-text-xl">
+                Ideal para  equipos grandes y compañías establecidas con alta complejidad y necesidades fiscales avanzadas.
+              </p>
+              <ul class="card-features tw-text-lg tw-font-semibold">
+                <li>✔ Contabilidad integral</li>
+                <li>✔ Gestión de nómina</li>
+                <li>✔ Planificación fiscal avanzada</li>
               </ul>
               <p class="card-period">
                 Paquetes varían dependiendo del ingreso del negocio
@@ -178,53 +186,53 @@
           
         </div>
       
-        <p class="section-footer">
+        <p class="section-footer tw-text-2xl">
           Contáctanos para conocer nuestros precios personalizados, tarifas basadas en servicios específicos y tarifas por hora para tus necesidades empresariales.
         </p>
-        <div class="additional-features">
-          <ul class="card-features">
-            <li>• Limpiamos los libros de tu compañía</li>
-            <li>• Preparamos estados financieros perfectos</li>
-            <li>• Creamos planes de reducción de impuestos</li>
-            <li>• Teneduría de libros mensuales y asesoramiento</li>
-          </ul>
-          <ul class="card-features">
-            <li>• Pagas en impuestos evitando sorpresas</li>
-            <li>• Reportes trimestrales y mensuales</li>
-            <li>• Reportes de final de año</li>
-            <li>• Planeación de impuestos empresariales</li>
+        <div class="additional-features tw-text-2xl tw-font-semibold max-md:tw-text-xl">
+            <ul class="card-features">
+            <li>✔ Limpiamos los libros de tu compañía</li>
+            <li>✔ Preparamos estados financieros perfectos</li>
+            <li>✔ Creamos planes de reducción de impuestos</li>
+            <li>✔ Teneduría de libros mensuales y asesoramiento</li>
+            </ul>
+            <ul class="card-features">
+            <li>✔ Pagas en impuestos evitando sorpresas</li>
+            <li>✔ Reportes trimestrales y mensuales</li>
+            <li>✔ Reportes de final de año</li>
+            <li>✔ Planeación de impuestos empresariales</li>
           </ul>
         </div>
       </section>
 
       <section class="accordion-section">
-        <h2 class="section-title">Servicios Contables</h2>
+        <h2 class="section-title tw-text-5xl tw-font-bold tw-mb-[5%]">Servicios Contables</h2>
       
         <!-- Accordion Card 1 (Expanded by default) -->
         <div class="accordion-card expanded" onclick="toggleAccordion(this)">
           <div class="accordion-header">
-            <h3 class="accordion-title">Servicios de Impuestos Generales</h3>
+            <h3 class="accordion-title tw-font-bold tw-text-3xl">Servicios de Impuestos</h3>
             <div class="accordion-icon">
-                <span class="toggle-icon">▴</span>
+                <span class="toggle-icon tw-font-bold tw-text-4xl">▴</span>
             </div>
           </div>
           <div class="accordion-content">
-            <p class="accordion-description">
-              <strong>Preparación de Impuestos Individuales y Empresariales</strong>
+            <p class="accordion-description tw-text-xl">
+              <strong class="tw-text-2xl">Preparación de Impuestos Individuales y Empresariales</strong>
               <br><br>
               Este servicio garantiza una preparación exhaustiva de impuestos para individuos y empresas. 
               Nos enfocamos en maximizar las deducciones y minimizar la carga tributaria, asegurando que 
               cada cliente cumpla con todas las regulaciones fiscales. Ya sea una declaración individual o 
               corporativa, trabajamos para que el proceso sea fácil y preciso.
               <br><br>
-              <strong>Consultoría en Planificación Fiscal</strong>
+              <strong class="tw-text-2xl">Consultoría en Planificación Fiscal</strong>
               <br><br>
               La planificación fiscal personalizada permite a nuestros clientes organizar sus finanzas 
               con estrategias que optimizan sus impuestos y cumplen con la normativa. Nos enfocamos en 
               desarrollar planes a medida que alineen los objetivos financieros del cliente con una 
               carga tributaria eficiente.
               <br><br>
-              <strong>Asistencia en Auditorías y Disputas con el IRS</strong>
+              <strong class="tw-text-2xl">Asistencia en Auditorías y Disputas con el IRS</strong>
               <br><br>
               En caso de una auditoría o disputa con el IRS, representamos a nuestros clientes para 
               proteger sus derechos y resolver conflictos fiscales. Nuestro equipo se encarga de la 
@@ -234,17 +242,18 @@
             <div class="accordion-image">
               <img src="{% static './assets/images/home/Accounting-3.jpg' %}" alt="Service Image">
               <div class="accordion-features">
-                <strong>Características del Servicio Ofrecido</strong>
-                <div class="additional-features">
+                <strong class="tw-text-xl tw-font-bold">Características del Servicio Ofrecido</strong>
+                <div class="additional-features tw-text-lg">
                   <ul>
-                    <li>• Maximizamos deducciones</li>
-                    <li>• Cumplimiento fiscal asegurado</li>
-                    <li>• Asesoría personalizada</li>
+                    <li>✔ Maximizamos deducciones</li>
+                    <li>✔ Cumplimiento fiscal asegurado</li>
+                    <li>✔ Asesoría personalizada</li>
                   </ul>
                   <ul>
-                    <li>• Resultados precisos y eficientes</li>
-                    <li>• Ahorros fiscales estratégicos</li>
-                    <li>• Tranquilidad total en tus impuestos</li>
+                    <li>✔ Resultados precisos y eficientes</li>
+                    <li>✔ Ahorros fiscales estratégicos</li>
+                    <li>✔ Tranquilidad total en tus impuestos</li>
+                  </ul>
                   </ul>
                 </div>
               </div>
@@ -255,21 +264,21 @@
         <!-- Accordion Card 2 -->
         <div class="accordion-card" onclick="toggleAccordion(this)">
           <div class="accordion-header">
-            <h3 class="accordion-title">Contabilidad y Teneduría de Libros</h3>
+            <h3 class="accordion-title tw-font-bold tw-text-3xl">Contabilidad y Teneduría de Libros</h3>
             <div class="accordion-icon">
-                <span class="toggle-icon">▴</span>
+                <span class="toggle-icon tw-font-bold tw-text-4xl">▴</span>
             </div>
           </div>
           <div class="accordion-content">
-            <p class="accordion-description">
-              <strong>Contabilidad y Teneduría de Libros</strong>
+            <p class="accordion-description tw-text-xl">
+              <strong class="tw-text-2xl">Contabilidad y Teneduría de Libros</strong>
               <br><br>
               Ofrecemos un servicio de contabilidad diario que mantiene los registros financieros 
               de la empresa actualizados y precisos. Desde la gestión de transacciones hasta el 
               seguimiento de cuentas, aseguramos que nuestros clientes siempre tengan una visión 
               clara de su situación financiera.
               <br><br>
-              <strong>Asesoría en Cumplimiento Normativo</strong>
+              <strong class="tw-text-2xl">Asesoría en Cumplimiento Normativo</strong>
               <br><br>
               Guiamos a las empresas para asegurar que cumplen con todas las leyes fiscales, 
               laborales y ambientales aplicables, especialmente en sectores altamente regulados. 
@@ -279,17 +288,17 @@
             <div class="accordion-image">
               <img src="{% static './assets/images/home/Accounting-5.jpg' %}" alt="Service Image">
               <div class="accordion-features">
-                <strong>Características del Servicio Ofrecido</strong>
-                <div class="additional-features">
-                  <ul>
-                    <li>• Registros siempre al día</li>
-                    <li>• Análisis financiero detallado</li>
-                    <li>• Cumplimiento sin riesgos</li>
-                  </ul>
-                  <ul>
-                    <li>• Asesoría para optimizar finanzas</li>
-                    <li>• Informes claros y listos</li>
-                    <li>• Ahorros y eficiencia proactivos</li>
+                <strong class="tw-text-xl tw-font-bold">Características del Servicio Ofrecido</strong>
+                <div class="additional-features tw-text-lg">
+                    <ul>
+                    <li>✔ Registros siempre al día</li>
+                    <li>✔ Análisis financiero detallado</li>
+                    <li>✔ Cumplimiento sin riesgos</li>
+                    </ul>
+                    <ul>
+                    <li>✔ Asesoría para optimizar finanzas</li>
+                    <li>✔ Informes claros y listos</li>
+                    <li>✔ Ahorros y eficiencia proactivos</li>
                   </ul>
                 </div>
               </div>
@@ -300,20 +309,20 @@
         <!-- Accordion Card 3 -->
         <div class="accordion-card" onclick="toggleAccordion(this)">
           <div class="accordion-header">
-            <h3 class="accordion-title">Asesoría Empresarial y Cumplimiento</h3>
+            <h3 class="accordion-title tw-font-bold tw-text-3xl">Asesoría Empresarial y Cumplimiento</h3>
             <div class="accordion-icon">
-                <span class="toggle-icon">▴</span>
+                <span class="toggle-icon tw-font-bold tw-text-4xl">▴</span>
             </div>
           </div>
           <div class="accordion-content">
-            <p class="accordion-description">
-              <strong>Asesoramiento para Pequeñas Empresas</strong>
+            <p class="accordion-description tw-text-xl">
+              <strong class="tw-text-2xl">Asesoramiento para Pequeñas Empresas</strong>
               <br><br>
               Nuestro servicio de asesoramiento para pequeñas empresas ayuda a emprendedores 
               a establecer su negocio, desde la elección de la estructura hasta la planificación 
               financiera. Nos enfocamos en crear una base sólida para el crecimiento y éxito a largo plazo.
               <br><br>
-              <strong>Consultoría en Inmigración y Finanzas</strong>
+              <strong class="tw-text-2xl">Consultoría en Inmigración y Finanzas</strong>
               <br><br>
               Apoyamos a los inmigrantes en EE.UU. a entender sus implicaciones fiscales y a prepararse 
               financieramente. Con una guía clara y personalizada, les ayudamos a navegar las complejidades 
@@ -322,17 +331,17 @@
             <div class="accordion-image">
               <img src="{% static './assets/images/home/Accounting-2.jpg' %}" alt="Service Image">
               <div class="accordion-features">
-                <strong>Características del Servicio Ofrecido</strong>
-                <div class="additional-features">
-                  <ul>
-                    <li>• Soporte en cada etapa</li>
-                    <li>• Estrategias para crecimiento</li>
-                    <li>• Cumplimiento total en leyes</li>
-                  </ul>
-                  <ul>
-                    <li>• Planificación alineada a metas</li>
-                    <li>• Licencias simplificadas</li>
-                    <li>• Consultoría para proteger su negocio</li>
+                <strong class="tw-text-xl tw-font-bold">Características del Servicio Ofrecido</strong>
+                <div class="additional-features tw-text-lg">
+                    <ul>
+                    <li>✔ Soporte en cada etapa</li>
+                    <li>✔ Estrategias para crecimiento</li>
+                    <li>✔ Cumplimiento total en leyes</li>
+                    </ul>
+                    <ul>
+                    <li>✔ Planificación alineada a metas</li>
+                    <li>✔ Licencias simplificadas</li>
+                    <li>✔ Consultoría para proteger su negocio</li>
                   </ul>
                 </div>
               </div>
@@ -343,20 +352,20 @@
         <!-- Accordion Card 4 -->
         <div class="accordion-card" onclick="toggleAccordion(this)">
           <div class="accordion-header">
-            <h3 class="accordion-title">Nómina y Consultoría Especializada</h3>
+            <h3 class="accordion-title tw-font-bold tw-text-3xl">Nómina y Consultoría Especializada</h3>
             <div class="accordion-icon">
-                <span class="toggle-icon">▴</span>
+                <span class="toggle-icon tw-font-bold tw-text-4xl">▴</span>
             </div>
           </div>
           <div class="accordion-content">
-            <p class="accordion-description">
-              <strong>Servicios de Nómina</strong>
+            <p class="accordion-description tw-text-xl">
+              <strong class="tw-text-2xl">Servicios de Nómina</strong>
               <br><br>
               Nuestro servicio de nómina incluye la gestión integral de pagos y deducciones fiscales, 
               asegurando el cumplimiento con todas las leyes laborales. Nos encargamos de la nómina 
               para que los empleadores puedan enfocarse en el éxito de su negocio.
               <br><br>
-              <strong>Educación Financiera</strong>
+              <strong class="tw-text-2xl">Educación Financiera</strong>
               <br><br>
               Ofrecemos talleres y capacitaciones en español sobre temas de educación financiera, 
               brindando a nuestros clientes las herramientas para una gestión financiera saludable. 
@@ -365,17 +374,17 @@
             <div class="accordion-image">
               <img src="{% static './assets/images/home/Accounting-6.jpg' %}" alt="Service Image">
               <div class="accordion-features">
-                <strong>Características del Servicio Ofrecido</strong>
-                <div class="additional-features">
-                  <ul>
-                    <li>• Gestión de nómina sin errores</li>
-                    <li>• Cumplimiento laboral garantizado</li>
-                    <li>• Pagos optimizados</li>
-                  </ul>
-                  <ul>
-                    <li>• Respaldo en auditorías</li>
-                    <li>• Consultoría para casos complejos</li>
-                    <li>• Talleres de educación financiera</li>
+                <strong class="tw-text-xl tw-font-bold">Características del Servicio Ofrecido</strong>
+                <div class="additional-features tw-text-lg">
+                    <ul>
+                    <li>✔ Gestión de nómina sin errores</li>
+                    <li>✔ Cumplimiento laboral garantizado</li>
+                    <li>✔ Pagos optimizados</li>
+                    </ul>
+                    <ul>
+                    <li>✔ Respaldo en auditorías</li>
+                    <li>✔ Consultoría para casos complejos</li>
+                    <li>✔ Talleres de educación financiera</li>
                   </ul>
                 </div>
               </div>
@@ -385,25 +394,25 @@
       </section>
       
       <section class="tw-w-full tw-flex 
-      tw-place-content-center 
-      tw-px-[10%]
-      tw-p-4
-      tw-gap-[10%]
-      tw-place-items-center
-      max-md:tw-flex-col
-      tw-overflow-hidden
-      cta-section
-      "
-      >
-<div class="tw-flex tw-flex-col tw-place-items-center tw-gap-2">
-<h3 class="tw-text-4xl tw-text-white tw-font-bold max-md:tw-text-3xl">¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos contables para llevar tu tranquilidad financiera al siguiente nivel.</h3>
-<a class="btn tw-mt-4 tw-rounded-xl hover:tw-scale-[1.05] tw-duration-[0.3s]"
-  href="{% url 'contact-us' %}"
->
-  Comienza Ahora!
-</a>
-</div>
-</section>
+            tw-place-content-center 
+            tw-px-[10%]
+            tw-p-[5%]
+            tw-gap-[10%]
+            tw-place-items-center
+            max-md:tw-flex-col
+            tw-overflow-hidden
+            cta-section
+            "
+            >
+        <div class="tw-flex tw-flex-col tw-place-items-center tw-gap-4">
+          <h3 class="tw-text-4xl tw-text-black tw-font-bold max-md:tw-text-3xl">¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos contables para llevar tu tranquilidad financiera al siguiente nivel.</h3>
+          <a class="btn tw-mt-4 tw-rounded-xl hover:tw-scale-[1.05] tw-duration-[0.3s]"
+            href="{% url 'contact-us' %}"
+          >
+            Comienza Ahora!
+          </a>
+        </div>
+      </section>
 
 {% endblock content %}
 

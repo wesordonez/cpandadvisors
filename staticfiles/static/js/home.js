@@ -18,8 +18,14 @@ function toggleAccordion(element) {
     const icon = element.querySelector('.toggle-icon');
     if (element.classList.contains('expanded')) {
       icon.innerHTML = '&#x25B4;'; // Up arrow
+      if (window.innerWidth < 768) {
+        element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+      }
     } else {
       icon.innerHTML = '&#x25BE;'; // Down arrow
+      if (window.innerWidth < 768) {
+        element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+      }
     }
   
     // Close other accordion items

@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="shortcut icon" href="{% static 'assets/logos/favicon.ico' %}" type="image/png">
+    <link rel="shortcut icon" href="{% static 'assets/logos/cpanda-full.ico' %}" type="image/png">
     
     <meta name="theme-color" content="#ffffff">
 
@@ -40,7 +40,7 @@
     <meta name="twitter:description" content="{% block twitterDescription %}Description Here{% endblock socialDescription %}"> {% endcomment %}
     {% comment %} <meta name="twitter:image" content="{% block pageImage %}http://www.example.com/image.jpg{% endblock pageImage %}"> {% endcomment %}
     
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     {% tailwind_css %}
     <link rel="stylesheet" href="{% static "./css/index.css" %}">
@@ -96,7 +96,7 @@
                     tw-text-black
                     ">
 
-        <a class="tw-w-[100px] tw-h-[50px] tw-p-[4px]" href="{% url "home" %}">
+        <a class="tw-max-w-[150px] tw-h-[50px] tw-p-[4px]" href="{% url "home" %}">
             <img src="{% static "assets/logos/cp&a-logo.png" %}" 
                   alt="logo" class="tw-w-full tw-h-full tw-object-contain">
 
@@ -132,7 +132,8 @@
                     Contáctanos
                 </a>
             </div>
-            <div class="tw-flex tw-gap-[20px] tw-place-items-center tw-text-xl
+            {% comment %} This section is commented until it's functionality is implemented {% endcomment %}
+            {% comment %} <div class="tw-flex tw-gap-[20px] tw-place-items-center tw-text-xl
                          max-lg:!tw-text-white
                          max-lg:tw-place-content-center
                         max-lg:tw-w-full
@@ -154,7 +155,7 @@
                         >
                     English
                 </a>
-            </div>
+            </div> {% endcomment %}
         </div>
         <button class="tw-absolute tw-text-black tw-z-50 
                         tw-right-3
@@ -178,17 +179,17 @@
                      class="tw-max-h-[150px] max-md:tw-max-w-[120px] tw-flex-col">
                 <div class="tw-flex tw-flex-col tw-text-black tw-gap-4">
                     <p class="tw-text-lg tw-font-bold">Contact Info:</p>
-                    <p>Telephone: +1 (314) 365-0104</p>
-                    <p>Email: cpandacct@gmail.com</p>
-                    <p>Address: 11520 Saint Charles Rock Rd. Suite 201</p>
-                    <p>City: Bridgeton, MO 63044</p>
+                    <p>+1 (314) 365-0104</p>
+                    <p>cpandacct@gmail.com</p>
+                    <p>11520 Saint Charles Rock Rd. Suite 201</p>
+                    <p>Bridgeton, MO 63044</p>
                 </div>
             </div>
     
             <!-- Center Section: Navigation Links -->
             <div class="tw-flex tw-flex-col tw-gap-4 tw-text-lg tw-text-black">
-                <h2 class="tw-text-2xl tw-font-bold max-md:tw-text-xl">Links</h2>
-                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
+                <h2 class="tw-text-lg tw-font-bold">Links</h2>
+                <div class="tw-flex tw-flex-col tw-gap-3">
                     <a href="{% url 'home' %}" class="footer-link">Inicio</a>
                     <a href="{% url 'about' %}" class="footer-link">Sobre Nosotros</a>
                     <a href="{% url 'services' %}" class="footer-link">Servicios</a>
@@ -198,7 +199,7 @@
     
             <!-- Right Section: Social Icons -->
             <div class="tw-flex tw-flex-col tw-gap-4 tw-text-black">
-                <p class="tw-mt-3 tw-font-semibold tw-text-lg">Síguenos</p>
+                <p class="tw-font-bold tw-text-lg tw-text-center">Síguenos</p>
                 <div class="tw-flex tw-gap-4 tw-text-2xl social-media">
                     <a href="https://facebook.com/" aria-label="Facebook" class="tw-text-black tw-hover:text-gray-600">
                         <i class="bi bi-facebook"></i>
@@ -208,6 +209,12 @@
                     </a>
                     <a href="https://instagram.com/" aria-label="Instagram" class="tw-text-black tw-hover:text-gray-600">
                         <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com/" aria-label="LinkedIn" class="tw-text-black tw-hover:text-gray-600">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/13143650104" aria-label="WhatsApp" class="tw-text-black tw-hover:text-gray-600">
+                        <i class="bi bi-whatsapp"></i>
                     </a>
                 </div>
             </div>
