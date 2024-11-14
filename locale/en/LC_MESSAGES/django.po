@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-14 20:41+0000\n"
+"POT-Creation-Date: 2024-11-14 22:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: project/settings.py:264
-msgid "English"
-msgstr ""
+#: templates/html/base.html:124 templates/html/base.html:193
+msgid "Sobre Nosotros"
+msgstr "About Us"
 
-#: project/settings.py:265
-msgid "Spanish"
-msgstr ""
+#: templates/html/base.html:127 templates/html/base.html:194
+msgid "Servicios"
+msgstr "Services"
+
+#: templates/html/base.html:132 templates/html/base.html:195
+msgid "Blogs"
+msgstr "Blogs"
+
+#: templates/html/base.html:137
+msgid "Contáctanos"
+msgstr "Contact Us"
+
+#: templates/html/base.html:149
+msgid "Español"
+msgstr "Spanish"
+
+#: templates/html/base.html:155
+msgid "English"
+msgstr "English"
+
+#: templates/html/base.html:180
+msgid "Contact Info:"
+msgstr "Contact Info"
+
+#: templates/html/base.html:190
+msgid "Links"
+msgstr "Links"
+
+#: templates/html/base.html:192
+msgid "Inicio"
+msgstr "Home"
+
+#: templates/html/base.html:201
+msgid "Síguenos"
+msgstr "Follow Us!"
 
 #: templates/html/home.html:26
 msgid "Tu Confianza, Nuestro Compromiso"
-msgstr "In american blah blah blah..."
+msgstr "Your Trust is Our Commitment"
 
 #: templates/html/home.html:34
 msgid "Se Habla Inglés y Español"
-msgstr "We talk american and mexican"
+msgstr "English and Spanish Spoken"
 
 #: utils/constraint_fields.py:53
 msgid ""
