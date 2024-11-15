@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 00:54+0000\n"
+"POT-Creation-Date: 2024-11-15 01:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr ""
 "client’s specific financial needs."
 
 #: templates/html/about.html:102 templates/html/home.html:195
-#: templates/html/services.html:431
+#: templates/html/services.html:429
 msgid ""
 "¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
 "contables para llevar tu tranquilidad financiera al siguiente nivel."
@@ -83,7 +83,7 @@ msgstr ""
 "your financial security."
 
 #: templates/html/about.html:105 templates/html/home.html:199
-#: templates/html/services.html:435
+#: templates/html/services.html:433
 msgid "Comienza Ahora!"
 msgstr "Start Now!"
 
@@ -122,6 +122,14 @@ msgstr "Links"
 #: templates/html/base.html:192
 msgid "Inicio"
 msgstr "Home"
+
+#: templates/html/blog/blog-list.html:36
+msgid "No blogs yet."
+msgstr "No blogs yet."
+
+#: templates/html/blog/blog-list.html:63 templates/html/blog/blog-list.html:65
+msgid "leer más..."
+msgstr "read more..."
 
 #: templates/html/home.html:26
 msgid "Tu Confianza, Nuestro Compromiso"
@@ -210,7 +218,7 @@ msgstr ""
 "Support for business setup, regulatory compliance, and strategic planning "
 "for success."
 
-#: templates/html/home.html:163 templates/html/services.html:373
+#: templates/html/home.html:163 templates/html/services.html:371
 msgid "Nómina y Consultoría Especializada"
 msgstr "Payroll Services and Consulting"
 
@@ -294,6 +302,40 @@ msgid "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad."
 msgstr ""
 "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
+#: templates/html/inquiry/inquiry-create.html:37
+msgid ""
+"Llene este formulario y alguien de nuestro equipo se comunicará con usted lo "
+"más antes posible. ¡Gracias!"
+msgstr "Fill out this form and one of our team members will reach out to you as soon as possible. Thanks!"
+
+#: templates/html/inquiry/inquiry-create.html:50
+msgid "¡Contáctanos Ya!"
+msgstr "Reach out now!"
+
+#: templates/html/inquiry/inquiry-create.html:53
+msgid "Te esperamos"
+msgstr "We are ready to serve"
+
+#: templates/html/inquiry/inquiry-create.html:61
+msgid "Nombre"
+msgstr "Name"
+
+#: templates/html/inquiry/inquiry-create.html:73
+msgid "Teléfono"
+msgstr "Phone"
+
+#: templates/html/inquiry/inquiry-create.html:93
+msgid "Correo Electrónico"
+msgstr "Email"
+
+#: templates/html/inquiry/inquiry-create.html:107
+msgid "Mensaje"
+msgstr "Message"
+
+#: templates/html/inquiry/inquiry-create.html:124
+msgid "Enviar"
+msgstr "Submit"
+
 #: templates/html/services.html:24
 msgid "Servicios Contables Claros y Transparentes"
 msgstr "Clear and Transparent Accounting Services"
@@ -302,7 +344,9 @@ msgstr "Clear and Transparent Accounting Services"
 msgid ""
 "Somos una firma de contabilidad e impuestos de servicio completo. Conoce más "
 "sobre nuestros servicios específicos a continuación."
-msgstr "We are a full-service accounting and tax firm. Learn more about our specific services below."
+msgstr ""
+"We are a full-service accounting and tax firm. Learn more about our specific "
+"services below."
 
 #: templates/html/services.html:41
 msgid "Para Individuos"
@@ -312,7 +356,9 @@ msgstr "For Individuals"
 msgid ""
 "Te acompañamos todo el año con servicios contables personalizados, desde la "
 "reducción de impuestos hasta la presentación de declaraciones."
-msgstr "Count on us year-round for personalized accounting, from tax savings to filing returns."
+msgstr ""
+"Count on us year-round for personalized accounting, from tax savings to "
+"filing returns."
 
 #: templates/html/services.html:56
 msgid "Para Negocios"
@@ -322,7 +368,9 @@ msgstr "For Businesses"
 msgid ""
 "Gestionamos la contabilidad completa de tu negocio y ofrecemos servicios "
 "externalizados para facilitar tu carga administrativa."
-msgstr "We manage your business’s full accounting and offer outsourced services to ease your administrative load."
+msgstr ""
+"We manage your business’s full accounting and offer outsourced services to "
+"ease your administrative load."
 
 #: templates/html/services.html:91
 msgid "Un Precio Para Cada Tamaño de Empresa"
@@ -332,7 +380,9 @@ msgstr "Pricing For Each Business Size"
 msgid ""
 "Desde emprendedores hasta empresas establecidas, tenemos una solución "
 "adaptada a tus necesidades."
-msgstr "From entrepreneurs to established businesses, we have a solution tailored to your needs."
+msgstr ""
+"From entrepreneurs to established businesses, we have a solution tailored to "
+"your needs."
 
 #: templates/html/services.html:101
 msgid "Emprendedor"
@@ -352,7 +402,9 @@ msgstr "per month"
 msgid ""
 "Ideal para pequeñas empresas y emprendedores con complejidad de bajo nivel y "
 "planeación de impuestos para pequeños negocios."
-msgstr "Perfect for small businesses and entrepreneurs needing basic accounting and tax planning."
+msgstr ""
+"Perfect for small businesses and entrepreneurs needing basic accounting and "
+"tax planning."
 
 #: templates/html/services.html:109
 msgid "✔ Preparación de la declaración de impuestos de fin de año"
@@ -403,7 +455,9 @@ msgstr "Established"
 msgid ""
 "Ideal para equipos grandes y compañías establecidas con alta complejidad y "
 "necesidades fiscales avanzadas."
-msgstr "Suited for large teams and established firms with high complexity and advanced tax demands."
+msgstr ""
+"Suited for large teams and established firms with high complexity and "
+"advanced tax demands."
 
 #: templates/html/services.html:170
 msgid "✔ Contabilidad integral"
@@ -417,7 +471,7 @@ msgstr "✔ Payroll management"
 msgid "✔ Planificación fiscal avanzada"
 msgstr "✔ Advanced tax planning"
 
-#: templates/html/services.html:194
+#: templates/html/services.html:192
 msgid ""
 "Contáctanos para conocer nuestros precios personalizados, tarifas basadas en "
 "servicios específicos y tarifas por hora para tus necesidades empresariales."
@@ -425,51 +479,51 @@ msgstr ""
 "Contact us to learn about our personalized pricing, service-based rates, and "
 "hourly rates for your business needs."
 
-#: templates/html/services.html:198
+#: templates/html/services.html:196
 msgid "✔ Limpiamos los libros de tu compañía"
 msgstr "✔ We clean up your company's books"
 
-#: templates/html/services.html:199
+#: templates/html/services.html:197
 msgid "✔ Preparamos estados financieros perfectos"
 msgstr "✔ We prepare perfect financial statements"
 
-#: templates/html/services.html:200
+#: templates/html/services.html:198
 msgid "✔ Creamos planes de reducción de impuestos"
 msgstr "✔ We create tax reduction plans"
 
-#: templates/html/services.html:201
+#: templates/html/services.html:199
 msgid "✔ Teneduría de libros mensuales y asesoramiento"
 msgstr "✔ Monthly bookkeeping and advising"
 
-#: templates/html/services.html:204
+#: templates/html/services.html:202
 msgid "✔ Pagas en impuestos evitando sorpresas"
 msgstr "✔ Pay taxes avoiding surprises"
 
-#: templates/html/services.html:205
+#: templates/html/services.html:203
 msgid "✔ Reportes trimestrales y mensuales"
 msgstr "✔ Quarterly and monthly reports"
 
-#: templates/html/services.html:206
+#: templates/html/services.html:204
 msgid "✔ Reportes de final de año"
 msgstr "✔ Year-end reports"
 
-#: templates/html/services.html:207
+#: templates/html/services.html:205
 msgid "✔ Planeación de impuestos empresariales"
 msgstr "✔ Business tax planning"
 
-#: templates/html/services.html:213
+#: templates/html/services.html:211
 msgid "Conoce Más Sobre Nuestros Servicios Contables"
 msgstr "Learn More About Our Accounting Services"
 
-#: templates/html/services.html:218
+#: templates/html/services.html:216
 msgid "Servicios de Impuestos"
 msgstr "Tax Services"
 
-#: templates/html/services.html:225
+#: templates/html/services.html:223
 msgid "Preparación de Impuestos Individuales y Empresariales"
 msgstr "Tax Prep for Business and Individuals"
 
-#: templates/html/services.html:227
+#: templates/html/services.html:225
 msgid ""
 "\n"
 "                Este servicio garantiza una preparación exhaustiva de "
@@ -481,13 +535,17 @@ msgid ""
 "                corporativa, trabajamos para que el proceso sea fácil y "
 "preciso.\n"
 "                "
-msgstr "Our service provides comprehensive tax preparation for individuals and businesses, focusing on maximizing deductions and reducing tax burdens, while ensuring full compliance. From individual to corporate filings, we make the process smooth and precise."
+msgstr ""
+"Our service provides comprehensive tax preparation for individuals and "
+"businesses, focusing on maximizing deductions and reducing tax burdens, "
+"while ensuring full compliance. From individual to corporate filings, we "
+"make the process smooth and precise."
 
-#: templates/html/services.html:234
+#: templates/html/services.html:232
 msgid "Consultoría en Planificación Fiscal"
 msgstr "Financial Advising and Consulting"
 
-#: templates/html/services.html:236
+#: templates/html/services.html:234
 msgid ""
 "\n"
 "                La planificación fiscal personalizada permite a nuestros "
@@ -498,13 +556,17 @@ msgid ""
 "financieros del cliente con una \n"
 "                carga tributaria eficiente.\n"
 "                "
-msgstr "Personalized tax planning helps our clients organize their finances with strategies that optimize taxes and ensure compliance. We focus on creating tailored plans that align clients’ financial goals with an efficient tax burden."
+msgstr ""
+"Personalized tax planning helps our clients organize their finances with "
+"strategies that optimize taxes and ensure compliance. We focus on creating "
+"tailored plans that align clients’ financial goals with an efficient tax "
+"burden."
 
-#: templates/html/services.html:243
+#: templates/html/services.html:241
 msgid "Asistencia en Auditorías y Disputas con el IRS"
 msgstr "Help with IRS Audits and Disputes"
 
-#: templates/html/services.html:245
+#: templates/html/services.html:243
 msgid ""
 "\n"
 "                En caso de una auditoría o disputa con el IRS, representamos "
@@ -515,41 +577,44 @@ msgid ""
 "mantener la calma y sentirse \n"
 "                respaldados.\n"
 "                "
-msgstr "If faced with an IRS audit or dispute, we represent our clients to safeguard their rights and resolve tax conflicts. Our team manages all communication and procedures, so clients can feel at ease and well-supported."
+msgstr ""
+"If faced with an IRS audit or dispute, we represent our clients to safeguard "
+"their rights and resolve tax conflicts. Our team manages all communication "
+"and procedures, so clients can feel at ease and well-supported."
 
-#: templates/html/services.html:255
+#: templates/html/services.html:253
 msgid "Características del Servicio"
 msgstr "Service Features"
 
-#: templates/html/services.html:258
+#: templates/html/services.html:256
 msgid "✔ Maximizamos deducciones"
 msgstr "✔ We maximize deductions"
 
-#: templates/html/services.html:259
+#: templates/html/services.html:257
 msgid "✔ Cumplimiento fiscal asegurado"
 msgstr "✔ Ensured tax compliance"
 
-#: templates/html/services.html:260
+#: templates/html/services.html:258
 msgid "✔ Asesoría personalizada"
 msgstr "✔ Personalized advising"
 
-#: templates/html/services.html:263
+#: templates/html/services.html:261
 msgid "✔ Resultados precisos y eficientes"
 msgstr "✔ Accurate and efficient results"
 
-#: templates/html/services.html:264
+#: templates/html/services.html:262
 msgid "✔ Ahorros fiscales estratégicos"
 msgstr "✔ Strategic tax savings"
 
-#: templates/html/services.html:265
+#: templates/html/services.html:263
 msgid "✔ Tranquilidad total en tus impuestos"
 msgstr "✔ Complete peace of mind with your taxes"
 
-#: templates/html/services.html:277 templates/html/services.html:284
+#: templates/html/services.html:275 templates/html/services.html:282
 msgid "Contabilidad y Teneduría de Libros"
 msgstr "Accounting and Bookkeeping"
 
-#: templates/html/services.html:286
+#: templates/html/services.html:284
 msgid ""
 "\n"
 "              Ofrecemos un servicio de contabilidad diario que mantiene los "
@@ -560,13 +625,16 @@ msgid ""
 "siempre tengan una visión \n"
 "              clara de su situación financiera.\n"
 "              "
-msgstr "We provide daily accounting services to keep business financial records accurate and up-to-date. From transaction management to account tracking, we ensure our clients always have a clear view of their financial status."
+msgstr ""
+"We provide daily accounting services to keep business financial records "
+"accurate and up-to-date. From transaction management to account tracking, we "
+"ensure our clients always have a clear view of their financial status."
 
-#: templates/html/services.html:293
+#: templates/html/services.html:291
 msgid "Asesoría en Cumplimiento Normativo"
 msgstr "Advising for Fiscal Compliance"
 
-#: templates/html/services.html:295
+#: templates/html/services.html:293
 msgid ""
 "\n"
 "              Guiamos a las empresas para asegurar que cumplen con todas las "
@@ -577,46 +645,49 @@ msgid ""
 "minimizar riesgos y evitar \n"
 "              sanciones.\n"
 "              "
-msgstr "We guide businesses to ensure compliance with all applicable tax, labor, and environmental laws, especially in highly regulated sectors. Our team reviews policies and procedures to minimize risks and prevent penalties."
+msgstr ""
+"We guide businesses to ensure compliance with all applicable tax, labor, and "
+"environmental laws, especially in highly regulated sectors. Our team reviews "
+"policies and procedures to minimize risks and prevent penalties."
 
-#: templates/html/services.html:305 templates/html/services.html:352
-#: templates/html/services.html:399
+#: templates/html/services.html:303 templates/html/services.html:350
+#: templates/html/services.html:397
 msgid "Características del Servicio Ofrecido"
 msgstr "Service Features"
 
-#: templates/html/services.html:308
+#: templates/html/services.html:306
 msgid "✔ Registros siempre al día"
 msgstr "✔ Always up-to-date records"
 
-#: templates/html/services.html:309
+#: templates/html/services.html:307
 msgid "✔ Análisis financiero detallado"
 msgstr "✔ Detailed financial analysis"
 
-#: templates/html/services.html:310
+#: templates/html/services.html:308
 msgid "✔ Cumplimiento sin riesgos"
 msgstr "✔ Risk-free compliance"
 
-#: templates/html/services.html:313
+#: templates/html/services.html:311
 msgid "✔ Asesoría para optimizar finanzas"
 msgstr "✔ Advising to optimize finances"
 
-#: templates/html/services.html:314
+#: templates/html/services.html:312
 msgid "✔ Informes claros y listos"
 msgstr "✔ Clear and ready reports"
 
-#: templates/html/services.html:315
+#: templates/html/services.html:313
 msgid "✔ Ahorros y eficiencia proactivos"
 msgstr "✔ Proactive savings and efficiency"
 
-#: templates/html/services.html:326
+#: templates/html/services.html:324
 msgid "Asesoría Empresarial y Cumplimiento"
 msgstr "Business and Compliance Consulting"
 
-#: templates/html/services.html:333
+#: templates/html/services.html:331
 msgid "Asesoramiento para Pequeñas Empresas"
 msgstr "Small Business Advising"
 
-#: templates/html/services.html:335
+#: templates/html/services.html:333
 msgid ""
 "\n"
 "              Nuestro servicio de asesoramiento para pequeñas empresas ayuda "
@@ -626,13 +697,16 @@ msgid ""
 "              financiera. Nos enfocamos en crear una base sólida para el "
 "crecimiento y éxito a largo plazo.\n"
 "              "
-msgstr "Our small business advisory service helps entrepreneurs establish their business, from choosing a structure to financial planning. We focus on building a solid foundation for long-term growth and success."
+msgstr ""
+"Our small business advisory service helps entrepreneurs establish their "
+"business, from choosing a structure to financial planning. We focus on "
+"building a solid foundation for long-term growth and success."
 
-#: templates/html/services.html:341
+#: templates/html/services.html:339
 msgid "Consultoría en Inmigración y Finanzas"
 msgstr "Consulting for Finances and Immigration"
 
-#: templates/html/services.html:343
+#: templates/html/services.html:341
 msgid ""
 "\n"
 "              Apoyamos a los inmigrantes en EE.UU. a entender sus "
@@ -641,37 +715,40 @@ msgid ""
 "ayudamos a navegar las complejidades \n"
 "              del sistema financiero estadounidense.\n"
 "              "
-msgstr "Our small business advisory service helps entrepreneurs establish their business, from choosing a structure to financial planning. We focus on building a solid foundation for long-term growth and success."
+msgstr ""
+"Our small business advisory service helps entrepreneurs establish their "
+"business, from choosing a structure to financial planning. We focus on "
+"building a solid foundation for long-term growth and success."
 
-#: templates/html/services.html:355
+#: templates/html/services.html:353
 msgid "✔ Soporte en cada etapa"
 msgstr "✔ Support at every stage"
 
-#: templates/html/services.html:356
+#: templates/html/services.html:354
 msgid "✔ Estrategias para crecimiento"
 msgstr "✔ Growth strategies"
 
-#: templates/html/services.html:357
+#: templates/html/services.html:355
 msgid "✔ Cumplimiento total en leyes"
 msgstr "✔ Full legal compliance"
 
-#: templates/html/services.html:360
+#: templates/html/services.html:358
 msgid "✔ Planificación alineada a metas"
 msgstr "✔ Goal-aligned planning"
 
-#: templates/html/services.html:361
+#: templates/html/services.html:359
 msgid "✔ Licencias simplificadas"
 msgstr "✔ Simplified licensing"
 
-#: templates/html/services.html:362
+#: templates/html/services.html:360
 msgid "✔ Consultoría para proteger su negocio"
 msgstr "✔ Consulting to protect your business"
 
-#: templates/html/services.html:380
+#: templates/html/services.html:378
 msgid "Servicios de Nómina"
 msgstr "Payroll Services"
 
-#: templates/html/services.html:382
+#: templates/html/services.html:380
 msgid ""
 "\n"
 "              Nuestro servicio de nómina incluye la gestión integral de "
@@ -681,13 +758,16 @@ msgid ""
 "              para que los empleadores puedan enfocarse en el éxito de su "
 "negocio.\n"
 "              "
-msgstr "Our payroll service provides complete management of payments and tax deductions, ensuring compliance with all labor laws. We handle payroll so employers can focus on their business success."
+msgstr ""
+"Our payroll service provides complete management of payments and tax "
+"deductions, ensuring compliance with all labor laws. We handle payroll so "
+"employers can focus on their business success."
 
-#: templates/html/services.html:388
+#: templates/html/services.html:386
 msgid "Educación Financiera"
 msgstr "Financial Literacy"
 
-#: templates/html/services.html:390
+#: templates/html/services.html:388
 msgid ""
 "\n"
 "              Ofrecemos talleres y capacitaciones en español sobre temas de "
@@ -697,29 +777,32 @@ msgid ""
 "              Cubrimos desde ahorro e inversión hasta planificación de "
 "jubilación.\n"
 "              "
-msgstr "We offer workshops and training in Spanish on financial education topics, giving clients tools for healthy financial management. We cover everything from saving and investing to retirement planning."
+msgstr ""
+"We offer workshops and training in Spanish on financial education topics, "
+"giving clients tools for healthy financial management. We cover everything "
+"from saving and investing to retirement planning."
 
-#: templates/html/services.html:402
+#: templates/html/services.html:400
 msgid "✔ Gestión de nómina sin errores"
 msgstr "✔ Error-free payroll management"
 
-#: templates/html/services.html:403
+#: templates/html/services.html:401
 msgid "✔ Cumplimiento laboral garantizado"
 msgstr "✔ Guaranteed labor compliance"
 
-#: templates/html/services.html:404
+#: templates/html/services.html:402
 msgid "✔ Pagos optimizados"
 msgstr "✔ Optimized payments"
 
-#: templates/html/services.html:407
+#: templates/html/services.html:405
 msgid "✔ Respaldo en auditorías"
 msgstr "✔ Audit support"
 
-#: templates/html/services.html:408
+#: templates/html/services.html:406
 msgid "✔ Consultoría para casos complejos"
 msgstr "✔ Consulting for complex cases"
 
-#: templates/html/services.html:409
+#: templates/html/services.html:407
 msgid "✔ Talleres de educación financiera"
 msgstr "✔ Financial education workshops"
 

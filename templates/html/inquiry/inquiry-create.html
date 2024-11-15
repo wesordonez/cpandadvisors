@@ -5,6 +5,7 @@
 {% load tz %}
 {% load static %}
 
+{% load i18n %}
 
 
 {% comment %} {% block head %}
@@ -31,8 +32,8 @@
 
         <div class="tw-max-w-750px tw-flex tw-flex-col tw-justify-center tw-items-center tw-gap-5 
                     tw-p-5 max-sm:tw-px-4-1 form-container">
-            <p class="tw-text-3xl max-md:tw-text-xl primary-text-color tw-font-semibold tw-p-4 tw-max-w-650px tw-text-center">
-                Llene este formulario y alguien de nuestro equipo se comunicará con usted lo más antes posible. ¡Gracias!
+            <p class="tw-text-3xl max-md:tw-text-xl primary-text-color tw-font-semibold tw-p-4 tw-max-w-650px tw-text-center"> 
+                {% trans "Llene este formulario y alguien de nuestro equipo se comunicará con usted lo más antes posible. ¡Gracias!" %} 
             </p>
             <form
                 method="post"
@@ -46,10 +47,10 @@
 
                 <div class="tw-flex tw-flex-col tw-gap-2">
                     <h2 class="tw-text-5xl max-md:tw-text-xl primary-text-color tw-font-bold tw-mb-[5%]">
-                        ¡Contáctanos Ya!
+                        {% trans "¡Contáctanos Ya!" %}
                     </h2>
                     <h3 class="tw-text-3xl max-md:tw-text-3xl tw-font-semibold">
-                        Te esperamos
+                        {% trans "Te esperamos" %}
                     </h3>
                 </div>
                 <div
@@ -57,7 +58,7 @@
                 >
                     <div class="tw-flex tw-flex-col tw-gap-4">
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-500">Nombre</div>
+                            <div class="tw-text-gray-500">{% trans "Nombre" %}</div>
                             <input
                                 type="text"
                                 class="input"
@@ -69,7 +70,7 @@
                             />
                         </div>
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-500">Telfono</div>
+                            <div class="tw-text-gray-500">{% trans "Teléfono" %}</div>
                             <div class="tw-flex tw-gap-1 tw-w-full tw-place-content-center">
                                 <select
                                     name="country-codes"
@@ -89,7 +90,7 @@
                             </div>
                         </div>
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-500">Correo Electrónico</div>
+                            <div class="tw-text-gray-500">{% trans "Correo Electrónico" %}</div>
                             <input
                                 type="email"
                                 class="input"
@@ -103,7 +104,7 @@
                         </div>
 
                         <div class="tw-flex tw-flex-col tw-w-full tw-gap-2">
-                            <div class="tw-text-gray-500">Mensaje</div>
+                            <div class="tw-text-gray-500">{% trans "Mensaje" %}</div>
                             <textarea
                                 class="input tw-resize-y tw-w-full tw-max-h-[250px] tw-min-h-[40px]"
                                 name="description"
@@ -120,7 +121,7 @@
                         type="submit"
                         class="btn tw-transition-transform hover:tw-translate-x-2 tw-duration-[0.3s] tw-mt-5 tw-mx-auto"
                     >
-                        <span>Enviar</span>
+                        <span>{% trans "Enviar" %}</span>
                         <i class="bi bi-arrow-right"></i>
                     </button>
                 </div>
