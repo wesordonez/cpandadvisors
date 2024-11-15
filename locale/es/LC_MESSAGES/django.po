@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-14 23:22+0000\n"
+"POT-Creation-Date: 2024-11-15 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/html/about.html:18
+msgid "Conócenos y Contáctanos Hoy"
+msgstr "Conócenos y Contáctanos Hoy"
+
+#: templates/html/about.html:20
+msgid ""
+"Soluciones contables personalizadas para simplificar tus finanzas, con \n"
+"                confiabilidad y compromiso. Elige un equipo dedicado a tu "
+"éxito y contáctanos \n"
+"                hoy para construir un futuro financiero sólido."
+msgstr "Soluciones contables personalizadas para simplificar tus finanzas, con confiabilidad y compromiso. Elige un equipo dedicado a tu éxito y contáctanos hoy para construir un futuro financiero sólido."
+
+#: templates/html/about.html:33 templates/html/base.html:201
+msgid "Síguenos"
+msgstr "Síguenos"
+
+#: templates/html/about.html:53
+msgid "No esperes, contáctanos ya"
+msgstr "No esperes, contáctanos ya"
+
+#: templates/html/about.html:54
+#, fuzzy
+#| msgid "Comienza Ahora!"
+msgid "¡Comienza Ahora!"
+msgstr "¡Comienza Ahora!"
+
+#: templates/html/about.html:74
+msgid ""
+"\n"
+"                  Claudia Principal ha forjado una carrera sólida dedicada a "
+"ayudar a empresas y emprendedores a gestionar \n"
+"                  sus finanzas con éxito. Como graduada de Greenville "
+"University en Contabilidad y Negocios, ha mantenido un \n"
+"                  enfoque constante en el aprendizaje continuo y la "
+"excelencia profesional. Además de su éxito académico, \n"
+"                  Claudia también formó parte del equipo de tenis "
+"universitario, donde desarrolló una fuerte ética de trabajo \n"
+"                  en equipo y habilidades que ha trasladado a su vida "
+"profesional. A lo largo de su carrera, ha trabajado con \n"
+"                  diversas empresas, brindando soluciones personalizadas que "
+"se ajustan a las necesidades financieras específicas \n"
+"                  de cada cliente.\n"
+"            "
+msgstr "Claudia Principal ha forjado una carrera sólida dedicada a ayudar a empresas y emprendedores a gestionar sus finanzas con éxito. Como graduada de Greenville University en Contabilidad y Negocios, ha mantenido un enfoque constante en el aprendizaje continuo y la excelencia profesional. Además de su éxito académico, Claudia también formó parte del equipo de tenis universitario, donde desarrolló una fuerte ética de trabajo en equipo y habilidades que ha trasladado a su vida profesional. A lo largo de su carrera, ha trabajado con diversas empresas, brindando soluciones personalizadas que se ajustan a las necesidades financieras específicas de cada cliente."
+
+#: templates/html/about.html:100 templates/html/home.html:195
+msgid ""
+"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
+"contables para llevar tu tranquilidad financiera al siguiente nivel."
+msgstr ""
+"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
+"contables para llevar tu tranquilidad financiera al siguiente nivel."
+
+#: templates/html/about.html:103 templates/html/home.html:199
+msgid "Comienza Ahora!"
+msgstr "¡Comienza Ahora!"
 
 #: templates/html/base.html:124 templates/html/base.html:193
 msgid "Sobre Nosotros"
@@ -54,10 +111,6 @@ msgstr "Enlaces"
 msgid "Inicio"
 msgstr "Inicio"
 
-#: templates/html/base.html:201
-msgid "Síguenos"
-msgstr "Síguenos"
-
 #: templates/html/home.html:26
 msgid "Tu Confianza, Nuestro Compromiso"
 msgstr "Tu Confianza, Nuestro Compromiso"
@@ -68,7 +121,10 @@ msgid ""
 "tus \n"
 "                        finanzas para que puedas enfocarte en crecer y "
 "alcanzar tus metas, con apoyo en cada paso del camino."
-msgstr "Soluciones contables para la comunidad Latina en St. Louis. Simplificamos tus finanzas para que puedas enfocarte en crecer y alcanzar tus metas, con apoyo en cada paso del camino."
+msgstr ""
+"Soluciones contables para la comunidad Latina en St. Louis. Simplificamos "
+"tus finanzas para que puedas enfocarte en crecer y alcanzar tus metas, con "
+"apoyo en cada paso del camino."
 
 #: templates/html/home.html:34
 msgid "Se Habla Inglés y Español"
@@ -93,7 +149,12 @@ msgid ""
 "necesitas para alcanzar tus metas financieras. \n"
 "                        Nuestros servicios incluyen:\n"
 "            "
-msgstr "En St. Louis, MO, ofrecemos una amplia gama de servicios contables para ayudarte a administrar tu negocio de manera eficiente y efectiva. Desde la preparación de impuestos hasta la planificación financiera, estamos aquí para brindarte la ayuda que necesitas para alcanzar tus metas financieras. Nuestros servicios incluyen:"
+msgstr ""
+"En St. Louis, MO, ofrecemos una amplia gama de servicios contables para "
+"ayudarte a administrar tu negocio de manera eficiente y efectiva. Desde la "
+"preparación de impuestos hasta la planificación financiera, estamos aquí "
+"para brindarte la ayuda que necesitas para alcanzar tus metas financieras. "
+"Nuestros servicios incluyen:"
 
 #: templates/html/home.html:94
 msgid "Preparación de Impuestos"
@@ -103,7 +164,9 @@ msgstr "Preparación de Impuestos"
 msgid ""
 "Preparación experta de impuestos para individuos y empresas, maximizando "
 "deducciones y asegurando el cumplimiento."
-msgstr "Preparación experta de impuestos para individuos y empresas, maximizando deducciones y asegurando el cumplimiento."
+msgstr ""
+"Preparación experta de impuestos para individuos y empresas, maximizando "
+"deducciones y asegurando el cumplimiento."
 
 #: templates/html/home.html:105 templates/html/home.html:128
 #: templates/html/home.html:151 templates/html/home.html:174
@@ -118,7 +181,9 @@ msgstr "Contabilidad y Gestión Contable"
 msgid ""
 "Contabilidad diaria confiable para empresas, manteniendo registros "
 "financieros precisos y actualizados."
-msgstr "Contabilidad diaria confiable para empresas, manteniendo registros financieros precisos y actualizados."
+msgstr ""
+"Contabilidad diaria confiable para empresas, manteniendo registros "
+"financieros precisos y actualizados."
 
 #: templates/html/home.html:140
 msgid "Asesoría Empresarial y Obligación Fiscal"
@@ -128,7 +193,9 @@ msgstr "Asesoría Empresarial y Obligación Fiscal"
 msgid ""
 "Orientación en la formación de empresas, cumplimiento normativo y "
 "planificación estratégica para el crecimiento y éxito."
-msgstr "Orientación en la formación de empresas, cumplimiento normativo y planificación estratégica para el crecimiento y éxito."
+msgstr ""
+"Orientación en la formación de empresas, cumplimiento normativo y "
+"planificación estratégica para el crecimiento y éxito."
 
 #: templates/html/home.html:163
 msgid "Nómina y Consultoría Especializada"
@@ -138,17 +205,9 @@ msgstr "Nómina y Consultoría Especializada"
 msgid ""
 "Servicios integrales de nómina y consultoría financiera especializada, "
 "incluyendo asistencia en inmigración y con el IRS."
-msgstr "Servicios integrales de nómina y consultoría financiera especializada, incluyendo asistencia en inmigración y con el IRS."
-
-#: templates/html/home.html:195
-msgid ""
-"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
-"contables para llevar tu tranquilidad financiera al siguiente nivel."
-msgstr "¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos contables para llevar tu tranquilidad financiera al siguiente nivel."
-
-#: templates/html/home.html:199
-msgid "Comienza Ahora!"
-msgstr "¡Comienza Ahora!"
+msgstr ""
+"Servicios integrales de nómina y consultoría financiera especializada, "
+"incluyendo asistencia en inmigración y con el IRS."
 
 #: templates/html/home.html:210
 msgid "Sobre Nuestra Firma"
@@ -167,7 +226,13 @@ msgid ""
 "latina, ofrecemos servicios personalizados, \n"
 "                    accesibles y en su idioma.\n"
 "                "
-msgstr "Claudia Principal & Asociados es una firma de contadores en St. Louis, Missouri, dedicada a apoyar a la comunidad hispana y a pequeñas y medianas empresas. Nos enfocamos en brindar soluciones contables y asesoría financiera integral para ayudar a nuestros clientes a cumplir sus metas y fortalecer sus negocios. Con un profundo compromiso hacia la comunidad latina, ofrecemos servicios personalizados, accesibles y en su idioma."
+msgstr ""
+"Claudia Principal & Asociados es una firma de contadores en St. Louis, "
+"Missouri, dedicada a apoyar a la comunidad hispana y a pequeñas y medianas "
+"empresas. Nos enfocamos en brindar soluciones contables y asesoría "
+"financiera integral para ayudar a nuestros clientes a cumplir sus metas y "
+"fortalecer sus negocios. Con un profundo compromiso hacia la comunidad "
+"latina, ofrecemos servicios personalizados, accesibles y en su idioma."
 
 #: templates/html/home.html:233
 msgid "Hola, soy Claudia Principal"
@@ -186,7 +251,13 @@ msgid ""
 "y ayudar a empresas a prosperar con soluciones \n"
 "                    contables confiables y personalizadas.\n"
 "                    "
-msgstr "Una contadora pública originaria de Barquisimeto, Venezuela. Me gradué en Accounting y Business Management de Greenville University y obtuve un máster en contabilidad en Saint Louis University. Con experiencia tanto en el sector gubernamental como en el sector privado, hoy dirijo Claudia Principal y Asociados, comprometida en apoyar a la comunidad latina y ayudar a empresas a prosperar con soluciones contables confiables y personalizadas."
+msgstr ""
+"Una contadora pública originaria de Barquisimeto, Venezuela. Me gradué en "
+"Accounting y Business Management de Greenville University y obtuve un máster "
+"en contabilidad en Saint Louis University. Con experiencia tanto en el "
+"sector gubernamental como en el sector privado, hoy dirijo Claudia Principal "
+"y Asociados, comprometida en apoyar a la comunidad latina y ayudar a "
+"empresas a prosperar con soluciones contables confiables y personalizadas."
 
 #: templates/html/home.html:253
 msgid "Testimonios de Nuestros Clientes"
@@ -195,17 +266,20 @@ msgstr "Testimonios de Nuestros Clientes"
 #: templates/html/home.html:262
 msgid ""
 "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
-msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgstr ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
 #: templates/html/home.html:276
 msgid ""
 "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur "
 "optio deleniti"
-msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgstr ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
 #: templates/html/home.html:291
 msgid "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad."
-msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgstr ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
 #: utils/constraint_fields.py:53
 msgid ""
