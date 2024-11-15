@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-14 22:55+0000\n"
+"POT-Creation-Date: 2024-11-14 23:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,9 +62,150 @@ msgstr "Follow Us!"
 msgid "Tu Confianza, Nuestro Compromiso"
 msgstr "Your Trust is Our Commitment"
 
+#: templates/html/home.html:29
+msgid ""
+"Soluciones contables para la comunidad Latina en St. Louis. Simplificamos "
+"tus \n"
+"                        finanzas para que puedas enfocarte en crecer y "
+"alcanzar tus metas, con apoyo en cada paso del camino."
+msgstr "Accounting solutions for the Latino community in St. Louis. We simplify your finances so you can focus on growing and reaching your goals, with support every step of the way."
+
 #: templates/html/home.html:34
 msgid "Se Habla Inglés y Español"
 msgstr "English and Spanish Spoken"
+
+#: templates/html/home.html:43
+msgid "Contáctanos Ahora"
+msgstr "Contact Us Now!"
+
+#: templates/html/home.html:72
+msgid "Servicios Contables Para Tu Negocio"
+msgstr "Business Accounting Services"
+
+#: templates/html/home.html:74
+msgid ""
+"\n"
+"                        En St. Louis, MO, ofrecemos una amplia gama de "
+"servicios contables para ayudarte a administrar \n"
+"                        tu negocio de manera eficiente y efectiva. Desde la "
+"preparación de impuestos hasta la planificación \n"
+"                        financiera, estamos aquí para brindarte la ayuda que "
+"necesitas para alcanzar tus metas financieras. \n"
+"                        Nuestros servicios incluyen:\n"
+"            "
+msgstr "In St. Louis, MO, we offer a full range of accounting services to help you efficiently and effectively manage your business. From tax preparation to financial planning, we’re here to give you the support needed to achieve your financial goals. Our services include:"
+
+#: templates/html/home.html:94
+msgid "Preparación de Impuestos"
+msgstr "Tax Prep and Filing Services"
+
+#: templates/html/home.html:96
+msgid ""
+"Preparación experta de impuestos para individuos y empresas, maximizando "
+"deducciones y asegurando el cumplimiento."
+msgstr "Specialized tax prep for individuals and businesses to maximize deductions and meet regulations."
+
+#: templates/html/home.html:105 templates/html/home.html:128
+#: templates/html/home.html:151 templates/html/home.html:174
+msgid "Más Información"
+msgstr "More Info"
+
+#: templates/html/home.html:117
+msgid "Contabilidad y Gestión Contable"
+msgstr "Bookkeeping and Accounting"
+
+#: templates/html/home.html:119
+msgid ""
+"Contabilidad diaria confiable para empresas, manteniendo registros "
+"financieros precisos y actualizados."
+msgstr "Trusted daily accounting for businesses, ensuring accurate and current financial records."
+
+#: templates/html/home.html:140
+msgid "Asesoría Empresarial y Obligación Fiscal"
+msgstr "Business Advising and Compliance"
+
+#: templates/html/home.html:142
+msgid ""
+"Orientación en la formación de empresas, cumplimiento normativo y "
+"planificación estratégica para el crecimiento y éxito."
+msgstr "Support for business setup, regulatory compliance, and strategic planning for success."
+
+#: templates/html/home.html:163
+msgid "Nómina y Consultoría Especializada"
+msgstr "Payroll Services and Consulting"
+
+#: templates/html/home.html:165
+msgid ""
+"Servicios integrales de nómina y consultoría financiera especializada, "
+"incluyendo asistencia en inmigración y con el IRS."
+msgstr "Complete payroll and financial consulting services, including IRS and immigration assistance."
+
+#: templates/html/home.html:195
+msgid ""
+"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
+"contables para llevar tu tranquilidad financiera al siguiente nivel."
+msgstr "Streamline your finances and set new goals! Count on our experts to enhance your financial security."
+
+#: templates/html/home.html:199
+msgid "Comienza Ahora!"
+msgstr "Start Now!"
+
+#: templates/html/home.html:210
+msgid "Sobre Nuestra Firma"
+msgstr "About Our Firm"
+
+#: templates/html/home.html:213
+msgid ""
+"\n"
+"                    Claudia Principal & Asociados es una firma de contadores "
+"en St. Louis, Missouri, dedicada a apoyar a \n"
+"                    la comunidad hispana y a pequeñas y medianas empresas. "
+"Nos enfocamos en brindar soluciones contables \n"
+"                    y asesoría financiera integral para ayudar a nuestros "
+"clientes a cumplir sus metas y fortalecer sus \n"
+"                    negocios. Con un profundo compromiso hacia la comunidad "
+"latina, ofrecemos servicios personalizados, \n"
+"                    accesibles y en su idioma.\n"
+"                "
+msgstr "Claudia Principal & Associates is a St. Louis, Missouri-based accounting firm devoted to assisting the Hispanic community and small to medium-sized businesses. Our focus is on delivering full accounting solutions and financial advice to help clients achieve their goals and grow their businesses. With a strong dedication to the Latino community, we offer personalized, accessible services in Spanish."
+
+#: templates/html/home.html:233
+msgid "Hola, soy Claudia Principal"
+msgstr "Hi! I'm Claudia Principal"
+
+#: templates/html/home.html:236
+msgid ""
+"\n"
+"                    Una contadora pública originaria de Barquisimeto, "
+"Venezuela. Me gradué en Accounting \n"
+"                    y Business Management de Greenville University y obtuve "
+"un máster en contabilidad en Saint Louis University. \n"
+"                    Con experiencia tanto en el sector gubernamental como en "
+"el sector privado, hoy dirijo Claudia Principal y \n"
+"                    Asociados, comprometida en apoyar a la comunidad latina "
+"y ayudar a empresas a prosperar con soluciones \n"
+"                    contables confiables y personalizadas.\n"
+"                    "
+msgstr "A certified public accountant from Barquisimeto, Venezuela. I graduated in Accounting and Business Management from Greenville University and earned a Master’s in Accounting from Saint Louis University. With experience in both government and the private sector, I now lead Claudia Principal & Associates, dedicated to supporting the Latino community and helping businesses thrive with reliable, personalized accounting solutions."
+
+#: templates/html/home.html:253
+msgid "Testimonios de Nuestros Clientes"
+msgstr "Our Client Reviews"
+
+#: templates/html/home.html:262
+msgid ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+
+#: templates/html/home.html:276
+msgid ""
+"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur "
+"optio deleniti"
+msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+
+#: templates/html/home.html:291
+msgid "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad."
+msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
 #: utils/constraint_fields.py:53
 msgid ""

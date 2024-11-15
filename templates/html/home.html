@@ -26,8 +26,8 @@
                         {% trans "Tu Confianza, Nuestro Compromiso" %}
                     </h1>
                     <div class="tw-mt-5 tw-text-2xl tw-p-2 max-md:tw-max-w-full">
-                        Soluciones contables para la comunidad Latina en St. Louis. Simplificamos tus 
-                        finanzas para que puedas enfocarte en crecer y alcanzar tus metas, con apoyo en cada paso del camino.
+                        {% blocktrans %}Soluciones contables para la comunidad Latina en St. Louis. Simplificamos tus 
+                        finanzas para que puedas enfocarte en crecer y alcanzar tus metas, con apoyo en cada paso del camino.{% endblocktrans %}
                     </div>
 
                     <div class="tw-mt-5 tw-p-2 tw-text-3xl">
@@ -40,7 +40,7 @@
                                                 tw-transition-transform
                                                 hover:tw-translate-x-2
                                                 ">
-                        <span>Contáctanos Ahora</span>
+                        <span>{% trans "Contáctanos Ahora" %}</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -68,9 +68,14 @@
                     "
                     >
 
-        <h2 class="tw-text-5xl tw-font-bold max-md:tw-text-3xl">Servicios Contables Para Tu Negocio</h2>
+        <h2 class="tw-text-5xl tw-font-bold max-md:tw-text-3xl">{% trans "Servicios Contables Para Tu Negocio" %}</h2>
         <p class="tw-text-justify tw-p-5 tw-mt-5 tw-max-w-[800px] tw-text-xl max-md:tw-text-base">
-            En St. Louis, MO, ofrecemos una amplia gama de servicios contables para ayudarte a administrar tu negocio de manera eficiente y efectiva. Desde la preparación de impuestos hasta la planificación financiera, estamos aquí para brindarte la ayuda que necesitas para alcanzar tus metas financieras. Nuestros servicios incluyen:
+            {% blocktrans %}
+                        En St. Louis, MO, ofrecemos una amplia gama de servicios contables para ayudarte a administrar 
+                        tu negocio de manera eficiente y efectiva. Desde la preparación de impuestos hasta la planificación 
+                        financiera, estamos aquí para brindarte la ayuda que necesitas para alcanzar tus metas financieras. 
+                        Nuestros servicios incluyen:
+            {% endblocktrans %}
         </p>
 
         <div class="tw-flex tw-flex-row tw-flex-wrap max-lg:tw-flex-row max-lg:tw-flex-wrap tw-w-full tw-gap-8 
@@ -85,9 +90,9 @@
                 
                 <!-- Card 1 content -->
                 <div class="card-content">
-                    <h3 class="card-title">Preparación de Impuestos</h3>
+                    <h3 class="card-title">{% trans "Preparación de Impuestos" %}</h3>
                     <p class="card-description">
-                        Preparación experta de impuestos para individuos y empresas, maximizando deducciones y asegurando el cumplimiento.
+                        {% trans "Preparación experta de impuestos para individuos y empresas, maximizando deducciones y asegurando el cumplimiento." %}
                     </p>
                     <a href="{% url 'services' %}" 
                                         class="btn tw-mt-5 tw-ml-auto 
@@ -96,7 +101,7 @@
                                                 hover:tw-translate-x-2
                                                 card-button
                                                 ">
-                        <span>Más Información</span>
+                        <span>{% trans "Más Información" %}</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -108,9 +113,9 @@
                 
                 <!-- Card 2 content -->
                 <div class="card-content">
-                    <h3 class="card-title">Contabilidad y Gestión Contable</h3>
+                    <h3 class="card-title">{% trans "Contabilidad y Gestión Contable" %}</h3>
                     <p class="card-description">
-                        Contabilidad diaria confiable para empresas, manteniendo registros financieros precisos y actualizados.
+                        {% trans "Contabilidad diaria confiable para empresas, manteniendo registros financieros precisos y actualizados." %}
                     </p>
                     <a href="{% url 'services' %}" 
                                         class="btn tw-mt-5 tw-ml-auto 
@@ -119,7 +124,7 @@
                                                 hover:tw-translate-x-2
                                                 card-button
                                                 ">
-                        <span>Más Información</span>
+                        <span>{% trans "Más Información" %}</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -131,9 +136,9 @@
                 
                 <!-- Card 3 content -->
                 <div class="card-content">
-                    <h3 class="card-title">Asesoría Empresarial y Oblicación Fiscal</h3>
+                    <h3 class="card-title">{% trans "Asesoría Empresarial y Obligación Fiscal" %}</h3>
                     <p class="card-description">
-                        Orientación en la formación de empresas, cumplimiento normativo y planificación estratégica para el crecimiento y éxito.
+                        {% trans "Orientación en la formación de empresas, cumplimiento normativo y planificación estratégica para el crecimiento y éxito." %}
                     </p>
                     <a href="{% url 'services' %}" 
                                         class="btn tw-mt-5 tw-ml-auto 
@@ -142,7 +147,7 @@
                                                 hover:tw-translate-x-2
                                                 card-button
                                                 ">
-                        <span>Más Información</span>
+                        <span>{% trans "Más Información" %}</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -154,9 +159,9 @@
                 
                 <!-- Card 4 content -->
                 <div class="card-content">
-                    <h3 class="card-title">Nómina y Consultoría Especializada</h3>
+                    <h3 class="card-title">{% trans "Nómina y Consultoría Especializada" %}</h3>
                     <p class="card-description">
-                        Servicios integrales de nómina y consultoría financiera especializada, incluyendo asistencia en inmigración y con el IRS.
+                        {% trans "Servicios integrales de nómina y consultoría financiera especializada, incluyendo asistencia en inmigración y con el IRS." %}
                     </p>
                     <a href="{% url 'services' %}" 
                                         class="btn tw-mt-5 tw-ml-auto 
@@ -165,7 +170,7 @@
                                                 hover:tw-translate-x-2
                                                 card-button
                                                 ">
-                        <span>Más Información</span>
+                        <span>{% trans "Más Información" %}</span>
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -186,11 +191,11 @@
                     "
                     >
         <div class="tw-flex tw-flex-col tw-place-items-center tw-gap-4">
-            <h3 class="tw-text-4xl tw-text-black tw-font-bold max-md:tw-text-3xl">¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos contables para llevar tu tranquilidad financiera al siguiente nivel.</h3>
+            <h3 class="tw-text-4xl tw-text-black tw-font-bold max-md:tw-text-3xl">{% trans "¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos contables para llevar tu tranquilidad financiera al siguiente nivel." %}</h3>
             <a class="btn tw-mt-4 tw-rounded-xl hover:tw-scale-[1.05] tw-duration-[0.3s]"
                 href="{% url 'contact-us' %}"
             >
-                Comienza Ahora!
+                {% trans "Comienza Ahora!" %}
             </a>
         </div>
     </section>
@@ -201,14 +206,16 @@
         <!-- Left Text Box -->
         <div class="tw-w-full max-md:tw-w-full tw-bg-[#f3f4f6] tw-p-5 tw-rounded-lg tw-shadow-lg tw-max-w-[500px]">
             <h2 class="tw-text-4xl max-md:tw-text-3xl tw-font-bold tw-mb-[5%] primary-text-color">
-                Sobre Nuestra Firma
+                {% trans "Sobre Nuestra Firma" %}
             </h2>
             <p class="tw-text-2xl max-md:tw-text-xl">
-                Claudia Principal & Asociados es una firma de contadores en St. Louis, Missouri, dedicada a apoyar a 
-                la comunidad hispana y a pequeñas y medianas empresas. Nos enfocamos en brindar soluciones contables 
-                y asesoría financiera integral para ayudar a nuestros clientes a cumplir sus metas y fortalecer sus 
-                negocios. Con un profundo compromiso hacia la comunidad latina, ofrecemos servicios personalizados, 
-                accesibles y en su idioma.
+                {% blocktrans %}
+                    Claudia Principal & Asociados es una firma de contadores en St. Louis, Missouri, dedicada a apoyar a 
+                    la comunidad hispana y a pequeñas y medianas empresas. Nos enfocamos en brindar soluciones contables 
+                    y asesoría financiera integral para ayudar a nuestros clientes a cumplir sus metas y fortalecer sus 
+                    negocios. Con un profundo compromiso hacia la comunidad latina, ofrecemos servicios personalizados, 
+                    accesibles y en su idioma.
+                {% endblocktrans %}
             </p>
         </div>
 
@@ -222,14 +229,16 @@
             <!-- Right Text Box -->
             <div class="tw-w-full md:tw-w-full tw-bg-[#f3f4f6] tw-p-5 tw-rounded-lg tw-shadow-lg tw-max-w-[500px]">
                 <h3 class="tw-text-4xl max-md:tw-text-3xl tw-font-bold tw-mb-[5%]">
-                    Hola, soy Claudia Principal
+                    {% trans "Hola, soy Claudia Principal" %}
                 </h3>
                 <p class="tw-text-2xl max-md:tw-text-xl">
+                    {% blocktrans %}
                     Una contadora pública originaria de Barquisimeto, Venezuela. Me gradué en Accounting 
                     y Business Management de Greenville University y obtuve un máster en contabilidad en Saint Louis University. 
                     Con experiencia tanto en el sector gubernamental como en el sector privado, hoy dirijo Claudia Principal y 
                     Asociados, comprometida en apoyar a la comunidad latina y ayudar a empresas a prosperar con soluciones 
                     contables confiables y personalizadas.
+                    {% endblocktrans %}
                 </p>
             </div>
         </div>
@@ -240,7 +249,7 @@
                      tw-place-items-center">
 
         <h2 class="tw-text-3xl max-md:tw-text-xl primary-text-color tw-font-medium">
-            Testimonios de Nuestros Clientes
+            {% trans "Testimonios de Nuestros Clientes" %}
         </h2>
         
         <div class="tw-mt-[5%] tw-flex tw-w-full tw-place-content-center tw-gap-[5%]">
@@ -249,7 +258,7 @@
                 <div class="tw-flex tw-h-[150px] tw-max-w-[550px]">
                     <div class="slides fade tw-text-lg max-md:tw-text-base tw-text-justify">
                         <q class="tw-italic tw-text-gray-600">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?
+                            {% trans "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?" %}
                         </q>
                         <div class="tw-mt-2 tw-text-yellow-400">
                             <i class="bi bi-star-fill"></i>
@@ -263,9 +272,7 @@
                 
                     <div class="slides fade tw-text-lg max-md:tw-text-base tw-text-justify">
                         <q class="tw-italic tw-text-gray-600 ">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur optio deleniti soluta atque esse explicabo suscipit totam repudiandae voluptate.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur optio deleniti soluta atque esse explicabo suscipit totam repudiandae voluptate.
-
+                            {% trans "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur optio deleniti" %}
                         </q>
                         <div class="tw-mt-2 tw-text-yellow-400">
                             <i class="bi bi-star-fill"></i>
@@ -280,7 +287,7 @@
                     <div class="slides fade tw-text-lg max-md:tw-text-base tw-text-justify">
                         
                         <q class="tw-italic tw-text-gray-600 ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad.
+                            {% trans "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad." %}
                         </q>
                         <div class="tw-mt-2 tw-text-yellow-400">
                             <i class="bi bi-star-fill"></i>
