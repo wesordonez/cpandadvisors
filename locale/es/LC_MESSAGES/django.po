@@ -175,11 +175,12 @@ msgid ""
 "                        Nuestros servicios incluyen:\n"
 "            "
 msgstr ""
+"\n"
 "En St. Louis, MO, ofrecemos una amplia gama de servicios contables para "
 "ayudarte a administrar tu negocio de manera eficiente y efectiva. Desde la "
 "preparación de impuestos hasta la planificación financiera, estamos aquí "
 "para brindarte la ayuda que necesitas para alcanzar tus metas financieras. "
-"Nuestros servicios incluyen:"
+"Nuestros servicios incluyen:\n"
 
 #: templates/html/home.html:94
 msgid "Preparación de Impuestos"
@@ -212,15 +213,14 @@ msgstr ""
 
 #: templates/html/home.html:140
 msgid "Asesoría Empresarial y Obligación Fiscal"
-msgstr "Asesoría Empresarial y Obligación Fiscal"
+msgstr "Asesoría y Obligaciónes Fiscales"
 
 #: templates/html/home.html:142
 msgid ""
 "Orientación en la formación de empresas, cumplimiento normativo y "
 "planificación estratégica para el crecimiento y éxito."
 msgstr ""
-"Orientación en la formación de empresas, cumplimiento normativo y "
-"planificación estratégica para el crecimiento y éxito."
+"Formación de empresas, cumplimiento normativo y planificación estratégica."
 
 #: templates/html/home.html:163 templates/html/services.html:371
 msgid "Nómina y Consultoría Especializada"
@@ -231,8 +231,7 @@ msgid ""
 "Servicios integrales de nómina y consultoría financiera especializada, "
 "incluyendo asistencia en inmigración y con el IRS."
 msgstr ""
-"Servicios integrales de nómina y consultoría financiera especializada, "
-"incluyendo asistencia en inmigración y con el IRS."
+"Nómina completa y consultoría financiera especializada, inmigración y asuntos del IRS."
 
 #: templates/html/home.html:210
 msgid "Sobre Nuestra Firma"
