@@ -1,0 +1,2336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-15 01:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/html/about.html:20
+msgid "Conócenos y Contáctanos Hoy"
+msgstr "Learn More and Connect Today"
+
+#: templates/html/about.html:22
+msgid ""
+"Soluciones contables personalizadas para simplificar tus finanzas, con \n"
+"                confiabilidad y compromiso. Elige un equipo dedicado a tu "
+"éxito y contáctanos \n"
+"                hoy para construir un futuro financiero sólido."
+msgstr ""
+"Personalized accounting solutions to simplify your finances, with "
+"reliability and commitment. Choose a team dedicated to your success and "
+"contact us today to build a strong financial future."
+
+#: templates/html/about.html:35 templates/html/base.html:201
+msgid "Síguenos"
+msgstr "Follow Us!"
+
+#: templates/html/about.html:55
+msgid "No esperes, contáctanos ya"
+msgstr "Don't wait! Contact us now!"
+
+#: templates/html/about.html:56
+msgid "¡Comienza Ahora!"
+msgstr "Start Now!"
+
+#: templates/html/about.html:76
+msgid ""
+"\n"
+"                  Claudia Principal ha forjado una carrera sólida dedicada a "
+"ayudar a empresas y emprendedores a gestionar \n"
+"                  sus finanzas con éxito. Como graduada de Greenville "
+"University en Contabilidad y Negocios, ha mantenido un \n"
+"                  enfoque constante en el aprendizaje continuo y la "
+"excelencia profesional. Además de su éxito académico, \n"
+"                  Claudia también formó parte del equipo de tenis "
+"universitario, donde desarrolló una fuerte ética de trabajo \n"
+"                  en equipo y habilidades que ha trasladado a su vida "
+"profesional. A lo largo de su carrera, ha trabajado con \n"
+"                  diversas empresas, brindando soluciones personalizadas que "
+"se ajustan a las necesidades financieras específicas \n"
+"                  de cada cliente.\n"
+"            "
+msgstr ""
+"Claudia Principal has built a solid career dedicated to helping businesses "
+"and entrepreneurs manage their finances successfully. A graduate of "
+"Greenville University in Accounting and Business, she has maintained a "
+"strong focus on continuous learning and professional excellence. Alongside "
+"her academic achievements, Claudia was also part of the university tennis "
+"team, where she developed a strong work ethic and teamwork skills that she "
+"brings to her professional life. Throughout her career, she has worked with "
+"a variety of companies, offering customized solutions tailored to each "
+"client’s specific financial needs."
+
+#: templates/html/about.html:102 templates/html/home.html:195
+#: templates/html/services.html:429
+msgid ""
+"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
+"contables para llevar tu tranquilidad financiera al siguiente nivel."
+msgstr ""
+"Streamline your finances and set new goals! Count on our experts to enhance "
+"your financial security."
+
+#: templates/html/about.html:105 templates/html/home.html:199
+#: templates/html/services.html:433
+msgid "Comienza Ahora!"
+msgstr "Start Now!"
+
+#: templates/html/base.html:124 templates/html/base.html:193
+msgid "Sobre Nosotros"
+msgstr "About Us"
+
+#: templates/html/base.html:127 templates/html/base.html:194
+msgid "Servicios"
+msgstr "Services"
+
+#: templates/html/base.html:132 templates/html/base.html:195
+msgid "Blogs"
+msgstr "Blogs"
+
+#: templates/html/base.html:137
+msgid "Contáctanos"
+msgstr "Contact Us"
+
+#: templates/html/base.html:149
+msgid "Español"
+msgstr "Spanish"
+
+#: templates/html/base.html:155
+msgid "English"
+msgstr "English"
+
+#: templates/html/base.html:180
+msgid "Contact Info:"
+msgstr "Contact Info"
+
+#: templates/html/base.html:190
+msgid "Links"
+msgstr "Links"
+
+#: templates/html/base.html:192
+msgid "Inicio"
+msgstr "Home"
+
+#: templates/html/blog/blog-list.html:36
+msgid "No blogs yet."
+msgstr "No blogs yet."
+
+#: templates/html/blog/blog-list.html:63 templates/html/blog/blog-list.html:65
+msgid "leer más..."
+msgstr "read more..."
+
+#: templates/html/home.html:26
+msgid "Tu Confianza, Nuestro Compromiso"
+msgstr "Your Trust is Our Commitment"
+
+#: templates/html/home.html:29
+msgid ""
+"Soluciones contables para la comunidad Latina en St. Louis. Simplificamos "
+"tus \n"
+"                        finanzas para que puedas enfocarte en crecer y "
+"alcanzar tus metas, con apoyo en cada paso del camino."
+msgstr ""
+"Accounting solutions for the Latino community in St. Louis. We simplify your "
+"finances so you can focus on growing and reaching your goals, with support "
+"every step of the way."
+
+#: templates/html/home.html:34
+msgid "Se Habla Inglés y Español"
+msgstr "English and Spanish Spoken"
+
+#: templates/html/home.html:43 templates/html/services.html:72
+#: templates/html/services.html:122 templates/html/services.html:153
+#: templates/html/services.html:183
+msgid "Contáctanos Ahora"
+msgstr "Contact Us Now!"
+
+#: templates/html/home.html:72
+msgid "Servicios Contables Para Tu Negocio"
+msgstr "Business Accounting Services"
+
+#: templates/html/home.html:74
+msgid ""
+"\n"
+"                        En St. Louis, MO, ofrecemos una amplia gama de "
+"servicios contables para ayudarte a administrar \n"
+"                        tu negocio de manera eficiente y efectiva. Desde la "
+"preparación de impuestos hasta la planificación \n"
+"                        financiera, estamos aquí para brindarte la ayuda que "
+"necesitas para alcanzar tus metas financieras. \n"
+"                        Nuestros servicios incluyen:\n"
+"            "
+msgstr ""
+"In St. Louis, MO, we offer a full range of accounting services to help you "
+"efficiently and effectively manage your business. From tax preparation to "
+"financial planning, we’re here to give you the support needed to achieve "
+"your financial goals. Our services include:"
+
+#: templates/html/home.html:94
+msgid "Preparación de Impuestos"
+msgstr "Tax Prep and Filing Services"
+
+#: templates/html/home.html:96
+msgid ""
+"Preparación experta de impuestos para individuos y empresas, maximizando "
+"deducciones y asegurando el cumplimiento."
+msgstr ""
+"Specialized tax prep for individuals and businesses to maximize deductions "
+"and meet regulations."
+
+#: templates/html/home.html:105 templates/html/home.html:128
+#: templates/html/home.html:151 templates/html/home.html:174
+msgid "Más Información"
+msgstr "More Info"
+
+#: templates/html/home.html:117
+msgid "Contabilidad y Gestión Contable"
+msgstr "Bookkeeping and Accounting"
+
+#: templates/html/home.html:119
+msgid ""
+"Contabilidad diaria confiable para empresas, manteniendo registros "
+"financieros precisos y actualizados."
+msgstr ""
+"Trusted daily accounting for businesses, ensuring accurate and current "
+"financial records."
+
+#: templates/html/home.html:140
+msgid "Asesoría Empresarial y Obligación Fiscal"
+msgstr "Business Advising and Compliance"
+
+#: templates/html/home.html:142
+msgid ""
+"Orientación en la formación de empresas, cumplimiento normativo y "
+"planificación estratégica para el crecimiento y éxito."
+msgstr ""
+"Support for business setup, regulatory compliance, and strategic planning "
+"for success."
+
+#: templates/html/home.html:163 templates/html/services.html:371
+msgid "Nómina y Consultoría Especializada"
+msgstr "Payroll Services and Consulting"
+
+#: templates/html/home.html:165
+msgid ""
+"Servicios integrales de nómina y consultoría financiera especializada, "
+"incluyendo asistencia en inmigración y con el IRS."
+msgstr ""
+"Complete payroll and financial consulting services, including IRS and "
+"immigration assistance."
+
+#: templates/html/home.html:210
+msgid "Sobre Nuestra Firma"
+msgstr "About Our Firm"
+
+#: templates/html/home.html:213
+msgid ""
+"\n"
+"                    Claudia Principal & Asociados es una firma de contadores "
+"en St. Louis, Missouri, dedicada a apoyar a \n"
+"                    la comunidad hispana y a pequeñas y medianas empresas. "
+"Nos enfocamos en brindar soluciones contables \n"
+"                    y asesoría financiera integral para ayudar a nuestros "
+"clientes a cumplir sus metas y fortalecer sus \n"
+"                    negocios. Con un profundo compromiso hacia la comunidad "
+"latina, ofrecemos servicios personalizados, \n"
+"                    accesibles y en su idioma.\n"
+"                "
+msgstr ""
+"Claudia Principal & Associates is a St. Louis, Missouri-based accounting "
+"firm devoted to assisting the Hispanic community and small to medium-sized "
+"businesses. Our focus is on delivering full accounting solutions and "
+"financial advice to help clients achieve their goals and grow their "
+"businesses. With a strong dedication to the Latino community, we offer "
+"personalized, accessible services in Spanish."
+
+#: templates/html/home.html:233
+msgid "Hola, soy Claudia Principal"
+msgstr "Hi! I'm Claudia Principal"
+
+#: templates/html/home.html:236
+msgid ""
+"\n"
+"                    Una contadora pública originaria de Barquisimeto, "
+"Venezuela. Me gradué en Accounting \n"
+"                    y Business Management de Greenville University y obtuve "
+"un máster en contabilidad en Saint Louis University. \n"
+"                    Con experiencia tanto en el sector gubernamental como en "
+"el sector privado, hoy dirijo Claudia Principal y \n"
+"                    Asociados, comprometida en apoyar a la comunidad latina "
+"y ayudar a empresas a prosperar con soluciones \n"
+"                    contables confiables y personalizadas.\n"
+"                    "
+msgstr ""
+"A certified public accountant from Barquisimeto, Venezuela. I graduated in "
+"Accounting and Business Management from Greenville University and earned a "
+"Master’s in Accounting from Saint Louis University. With experience in both "
+"government and the private sector, I now lead Claudia Principal & "
+"Associates, dedicated to supporting the Latino community and helping "
+"businesses thrive with reliable, personalized accounting solutions."
+
+#: templates/html/home.html:253
+msgid "Testimonios de Nuestros Clientes"
+msgstr "Our Client Reviews"
+
+#: templates/html/home.html:262
+msgid ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgstr ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+
+#: templates/html/home.html:276
+msgid ""
+"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur "
+"optio deleniti"
+msgstr ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+
+#: templates/html/home.html:291
+msgid "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad."
+msgstr ""
+"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+
+#: templates/html/inquiry/inquiry-create.html:37
+msgid ""
+"Llene este formulario y alguien de nuestro equipo se comunicará con usted lo "
+"más antes posible. ¡Gracias!"
+msgstr "Fill out this form and one of our team members will reach out to you as soon as possible. Thanks!"
+
+#: templates/html/inquiry/inquiry-create.html:50
+msgid "¡Contáctanos Ya!"
+msgstr "Reach out now!"
+
+#: templates/html/inquiry/inquiry-create.html:53
+msgid "Te esperamos"
+msgstr "We are ready to serve"
+
+#: templates/html/inquiry/inquiry-create.html:61
+msgid "Nombre"
+msgstr "Name"
+
+#: templates/html/inquiry/inquiry-create.html:73
+msgid "Teléfono"
+msgstr "Phone"
+
+#: templates/html/inquiry/inquiry-create.html:93
+msgid "Correo Electrónico"
+msgstr "Email"
+
+#: templates/html/inquiry/inquiry-create.html:107
+msgid "Mensaje"
+msgstr "Message"
+
+#: templates/html/inquiry/inquiry-create.html:124
+msgid "Enviar"
+msgstr "Submit"
+
+#: templates/html/services.html:24
+msgid "Servicios Contables Claros y Transparentes"
+msgstr "Clear and Transparent Accounting Services"
+
+#: templates/html/services.html:28
+msgid ""
+"Somos una firma de contabilidad e impuestos de servicio completo. Conoce más "
+"sobre nuestros servicios específicos a continuación."
+msgstr ""
+"We are a full-service accounting and tax firm. Learn more about our specific "
+"services below."
+
+#: templates/html/services.html:41
+msgid "Para Individuos"
+msgstr "For Individuals"
+
+#: templates/html/services.html:43
+msgid ""
+"Te acompañamos todo el año con servicios contables personalizados, desde la "
+"reducción de impuestos hasta la presentación de declaraciones."
+msgstr ""
+"Count on us year-round for personalized accounting, from tax savings to "
+"filing returns."
+
+#: templates/html/services.html:56
+msgid "Para Negocios"
+msgstr "For Businesses"
+
+#: templates/html/services.html:58
+msgid ""
+"Gestionamos la contabilidad completa de tu negocio y ofrecemos servicios "
+"externalizados para facilitar tu carga administrativa."
+msgstr ""
+"We manage your business’s full accounting and offer outsourced services to "
+"ease your administrative load."
+
+#: templates/html/services.html:91
+msgid "Un Precio Para Cada Tamaño de Empresa"
+msgstr "Pricing For Each Business Size"
+
+#: templates/html/services.html:93
+msgid ""
+"Desde emprendedores hasta empresas establecidas, tenemos una solución "
+"adaptada a tus necesidades."
+msgstr ""
+"From entrepreneurs to established businesses, we have a solution tailored to "
+"your needs."
+
+#: templates/html/services.html:101
+msgid "Emprendedor"
+msgstr "Entrepreneur"
+
+#: templates/html/services.html:102 templates/html/services.html:132
+#: templates/html/services.html:163
+msgid "Empezando desde:"
+msgstr "Starting at:"
+
+#: templates/html/services.html:104 templates/html/services.html:134
+#: templates/html/services.html:165
+msgid "por mes"
+msgstr "per month"
+
+#: templates/html/services.html:106
+msgid ""
+"Ideal para pequeñas empresas y emprendedores con complejidad de bajo nivel y "
+"planeación de impuestos para pequeños negocios."
+msgstr ""
+"Perfect for small businesses and entrepreneurs needing basic accounting and "
+"tax planning."
+
+#: templates/html/services.html:109
+msgid "✔ Preparación de la declaración de impuestos de fin de año"
+msgstr "✔ Year-end tax return preparation"
+
+#: templates/html/services.html:110
+msgid "✔ Planificación fiscal personalizada"
+msgstr "✔ Personalized tax planning"
+
+#: templates/html/services.html:111
+msgid "✔ Servicios adicionales de contabilidad y nómina"
+msgstr "✔ Additional accounting and payroll services"
+
+#: templates/html/services.html:114 templates/html/services.html:145
+#: templates/html/services.html:175
+msgid "Paquetes varían dependiendo del ingreso del negocio"
+msgstr "Packages vary depending on business income"
+
+#: templates/html/services.html:131
+msgid "Creciendo"
+msgstr "Growing"
+
+#: templates/html/services.html:136
+msgid "Ideal para pequeñas a medianas empresas con operaciones a medio nivel."
+msgstr "Ideal for small to medium-sized businesses with mid-level operations."
+
+#: templates/html/services.html:139
+msgid "✔ Todo lo incluido en el paquete 'Emprendedor'"
+msgstr "✔ Everything included in the 'Entrepreneur' package"
+
+#: templates/html/services.html:140
+msgid "✔ Contabilidad personalizada para necesidades complejas"
+msgstr "✔ Customized accounting for complex needs"
+
+#: templates/html/services.html:141
+msgid "✔ Gestión de nómina optimizada"
+msgstr "✔ Optimized payroll management"
+
+#: templates/html/services.html:142
+msgid "✔ Estrategias fiscales proactivas"
+msgstr "✔ Proactive tax strategies"
+
+#: templates/html/services.html:162
+msgid "Establecido"
+msgstr "Established"
+
+#: templates/html/services.html:167
+msgid ""
+"Ideal para equipos grandes y compañías establecidas con alta complejidad y "
+"necesidades fiscales avanzadas."
+msgstr ""
+"Suited for large teams and established firms with high complexity and "
+"advanced tax demands."
+
+#: templates/html/services.html:170
+msgid "✔ Contabilidad integral"
+msgstr "✔ Complete accounting"
+
+#: templates/html/services.html:171
+msgid "✔ Gestión de nómina"
+msgstr "✔ Payroll management"
+
+#: templates/html/services.html:172
+msgid "✔ Planificación fiscal avanzada"
+msgstr "✔ Advanced tax planning"
+
+#: templates/html/services.html:192
+msgid ""
+"Contáctanos para conocer nuestros precios personalizados, tarifas basadas en "
+"servicios específicos y tarifas por hora para tus necesidades empresariales."
+msgstr ""
+"Contact us to learn about our personalized pricing, service-based rates, and "
+"hourly rates for your business needs."
+
+#: templates/html/services.html:196
+msgid "✔ Limpiamos los libros de tu compañía"
+msgstr "✔ We clean up your company's books"
+
+#: templates/html/services.html:197
+msgid "✔ Preparamos estados financieros perfectos"
+msgstr "✔ We prepare perfect financial statements"
+
+#: templates/html/services.html:198
+msgid "✔ Creamos planes de reducción de impuestos"
+msgstr "✔ We create tax reduction plans"
+
+#: templates/html/services.html:199
+msgid "✔ Teneduría de libros mensuales y asesoramiento"
+msgstr "✔ Monthly bookkeeping and advising"
+
+#: templates/html/services.html:202
+msgid "✔ Pagas en impuestos evitando sorpresas"
+msgstr "✔ Pay taxes avoiding surprises"
+
+#: templates/html/services.html:203
+msgid "✔ Reportes trimestrales y mensuales"
+msgstr "✔ Quarterly and monthly reports"
+
+#: templates/html/services.html:204
+msgid "✔ Reportes de final de año"
+msgstr "✔ Year-end reports"
+
+#: templates/html/services.html:205
+msgid "✔ Planeación de impuestos empresariales"
+msgstr "✔ Business tax planning"
+
+#: templates/html/services.html:211
+msgid "Conoce Más Sobre Nuestros Servicios Contables"
+msgstr "Learn More About Our Accounting Services"
+
+#: templates/html/services.html:216
+msgid "Servicios de Impuestos"
+msgstr "Tax Services"
+
+#: templates/html/services.html:223
+msgid "Preparación de Impuestos Individuales y Empresariales"
+msgstr "Tax Prep for Business and Individuals"
+
+#: templates/html/services.html:225
+msgid ""
+"\n"
+"                Este servicio garantiza una preparación exhaustiva de "
+"impuestos para individuos y empresas. \n"
+"                Nos enfocamos en maximizar las deducciones y minimizar la "
+"carga tributaria, asegurando que \n"
+"                cada cliente cumpla con todas las regulaciones fiscales. Ya "
+"sea una declaración individual o \n"
+"                corporativa, trabajamos para que el proceso sea fácil y "
+"preciso.\n"
+"                "
+msgstr ""
+"Our service provides comprehensive tax preparation for individuals and "
+"businesses, focusing on maximizing deductions and reducing tax burdens, "
+"while ensuring full compliance. From individual to corporate filings, we "
+"make the process smooth and precise."
+
+#: templates/html/services.html:232
+msgid "Consultoría en Planificación Fiscal"
+msgstr "Financial Advising and Consulting"
+
+#: templates/html/services.html:234
+msgid ""
+"\n"
+"                La planificación fiscal personalizada permite a nuestros "
+"clientes organizar sus finanzas \n"
+"                con estrategias que optimizan sus impuestos y cumplen con la "
+"normativa. Nos enfocamos en \n"
+"                desarrollar planes a medida que alineen los objetivos "
+"financieros del cliente con una \n"
+"                carga tributaria eficiente.\n"
+"                "
+msgstr ""
+"Personalized tax planning helps our clients organize their finances with "
+"strategies that optimize taxes and ensure compliance. We focus on creating "
+"tailored plans that align clients’ financial goals with an efficient tax "
+"burden."
+
+#: templates/html/services.html:241
+msgid "Asistencia en Auditorías y Disputas con el IRS"
+msgstr "Help with IRS Audits and Disputes"
+
+#: templates/html/services.html:243
+msgid ""
+"\n"
+"                En caso de una auditoría o disputa con el IRS, representamos "
+"a nuestros clientes para \n"
+"                proteger sus derechos y resolver conflictos fiscales. "
+"Nuestro equipo se encarga de la \n"
+"                comunicación y el proceso para que nuestros clientes puedan "
+"mantener la calma y sentirse \n"
+"                respaldados.\n"
+"                "
+msgstr ""
+"If faced with an IRS audit or dispute, we represent our clients to safeguard "
+"their rights and resolve tax conflicts. Our team manages all communication "
+"and procedures, so clients can feel at ease and well-supported."
+
+#: templates/html/services.html:253
+msgid "Características del Servicio"
+msgstr "Service Features"
+
+#: templates/html/services.html:256
+msgid "✔ Maximizamos deducciones"
+msgstr "✔ We maximize deductions"
+
+#: templates/html/services.html:257
+msgid "✔ Cumplimiento fiscal asegurado"
+msgstr "✔ Ensured tax compliance"
+
+#: templates/html/services.html:258
+msgid "✔ Asesoría personalizada"
+msgstr "✔ Personalized advising"
+
+#: templates/html/services.html:261
+msgid "✔ Resultados precisos y eficientes"
+msgstr "✔ Accurate and efficient results"
+
+#: templates/html/services.html:262
+msgid "✔ Ahorros fiscales estratégicos"
+msgstr "✔ Strategic tax savings"
+
+#: templates/html/services.html:263
+msgid "✔ Tranquilidad total en tus impuestos"
+msgstr "✔ Complete peace of mind with your taxes"
+
+#: templates/html/services.html:275 templates/html/services.html:282
+msgid "Contabilidad y Teneduría de Libros"
+msgstr "Accounting and Bookkeeping"
+
+#: templates/html/services.html:284
+msgid ""
+"\n"
+"              Ofrecemos un servicio de contabilidad diario que mantiene los "
+"registros financieros \n"
+"              de la empresa actualizados y precisos. Desde la gestión de "
+"transacciones hasta el \n"
+"              seguimiento de cuentas, aseguramos que nuestros clientes "
+"siempre tengan una visión \n"
+"              clara de su situación financiera.\n"
+"              "
+msgstr ""
+"We provide daily accounting services to keep business financial records "
+"accurate and up-to-date. From transaction management to account tracking, we "
+"ensure our clients always have a clear view of their financial status."
+
+#: templates/html/services.html:291
+msgid "Asesoría en Cumplimiento Normativo"
+msgstr "Advising for Fiscal Compliance"
+
+#: templates/html/services.html:293
+msgid ""
+"\n"
+"              Guiamos a las empresas para asegurar que cumplen con todas las "
+"leyes fiscales, \n"
+"              laborales y ambientales aplicables, especialmente en sectores "
+"altamente regulados. \n"
+"              Nuestro equipo revisa las políticas y procedimientos para "
+"minimizar riesgos y evitar \n"
+"              sanciones.\n"
+"              "
+msgstr ""
+"We guide businesses to ensure compliance with all applicable tax, labor, and "
+"environmental laws, especially in highly regulated sectors. Our team reviews "
+"policies and procedures to minimize risks and prevent penalties."
+
+#: templates/html/services.html:303 templates/html/services.html:350
+#: templates/html/services.html:397
+msgid "Características del Servicio Ofrecido"
+msgstr "Service Features"
+
+#: templates/html/services.html:306
+msgid "✔ Registros siempre al día"
+msgstr "✔ Always up-to-date records"
+
+#: templates/html/services.html:307
+msgid "✔ Análisis financiero detallado"
+msgstr "✔ Detailed financial analysis"
+
+#: templates/html/services.html:308
+msgid "✔ Cumplimiento sin riesgos"
+msgstr "✔ Risk-free compliance"
+
+#: templates/html/services.html:311
+msgid "✔ Asesoría para optimizar finanzas"
+msgstr "✔ Advising to optimize finances"
+
+#: templates/html/services.html:312
+msgid "✔ Informes claros y listos"
+msgstr "✔ Clear and ready reports"
+
+#: templates/html/services.html:313
+msgid "✔ Ahorros y eficiencia proactivos"
+msgstr "✔ Proactive savings and efficiency"
+
+#: templates/html/services.html:324
+msgid "Asesoría Empresarial y Cumplimiento"
+msgstr "Business and Compliance Consulting"
+
+#: templates/html/services.html:331
+msgid "Asesoramiento para Pequeñas Empresas"
+msgstr "Small Business Advising"
+
+#: templates/html/services.html:333
+msgid ""
+"\n"
+"              Nuestro servicio de asesoramiento para pequeñas empresas ayuda "
+"a emprendedores \n"
+"              a establecer su negocio, desde la elección de la estructura "
+"hasta la planificación \n"
+"              financiera. Nos enfocamos en crear una base sólida para el "
+"crecimiento y éxito a largo plazo.\n"
+"              "
+msgstr ""
+"Our small business advisory service helps entrepreneurs establish their "
+"business, from choosing a structure to financial planning. We focus on "
+"building a solid foundation for long-term growth and success."
+
+#: templates/html/services.html:339
+msgid "Consultoría en Inmigración y Finanzas"
+msgstr "Consulting for Finances and Immigration"
+
+#: templates/html/services.html:341
+msgid ""
+"\n"
+"              Apoyamos a los inmigrantes en EE.UU. a entender sus "
+"implicaciones fiscales y a prepararse \n"
+"              financieramente. Con una guía clara y personalizada, les "
+"ayudamos a navegar las complejidades \n"
+"              del sistema financiero estadounidense.\n"
+"              "
+msgstr ""
+"Our small business advisory service helps entrepreneurs establish their "
+"business, from choosing a structure to financial planning. We focus on "
+"building a solid foundation for long-term growth and success."
+
+#: templates/html/services.html:353
+msgid "✔ Soporte en cada etapa"
+msgstr "✔ Support at every stage"
+
+#: templates/html/services.html:354
+msgid "✔ Estrategias para crecimiento"
+msgstr "✔ Growth strategies"
+
+#: templates/html/services.html:355
+msgid "✔ Cumplimiento total en leyes"
+msgstr "✔ Full legal compliance"
+
+#: templates/html/services.html:358
+msgid "✔ Planificación alineada a metas"
+msgstr "✔ Goal-aligned planning"
+
+#: templates/html/services.html:359
+msgid "✔ Licencias simplificadas"
+msgstr "✔ Simplified licensing"
+
+#: templates/html/services.html:360
+msgid "✔ Consultoría para proteger su negocio"
+msgstr "✔ Consulting to protect your business"
+
+#: templates/html/services.html:378
+msgid "Servicios de Nómina"
+msgstr "Payroll Services"
+
+#: templates/html/services.html:380
+msgid ""
+"\n"
+"              Nuestro servicio de nómina incluye la gestión integral de "
+"pagos y deducciones fiscales, \n"
+"              asegurando el cumplimiento con todas las leyes laborales. Nos "
+"encargamos de la nómina \n"
+"              para que los empleadores puedan enfocarse en el éxito de su "
+"negocio.\n"
+"              "
+msgstr ""
+"Our payroll service provides complete management of payments and tax "
+"deductions, ensuring compliance with all labor laws. We handle payroll so "
+"employers can focus on their business success."
+
+#: templates/html/services.html:386
+msgid "Educación Financiera"
+msgstr "Financial Literacy"
+
+#: templates/html/services.html:388
+msgid ""
+"\n"
+"              Ofrecemos talleres y capacitaciones en español sobre temas de "
+"educación financiera, \n"
+"              brindando a nuestros clientes las herramientas para una "
+"gestión financiera saludable. \n"
+"              Cubrimos desde ahorro e inversión hasta planificación de "
+"jubilación.\n"
+"              "
+msgstr ""
+"We offer workshops and training in Spanish on financial education topics, "
+"giving clients tools for healthy financial management. We cover everything "
+"from saving and investing to retirement planning."
+
+#: templates/html/services.html:400
+msgid "✔ Gestión de nómina sin errores"
+msgstr "✔ Error-free payroll management"
+
+#: templates/html/services.html:401
+msgid "✔ Cumplimiento laboral garantizado"
+msgstr "✔ Guaranteed labor compliance"
+
+#: templates/html/services.html:402
+msgid "✔ Pagos optimizados"
+msgstr "✔ Optimized payments"
+
+#: templates/html/services.html:405
+msgid "✔ Respaldo en auditorías"
+msgstr "✔ Audit support"
+
+#: templates/html/services.html:406
+msgid "✔ Consultoría para casos complejos"
+msgstr "✔ Consulting for complex cases"
+
+#: templates/html/services.html:407
+msgid "✔ Talleres de educación financiera"
+msgstr "✔ Financial education workshops"
+
+#: utils/constraint_fields.py:53
+msgid ""
+"Please keep filesize under {format_bytes(self.max_upload_size)}. Current "
+"filesize {format_bytes(file.size)}"
+msgstr ""
+
+#: utils/constraint_fields.py:55
+msgid "Filetype not supported."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/_termui_impl.py:518
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/_termui_impl.py:522
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1120
+msgid "Aborted!"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1309
+#: venv/lib/python3.11/site-packages/click/decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1340
+#: venv/lib/python3.11/site-packages/click/core.py:1370
+#, python-brace-format
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1387
+msgid "Options"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1413
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1429
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1636
+msgid "Commands"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1668
+msgid "Missing command."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:2331
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:2778
+#, python-brace-format
+msgid "env var: {var}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:2808
+msgid "(dynamic)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:2821
+#, python-brace-format
+msgid "default: {default}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/core.py:2834
+msgid "required"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:44
+#: venv/lib/python3.11/site-packages/click/exceptions.py:80
+#, python-brace-format
+msgid "Error: {message}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:72
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:121
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:123
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:179
+msgid "Missing argument"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:181
+msgid "Missing option"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:183
+msgid "Missing parameter"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:185
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:192
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:212
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:224
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/parser.py:474
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/click/shell_completion.py:319
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/shell_completion.py:326
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/termui.py:158
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/termui.py:176
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:266
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:298
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:392
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:470
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:822
+msgid "file"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:824
+msgid "directory"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:826
+msgid "path"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:894
+#, python-brace-format
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/click/types.py:988
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/messages/apps.py:15
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:50
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:52
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:54
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:104
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:752
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.11/site-packages/django/core/validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:279
+#: venv/lib/python3.11/site-packages/django/core/validators.py:287
+#: venv/lib/python3.11/site-packages/django/core/validators.py:316
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:296
+#: venv/lib/python3.11/site-packages/django/core/validators.py:317
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:308
+#: venv/lib/python3.11/site-packages/django/core/validators.py:315
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:351
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:357
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:392
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:401
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:410
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:420
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:438
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:461
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:347
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:386
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:463
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:468
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:544
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:605
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/base.py:1423
+#: venv/lib/python3.11/site-packages/django/forms/models.py:893
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/base.py:1425
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/constraints.py:17
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:128
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:129
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:130
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:131
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:135
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:173
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1094
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1095
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1097
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1147
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1149
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1253
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1354
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1358
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1493
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1362
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1489
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1497
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1502
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1626
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1628
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1789
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1793
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1845
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1870
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1948
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1950
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1990
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1992
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2088
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2105
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2113
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2144
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2237
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2238
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2240
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2291
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2306
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2321
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2337
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2373
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2448
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2452
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2456
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2564
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2588
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2653
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2655
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/files.py:232
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/files.py:393
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/json.py:26
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:919
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:921
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1212
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1269
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1271
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1319
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.11/site-packages/django/forms/boundfield.py:184
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:298
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:467
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1241
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:490
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1242
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:517
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:551
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:552
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:621
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:622
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:623
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:625
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:630
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:694
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:857
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:949
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1566
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:951
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1070
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1564
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1071
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1310
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1340
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.11/site-packages/django/forms/forms.py:98
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/forms.py:244
+#: venv/lib/python3.11/site-packages/django/forms/forms.py:328
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:63
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:67
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:72
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:886
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:891
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:898
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:907
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1338
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1429
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1568
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/utils.py:226
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:463
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:464
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:465
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:794
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:795
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:796
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:861
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:891
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:908
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:910
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:912
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:914
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:916
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:918
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:73
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:74
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:79
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:80
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:152
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:154
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/text.py:137
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/text.py:322
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.11/site-packages/django/utils/text.py:341
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:111
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:349
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:38
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:40
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:79
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/httplib2/__init__.py:408
+#, python-format
+msgid "Content purported to be compressed with %s but failed to decompress."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/httplib2/__init__.py:572
+#, python-format
+msgid "Unsupported value for qop: %s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/httplib2/__init__.py:576
+#: venv/lib/python3.11/site-packages/httplib2/__init__.py:654
+#, python-format
+msgid "Unsupported value for algorithm: %s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/httplib2/__init__.py:649
+msgid "The challenge doesn't contain a server nonce, or this one is empty."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/httplib2/__init__.py:659
+#, python-format
+msgid "Unsupported value for pw-algorithm: %s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/httplib2/__init__.py:1468
+msgid "Redirected but the response is missing a Location: header."
+msgstr ""
+
+#~ msgid "Welcome to our website!"
+#~ msgstr "Yes yes, Welcome in english"

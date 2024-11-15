@@ -4,6 +4,8 @@ from django.core.paginator import Paginator
 from django.shortcuts import render
 from django.views.decorators.http import require_http_methods
 
+from django.utils.translation import get_language
+
 from .models import Blog
 from .froms import BlogImageForm
 
@@ -15,9 +17,10 @@ def get_blog(request, slug):
         
         blog = Blog.objects.get(slug=slug, draft=False)
 
+        language_code = get_language()
 
         return render(request, 'html/blog/blog-view.html', {
-                                            'blog': blog,
+                                            'blog': blog, 'language_code': language_code
                                         })
 
     except Blog.DoesNotExist:
@@ -33,8 +36,10 @@ def list_blogs(request):
     paginator = Paginator(blogs, per_page=15)
     page = paginator.get_page(page_number)
     
+    language_code = get_language()
+    
     return render(request, 'html/blog/blog-list.html', {
-                                                'blogs': page,
+                                                'blogs': page, 'language_code': language_code
                                             })
 
 

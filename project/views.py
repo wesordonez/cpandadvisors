@@ -6,6 +6,7 @@ from django.views.decorators.http import require_http_methods
 
 from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
+from django.utils.translation import get_language
 
 from django_ratelimit.exceptions import Ratelimited
 
@@ -26,10 +27,13 @@ def handler_403(request, exception=None):
 
 
 def home_view(request):
-    return render(request, 'home.html', status=200)
+    language_code = get_language()
+    return render(request, 'home.html', {'language_code': language_code}, status=200)
 
 def about_view(request):
-    return render(request, 'about.html', status=200)
+    language_code = get_language()
+    return render(request, 'about.html', {'language_code': language_code}, status=200)
 
 def services_view(request):
-    return render(request, 'services.html', status=200)
+    language_code = get_language()
+    return render(request, 'services.html', {'language_code': language_code}, status=200)

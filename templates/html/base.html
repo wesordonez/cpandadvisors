@@ -1,6 +1,7 @@
 {% load static %}
 {% load static tailwind_tags %}
 {% load django_browser_reload %}
+{% load i18n %}
 
 {% load custom_tags %}
 
@@ -116,46 +117,40 @@
                         ">
                     
                 <a class="header-links" href="{% url "about" %}">
-                    Sobre Nosotros
+                    {% trans "Sobre Nosotros" %}
                 </a>
                 <a class="header-links" href="{% url "services" %}">
-                    Servicios
+                    {% trans "Servicios" %}
                 </a>
                 <a class="header-links" href="{% url "blogs" %}"
                         rel="noreferrer"
                         >
-                    Blogs
+                    {% trans "Blogs" %}
                 </a>
                 <a class="header-links" href="{% url "contact-us" %}"
                         rel="noreferrer"
                         >
-                    Contáctanos
+                    {% trans "Contáctanos" %}
                 </a>
             </div>
-            {% comment %} This section is commented until it's functionality is implemented {% endcomment %}
-            {% comment %} <div class="tw-flex tw-gap-[20px] tw-place-items-center tw-text-xl
+            <div class="tw-flex tw-gap-[20px] tw-place-items-center tw-text-xl
                          max-lg:!tw-text-white
                          max-lg:tw-place-content-center
                         max-lg:tw-w-full
                          max-lg:tw-place-items-start
                          ">
-                <a href="" 
-                        class=" header-links
-                                tw-transition-colors
-                                tw-duration-[0.3s]
-                                "
-                        >
-                    Español
-                </a>
-                <a href="" 
-                        class=" header-links
-                                tw-transition-colors
-                                tw-duration-[0.3s]
-                                "
-                        >
-                    English
-                </a>
-            </div> {% endcomment %}
+                <form action="{% url 'set_language' %}" method="post" id="langFormEs" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="language" value="es">
+                    <button class="language-btn {% if language_code == 'es' %}active{% endif %}" type="submit">{% trans "Español" %}</button>
+                </form>
+                
+                <form action="{% url 'set_language' %}" method="post" id="langFormEn" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="language" value="en">
+                    <button class="language-btn {% if language_code == 'en' %}active{% endif %}" type="submit">{% trans "English" %}</button>
+                </form>
+            </div> 
         </div>
         <button class="tw-absolute tw-text-black tw-z-50 
                         tw-right-3
@@ -178,7 +173,7 @@
                      alt="logo" 
                      class="tw-max-h-[150px] max-md:tw-max-w-[120px] tw-flex-col">
                 <div class="tw-flex tw-flex-col tw-text-black tw-gap-4">
-                    <p class="tw-text-lg tw-font-bold">Contact Info:</p>
+                    <p class="tw-text-lg tw-font-bold">{% trans "Contact Info:" %}</p>
                     <p>+1 (314) 365-0104</p>
                     <p>cpandacct@gmail.com</p>
                     <p>11520 Saint Charles Rock Rd. Suite 201</p>
@@ -188,18 +183,18 @@
     
             <!-- Center Section: Navigation Links -->
             <div class="tw-flex tw-flex-col tw-gap-4 tw-text-lg tw-text-black">
-                <h2 class="tw-text-lg tw-font-bold">Links</h2>
+                <h2 class="tw-text-lg tw-font-bold">{% trans "Links" %}</h2>
                 <div class="tw-flex tw-flex-col tw-gap-3">
-                    <a href="{% url 'home' %}" class="footer-link">Inicio</a>
-                    <a href="{% url 'about' %}" class="footer-link">Sobre Nosotros</a>
-                    <a href="{% url 'services' %}" class="footer-link">Servicios</a>
-                    <a href="{% url 'blogs' %}" class="footer-link">Blogs</a>
+                    <a href="{% url 'home' %}" class="footer-link">{% trans "Inicio" %}</a>
+                    <a href="{% url 'about' %}" class="footer-link">{% trans "Sobre Nosotros" %}</a>
+                    <a href="{% url 'services' %}" class="footer-link">{% trans "Servicios" %}</a>
+                    <a href="{% url 'blogs' %}" class="footer-link">{% trans "Blogs" %}</a>
                 </div>
             </div>
     
             <!-- Right Section: Social Icons -->
             <div class="tw-flex tw-flex-col tw-gap-4 tw-text-black">
-                <p class="tw-font-bold tw-text-lg tw-text-center">Síguenos</p>
+                <p class="tw-font-bold tw-text-lg tw-text-center">{% trans "Síguenos" %}</p>
                 <div class="tw-flex tw-gap-4 tw-text-2xl social-media">
                     <a href="https://facebook.com/" aria-label="Facebook" class="tw-text-black tw-hover:text-gray-600">
                         <i class="bi bi-facebook"></i>
