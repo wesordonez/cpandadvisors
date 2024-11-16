@@ -5,14 +5,15 @@
 {% load tz %}
 {% load static %}
 
+{% load i18n %}
 
 
 {% comment %} {% block head %}
     <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfTdsYpAAAAAE3ePEpkWUwh9sEf0dugErefYQxy"></script>
 {% endblock head %} {% endcomment %}
 
-{% block title %}Contact us Form - {% endblock title %}
-{% block description %}Contact us{% endblock description %}
+{% block title %}Contáctanos - {% endblock title %}
+{% block description %}Contacto{% endblock description %}
 
 {% block content %}
 
@@ -23,17 +24,16 @@
                     tw-mt-2
                     tw-p-4
                     tw-gap-5
-                    tw-min-h-[100vh]
                     tw-place-items-center
                     max-lg:tw-px-0
                     tw-overflow-hidden
                     "
                     >
 
-        <div class="tw-w-full tw-flex tw-flex-col tw-justify-center tw-items-center tw-gap-5 
+        <div class="tw-max-w-750px tw-flex tw-flex-col tw-justify-center tw-items-center tw-gap-5 
                     tw-p-5 max-sm:tw-px-4-1 form-container">
-            <p class="tw-text-2xl max-md:tw-text-xl primary-text-color tw-font-normal tw-p-4">
-                Llene este formulario y alguien de nuestro equipo se comunicará con usted lo más antes posible. ¡Gracias!
+            <p class="tw-text-3xl max-md:tw-text-xl primary-text-color tw-font-semibold tw-p-4 tw-max-w-650px tw-text-center"> 
+                {% trans "Llene este formulario y alguien de nuestro equipo se comunicará con usted lo más antes posible. ¡Gracias!" %} 
             </p>
             <form
                 method="post"
@@ -46,11 +46,11 @@
                 {% endif %} {% csrf_token %}
 
                 <div class="tw-flex tw-flex-col tw-gap-2">
-                    <h2 class="tw-text-5xl max-md:tw-text-xl primary-text-color tw-font-medium">
-                        Contact us
+                    <h2 class="tw-text-5xl max-md:tw-text-xl primary-text-color tw-font-bold tw-mb-[5%]">
+                        {% trans "¡Contáctanos Ya!" %}
                     </h2>
-                    <h3 class="tw-text-3xl max-md:tw-text-3xl">
-                        Get your Template
+                    <h3 class="tw-text-3xl max-md:tw-text-3xl tw-font-semibold">
+                        {% trans "Te esperamos" %}
                     </h3>
                 </div>
                 <div
@@ -58,7 +58,7 @@
                 >
                     <div class="tw-flex tw-flex-col tw-gap-4">
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-500">Name</div>
+                            <div class="tw-text-gray-500">{% trans "Nombre" %}</div>
                             <input
                                 type="text"
                                 class="input"
@@ -70,7 +70,7 @@
                             />
                         </div>
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-500">Phone</div>
+                            <div class="tw-text-gray-500">{% trans "Teléfono" %}</div>
                             <div class="tw-flex tw-gap-1 tw-w-full tw-place-content-center">
                                 <select
                                     name="country-codes"
@@ -90,28 +90,28 @@
                             </div>
                         </div>
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-500">Email</div>
+                            <div class="tw-text-gray-500">{% trans "Correo Electrónico" %}</div>
                             <input
                                 type="email"
                                 class="input"
                                 required
                                 name="email"
                                 maxlength="250"
-                                placeholder="example@email.com"
+                                placeholder="ejemplo@email.com"
                                 value="{{ data.email }}"
                                 id="email"
                             />
                         </div>
 
                         <div class="tw-flex tw-flex-col tw-w-full tw-gap-2">
-                            <div class="tw-text-gray-500">Message</div>
+                            <div class="tw-text-gray-500">{% trans "Mensaje" %}</div>
                             <textarea
                                 class="input tw-resize-y tw-w-full tw-max-h-[250px] tw-min-h-[40px]"
                                 name="description"
                                 maxlength="1200"
                                 required
                                 value="{{ data.description }}"
-                                placeholder="I'm interested in your accounting services!"
+                                placeholder="Estoy interesado en sus servicios..."
                             >{{ data.description }}</textarea
                             >
                         </div>
@@ -119,9 +119,9 @@
 
                     <button
                         type="submit"
-                        class="btn tw-transition-transform hover:tw-translate-x-2 tw-duration-[0.3s] tw-mt-5 tw-ml-auto"
+                        class="btn tw-transition-transform hover:tw-translate-x-2 tw-duration-[0.3s] tw-mt-5 tw-mx-auto"
                     >
-                        <span>Submit</span>
+                        <span>{% trans "Enviar" %}</span>
                         <i class="bi bi-arrow-right"></i>
                     </button>
                 </div>
