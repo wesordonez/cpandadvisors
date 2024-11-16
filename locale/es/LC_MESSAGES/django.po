@@ -6,17 +6,18 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-15 01:55+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-11-16 14:33-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
 
 #: templates/html/about.html:20
 msgid "Conócenos y Contáctanos Hoy"
@@ -25,13 +26,11 @@ msgstr "Conócenos y Contáctanos Hoy"
 #: templates/html/about.html:22
 msgid ""
 "Soluciones contables personalizadas para simplificar tus finanzas, con \n"
-"                confiabilidad y compromiso. Elige un equipo dedicado a tu "
-"éxito y contáctanos \n"
+"                confiabilidad y compromiso. Elige un equipo dedicado a tu éxito y contáctanos \n"
 "                hoy para construir un futuro financiero sólido."
 msgstr ""
-"Soluciones contables personalizadas para simplificar tus finanzas, con "
-"confiabilidad y compromiso. Elige un equipo dedicado a tu éxito y "
-"contáctanos hoy para construir un futuro financiero sólido."
+"Soluciones contables personalizadas para simplificar tus finanzas, con confiabilidad y compromiso. Elige un "
+"equipo dedicado a tu éxito y contáctanos hoy para construir un futuro financiero sólido."
 
 #: templates/html/about.html:35 templates/html/base.html:201
 msgid "Síguenos"
@@ -42,51 +41,45 @@ msgid "No esperes, contáctanos ya"
 msgstr "No esperes, contáctanos ya"
 
 #: templates/html/about.html:56
-#, fuzzy
-#| msgid "Comienza Ahora!"
 msgid "¡Comienza Ahora!"
 msgstr "¡Comienza Ahora!"
 
 #: templates/html/about.html:76
 msgid ""
 "\n"
-"                  Claudia Principal ha forjado una carrera sólida dedicada a "
-"ayudar a empresas y emprendedores a gestionar \n"
-"                  sus finanzas con éxito. Como graduada de Greenville "
-"University en Contabilidad y Negocios, ha mantenido un \n"
-"                  enfoque constante en el aprendizaje continuo y la "
-"excelencia profesional. Además de su éxito académico, \n"
-"                  Claudia también formó parte del equipo de tenis "
-"universitario, donde desarrolló una fuerte ética de trabajo \n"
-"                  en equipo y habilidades que ha trasladado a su vida "
-"profesional. A lo largo de su carrera, ha trabajado con \n"
-"                  diversas empresas, brindando soluciones personalizadas que "
-"se ajustan a las necesidades financieras específicas \n"
+"                  Claudia Principal ha forjado una carrera sólida dedicada a ayudar a empresas y emprendedores "
+"a gestionar \n"
+"                  sus finanzas con éxito. Como graduada de Greenville University en Contabilidad y Negocios, ha "
+"mantenido un \n"
+"                  enfoque constante en el aprendizaje continuo y la excelencia profesional. Además de su éxito "
+"académico, \n"
+"                  Claudia también formó parte del equipo de tenis universitario, donde desarrolló una fuerte "
+"ética de trabajo \n"
+"                  en equipo y habilidades que ha trasladado a su vida profesional. A lo largo de su carrera, ha "
+"trabajado con \n"
+"                  diversas empresas, brindando soluciones personalizadas que se ajustan a las necesidades "
+"financieras específicas \n"
 "                  de cada cliente.\n"
 "            "
 msgstr ""
-"Claudia Principal ha forjado una carrera sólida dedicada a ayudar a empresas "
-"y emprendedores a gestionar sus finanzas con éxito. Como graduada de "
-"Greenville University en Contabilidad y Negocios, ha mantenido un enfoque "
-"constante en el aprendizaje continuo y la excelencia profesional. Además de "
-"su éxito académico, Claudia también formó parte del equipo de tenis "
-"universitario, donde desarrolló una fuerte ética de trabajo en equipo y "
-"habilidades que ha trasladado a su vida profesional. A lo largo de su "
-"carrera, ha trabajado con diversas empresas, brindando soluciones "
-"personalizadas que se ajustan a las necesidades financieras específicas de "
-"cada cliente."
+"\n"
+"Claudia Principal ha forjado una carrera sólida dedicada a ayudar a empresas y emprendedores a gestionar sus "
+"finanzas con éxito. Como graduada de Greenville University en Contabilidad y Negocios, ha mantenido un enfoque "
+"constante en el aprendizaje continuo y la excelencia profesional. Además de su éxito académico, Claudia también "
+"formó parte del equipo de tenis universitario, donde desarrolló una fuerte ética de trabajo en equipo y "
+"habilidades que ha trasladado a su vida profesional. A lo largo de su carrera, ha trabajado con diversas "
+"empresas, brindando soluciones personalizadas que se ajustan a las necesidades financieras específicas de cada "
+"cliente. "
 
-#: templates/html/about.html:102 templates/html/home.html:195
-#: templates/html/services.html:429
+#: templates/html/about.html:102 templates/html/home.html:195 templates/html/services.html:429
 msgid ""
-"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
-"contables para llevar tu tranquilidad financiera al siguiente nivel."
+"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos contables para llevar tu "
+"tranquilidad financiera al siguiente nivel."
 msgstr ""
-"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos "
-"contables para llevar tu tranquilidad financiera al siguiente nivel."
+"¡Simplifica tus finanzas y alcanza nuevas metas! Confía en nuestros expertos contables para llevar tu "
+"tranquilidad financiera al siguiente nivel."
 
-#: templates/html/about.html:105 templates/html/home.html:199
-#: templates/html/services.html:433
+#: templates/html/about.html:105 templates/html/home.html:199 templates/html/services.html:433
 msgid "Comienza Ahora!"
 msgstr "¡Comienza Ahora!"
 
@@ -116,7 +109,7 @@ msgstr "Inglés"
 
 #: templates/html/base.html:180
 msgid "Contact Info:"
-msgstr "Contacto"
+msgstr "Contacto:"
 
 #: templates/html/base.html:190
 msgid "Links"
@@ -140,22 +133,19 @@ msgstr "Tu Confianza, Nuestro Compromiso"
 
 #: templates/html/home.html:29
 msgid ""
-"Soluciones contables para la comunidad Latina en St. Louis. Simplificamos "
-"tus \n"
-"                        finanzas para que puedas enfocarte en crecer y "
-"alcanzar tus metas, con apoyo en cada paso del camino."
+"Soluciones contables para la comunidad Latina en St. Louis. Simplificamos tus \n"
+"                        finanzas para que puedas enfocarte en crecer y alcanzar tus metas, con apoyo en cada "
+"paso del camino."
 msgstr ""
-"Soluciones contables para la comunidad Latina en St. Louis. Simplificamos "
-"tus finanzas para que puedas enfocarte en crecer y alcanzar tus metas, con "
-"apoyo en cada paso del camino."
+"Soluciones contables para la comunidad Latina en St. Louis. Simplificamos tus finanzas para que puedas "
+"enfocarte en crecer y alcanzar tus metas, con apoyo en cada paso del camino."
 
 #: templates/html/home.html:34
 msgid "Se Habla Inglés y Español"
 msgstr "Se Habla Inglés y Español"
 
-#: templates/html/home.html:43 templates/html/services.html:72
-#: templates/html/services.html:122 templates/html/services.html:153
-#: templates/html/services.html:183
+#: templates/html/home.html:43 templates/html/services.html:72 templates/html/services.html:122
+#: templates/html/services.html:153 templates/html/services.html:183
 msgid "Contáctanos Ahora"
 msgstr "Contáctanos Ahora"
 
@@ -166,21 +156,19 @@ msgstr "Servicios Contables Para Tu Negocio"
 #: templates/html/home.html:74
 msgid ""
 "\n"
-"                        En St. Louis, MO, ofrecemos una amplia gama de "
-"servicios contables para ayudarte a administrar \n"
-"                        tu negocio de manera eficiente y efectiva. Desde la "
-"preparación de impuestos hasta la planificación \n"
-"                        financiera, estamos aquí para brindarte la ayuda que "
-"necesitas para alcanzar tus metas financieras. \n"
+"                        En St. Louis, MO, ofrecemos una amplia gama de servicios contables para ayudarte a "
+"administrar \n"
+"                        tu negocio de manera eficiente y efectiva. Desde la preparación de impuestos hasta la "
+"planificación \n"
+"                        financiera, estamos aquí para brindarte la ayuda que necesitas para alcanzar tus metas "
+"financieras. \n"
 "                        Nuestros servicios incluyen:\n"
 "            "
 msgstr ""
 "\n"
-"En St. Louis, MO, ofrecemos una amplia gama de servicios contables para "
-"ayudarte a administrar tu negocio de manera eficiente y efectiva. Desde la "
-"preparación de impuestos hasta la planificación financiera, estamos aquí "
-"para brindarte la ayuda que necesitas para alcanzar tus metas financieras. "
-"Nuestros servicios incluyen:\n"
+"En St. Louis, MO, ofrecemos una amplia gama de servicios contables para ayudarte a administrar tu negocio de "
+"manera eficiente y efectiva. Desde la preparación de impuestos hasta la planificación financiera, estamos aquí "
+"para brindarte la ayuda que necesitas para alcanzar tus metas financieras. Nuestros servicios incluyen:"
 
 #: templates/html/home.html:94
 msgid "Preparación de Impuestos"
@@ -188,14 +176,14 @@ msgstr "Preparación de Impuestos"
 
 #: templates/html/home.html:96
 msgid ""
-"Preparación experta de impuestos para individuos y empresas, maximizando "
-"deducciones y asegurando el cumplimiento."
+"Preparación experta de impuestos para individuos y empresas, maximizando deducciones y asegurando el "
+"cumplimiento."
 msgstr ""
-"Preparación experta de impuestos para individuos y empresas, maximizando "
-"deducciones y asegurando el cumplimiento."
+"Preparación experta de impuestos para individuos y empresas, maximizando deducciones y asegurando el "
+"cumplimiento."
 
-#: templates/html/home.html:105 templates/html/home.html:128
-#: templates/html/home.html:151 templates/html/home.html:174
+#: templates/html/home.html:105 templates/html/home.html:128 templates/html/home.html:151
+#: templates/html/home.html:174
 msgid "Más Información"
 msgstr "Más Información"
 
@@ -204,12 +192,8 @@ msgid "Contabilidad y Gestión Contable"
 msgstr "Contabilidad y Gestión Contable"
 
 #: templates/html/home.html:119
-msgid ""
-"Contabilidad diaria confiable para empresas, manteniendo registros "
-"financieros precisos y actualizados."
-msgstr ""
-"Contabilidad diaria confiable para empresas, manteniendo registros "
-"financieros precisos y actualizados."
+msgid "Contabilidad diaria confiable para empresas, manteniendo registros financieros precisos y actualizados."
+msgstr "Contabilidad diaria confiable para empresas, manteniendo registros financieros precisos y actualizados."
 
 #: templates/html/home.html:140
 msgid "Asesoría Empresarial y Obligación Fiscal"
@@ -217,10 +201,9 @@ msgstr "Asesoría y Obligaciónes Fiscales"
 
 #: templates/html/home.html:142
 msgid ""
-"Orientación en la formación de empresas, cumplimiento normativo y "
-"planificación estratégica para el crecimiento y éxito."
-msgstr ""
-"Formación de empresas, cumplimiento normativo y planificación estratégica."
+"Orientación en la formación de empresas, cumplimiento normativo y planificación estratégica para el crecimiento "
+"y éxito."
+msgstr "Formación de empresas, cumplimiento normativo y planificación estratégica."
 
 #: templates/html/home.html:163 templates/html/services.html:371
 msgid "Nómina y Consultoría Especializada"
@@ -228,10 +211,9 @@ msgstr "Nómina y Consultoría Especializada"
 
 #: templates/html/home.html:165
 msgid ""
-"Servicios integrales de nómina y consultoría financiera especializada, "
-"incluyendo asistencia en inmigración y con el IRS."
-msgstr ""
-"Nómina completa y consultoría financiera especializada, inmigración y asuntos del IRS."
+"Servicios integrales de nómina y consultoría financiera especializada, incluyendo asistencia en inmigración y "
+"con el IRS."
+msgstr "Nómina completa y consultoría financiera especializada, inmigración y asuntos del IRS."
 
 #: templates/html/home.html:210
 msgid "Sobre Nuestra Firma"
@@ -240,23 +222,22 @@ msgstr "Sobre Nuestra Firma"
 #: templates/html/home.html:213
 msgid ""
 "\n"
-"                    Claudia Principal & Asociados es una firma de contadores "
-"en St. Louis, Missouri, dedicada a apoyar a \n"
-"                    la comunidad hispana y a pequeñas y medianas empresas. "
-"Nos enfocamos en brindar soluciones contables \n"
-"                    y asesoría financiera integral para ayudar a nuestros "
-"clientes a cumplir sus metas y fortalecer sus \n"
-"                    negocios. Con un profundo compromiso hacia la comunidad "
-"latina, ofrecemos servicios personalizados, \n"
+"                    Claudia Principal & Asociados es una firma de contadores en St. Louis, Missouri, dedicada a "
+"apoyar a \n"
+"                    la comunidad hispana y a pequeñas y medianas empresas. Nos enfocamos en brindar soluciones "
+"contables \n"
+"                    y asesoría financiera integral para ayudar a nuestros clientes a cumplir sus metas y "
+"fortalecer sus \n"
+"                    negocios. Con un profundo compromiso hacia la comunidad latina, ofrecemos servicios "
+"personalizados, \n"
 "                    accesibles y en su idioma.\n"
 "                "
 msgstr ""
-"Claudia Principal & Asociados es una firma de contadores en St. Louis, "
-"Missouri, dedicada a apoyar a la comunidad hispana y a pequeñas y medianas "
-"empresas. Nos enfocamos en brindar soluciones contables y asesoría "
-"financiera integral para ayudar a nuestros clientes a cumplir sus metas y "
-"fortalecer sus negocios. Con un profundo compromiso hacia la comunidad "
-"latina, ofrecemos servicios personalizados, accesibles y en su idioma."
+"\n"
+"Claudia Principal & Asociados es una firma de contadores en St. Louis, Missouri, dedicada a apoyar a la "
+"comunidad hispana y a pequeñas y medianas empresas. Nos enfocamos en brindar soluciones contables y asesoría "
+"financiera integral para ayudar a nuestros clientes a cumplir sus metas y fortalecer sus negocios. Con un "
+"profundo compromiso hacia la comunidad latina, ofrecemos servicios personalizados, accesibles y en su idioma. "
 
 #: templates/html/home.html:233
 msgid "Hola, soy Claudia Principal"
@@ -265,50 +246,41 @@ msgstr "Hola, soy Claudia Principal"
 #: templates/html/home.html:236
 msgid ""
 "\n"
-"                    Una contadora pública originaria de Barquisimeto, "
-"Venezuela. Me gradué en Accounting \n"
-"                    y Business Management de Greenville University y obtuve "
-"un máster en contabilidad en Saint Louis University. \n"
-"                    Con experiencia tanto en el sector gubernamental como en "
-"el sector privado, hoy dirijo Claudia Principal y \n"
-"                    Asociados, comprometida en apoyar a la comunidad latina "
-"y ayudar a empresas a prosperar con soluciones \n"
+"                    Una contadora pública originaria de Barquisimeto, Venezuela. Me gradué en Accounting \n"
+"                    y Business Management de Greenville University y obtuve un máster en contabilidad en Saint "
+"Louis University. \n"
+"                    Con experiencia tanto en el sector gubernamental como en el sector privado, hoy dirijo "
+"Claudia Principal y \n"
+"                    Asociados, comprometida en apoyar a la comunidad latina y ayudar a empresas a prosperar con "
+"soluciones \n"
 "                    contables confiables y personalizadas.\n"
 "                    "
 msgstr ""
-"Una contadora pública originaria de Barquisimeto, Venezuela. Me gradué en "
-"Accounting y Business Management de Greenville University y obtuve un máster "
-"en contabilidad en Saint Louis University. Con experiencia tanto en el "
-"sector gubernamental como en el sector privado, hoy dirijo Claudia Principal "
-"y Asociados, comprometida en apoyar a la comunidad latina y ayudar a "
-"empresas a prosperar con soluciones contables confiables y personalizadas."
+"\n"
+"Una contadora pública originaria de Barquisimeto, Venezuela. Me gradué en Accounting y Business Management de "
+"Greenville University y obtuve un máster en contabilidad en Saint Louis University. Con experiencia tanto en el "
+"sector gubernamental como en el sector privado, hoy dirijo Claudia Principal y Asociados, comprometida en "
+"apoyar a la comunidad latina y ayudar a empresas a prosperar con soluciones contables confiables y "
+"personalizadas. "
 
 #: templates/html/home.html:253
 msgid "Testimonios de Nuestros Clientes"
 msgstr "Testimonios de Nuestros Clientes"
 
 #: templates/html/home.html:262
-msgid ""
-"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
-msgstr ""
-"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgid "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
 #: templates/html/home.html:276
-msgid ""
-"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur "
-"optio deleniti"
-msgstr ""
-"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgid "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aspernatur optio deleniti"
+msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
 #: templates/html/home.html:291
 msgid "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad."
-msgstr ""
-"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
+msgstr "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, culpa?"
 
 #: templates/html/inquiry/inquiry-create.html:37
-msgid ""
-"Llene este formulario y alguien de nuestro equipo se comunicará con usted lo "
-"más antes posible. ¡Gracias!"
+msgid "Llene este formulario y alguien de nuestro equipo se comunicará con usted lo más antes posible. ¡Gracias!"
 msgstr "Llene este formulario y alguien de nuestro equipo se comunicará con usted lo más antes posible. ¡Gracias!"
 
 #: templates/html/inquiry/inquiry-create.html:50
@@ -345,11 +317,11 @@ msgstr "Servicios Contables Claros y Transparentes"
 
 #: templates/html/services.html:28
 msgid ""
-"Somos una firma de contabilidad e impuestos de servicio completo. Conoce más "
-"sobre nuestros servicios específicos a continuación."
+"Somos una firma de contabilidad e impuestos de servicio completo. Conoce más sobre nuestros servicios "
+"específicos a continuación."
 msgstr ""
-"Somos una firma de contabilidad e impuestos de servicio completo. Conoce más "
-"sobre nuestros servicios específicos a continuación."
+"Somos una firma de contabilidad e impuestos de servicio completo. Conoce más sobre nuestros servicios "
+"específicos a continuación."
 
 #: templates/html/services.html:41
 msgid "Para Individuos"
@@ -357,11 +329,11 @@ msgstr "Para Individuos"
 
 #: templates/html/services.html:43
 msgid ""
-"Te acompañamos todo el año con servicios contables personalizados, desde la "
-"reducción de impuestos hasta la presentación de declaraciones."
+"Te acompañamos todo el año con servicios contables personalizados, desde la reducción de impuestos hasta la "
+"presentación de declaraciones."
 msgstr ""
-"Te acompañamos todo el año con servicios contables personalizados, desde la "
-"reducción de impuestos hasta la presentación de declaraciones."
+"Te acompañamos todo el año con servicios contables personalizados, desde la reducción de impuestos hasta la "
+"presentación de declaraciones."
 
 #: templates/html/services.html:56
 msgid "Para Negocios"
@@ -369,45 +341,39 @@ msgstr "Para Negocios"
 
 #: templates/html/services.html:58
 msgid ""
-"Gestionamos la contabilidad completa de tu negocio y ofrecemos servicios "
-"externalizados para facilitar tu carga administrativa."
+"Gestionamos la contabilidad completa de tu negocio y ofrecemos servicios externalizados para facilitar tu carga "
+"administrativa."
 msgstr ""
-"Gestionamos la contabilidad completa de tu negocio y ofrecemos servicios "
-"externalizados para facilitar tu carga administrativa."
+"Gestionamos la contabilidad completa de tu negocio y ofrecemos servicios externalizados para facilitar tu carga "
+"administrativa."
 
 #: templates/html/services.html:91
 msgid "Un Precio Para Cada Tamaño de Empresa"
 msgstr "Un Precio Para Cada Tamaño de Empresa"
 
 #: templates/html/services.html:93
-msgid ""
-"Desde emprendedores hasta empresas establecidas, tenemos una solución "
-"adaptada a tus necesidades."
-msgstr ""
-"Desde emprendedores hasta empresas establecidas, tenemos una solución "
-"adaptada a tus necesidades."
+msgid "Desde emprendedores hasta empresas establecidas, tenemos una solución adaptada a tus necesidades."
+msgstr "Desde emprendedores hasta empresas establecidas, tenemos una solución adaptada a tus necesidades."
 
 #: templates/html/services.html:101
 msgid "Emprendedor"
 msgstr "Emprendedor"
 
-#: templates/html/services.html:102 templates/html/services.html:132
-#: templates/html/services.html:163
+#: templates/html/services.html:102 templates/html/services.html:132 templates/html/services.html:163
 msgid "Empezando desde:"
 msgstr "Empezando desde:"
 
-#: templates/html/services.html:104 templates/html/services.html:134
-#: templates/html/services.html:165
+#: templates/html/services.html:104 templates/html/services.html:134 templates/html/services.html:165
 msgid "por mes"
 msgstr "por mes"
 
 #: templates/html/services.html:106
 msgid ""
-"Ideal para pequeñas empresas y emprendedores con complejidad de bajo nivel y "
-"planeación de impuestos para pequeños negocios."
+"Ideal para pequeñas empresas y emprendedores con complejidad de bajo nivel y planeación de impuestos para "
+"pequeños negocios."
 msgstr ""
-"Ideal para pequeñas empresas y emprendedores con complejidad de bajo nivel y "
-"planeación de impuestos para pequeños negocios."
+"Ideal para pequeñas empresas y emprendedores con complejidad de bajo nivel y planeación de impuestos para "
+"pequeños negocios."
 
 #: templates/html/services.html:109
 msgid "✔ Preparación de la declaración de impuestos de fin de año"
@@ -421,8 +387,7 @@ msgstr "✔ Planificación fiscal personalizada"
 msgid "✔ Servicios adicionales de contabilidad y nómina"
 msgstr "✔ Servicios adicionales de contabilidad y nómina"
 
-#: templates/html/services.html:114 templates/html/services.html:145
-#: templates/html/services.html:175
+#: templates/html/services.html:114 templates/html/services.html:145 templates/html/services.html:175
 msgid "Paquetes varían dependiendo del ingreso del negocio"
 msgstr "Paquetes varían dependiendo del ingreso del negocio"
 
@@ -455,12 +420,9 @@ msgid "Establecido"
 msgstr "Establecido"
 
 #: templates/html/services.html:167
-msgid ""
-"Ideal para equipos grandes y compañías establecidas con alta complejidad y "
-"necesidades fiscales avanzadas."
+msgid "Ideal para equipos grandes y compañías establecidas con alta complejidad y necesidades fiscales avanzadas."
 msgstr ""
-"Ideal para equipos grandes y compañías establecidas con alta complejidad y "
-"necesidades fiscales avanzadas."
+"Ideal para equipos grandes y compañías establecidas con alta complejidad y necesidades fiscales avanzadas."
 
 #: templates/html/services.html:170
 msgid "✔ Contabilidad integral"
@@ -476,11 +438,11 @@ msgstr "✔ Planificación fiscal avanzada"
 
 #: templates/html/services.html:192
 msgid ""
-"Contáctanos para conocer nuestros precios personalizados, tarifas basadas en "
-"servicios específicos y tarifas por hora para tus necesidades empresariales."
+"Contáctanos para conocer nuestros precios personalizados, tarifas basadas en servicios específicos y tarifas "
+"por hora para tus necesidades empresariales."
 msgstr ""
-"Contáctanos para conocer nuestros precios personalizados, tarifas basadas en "
-"servicios específicos y tarifas por hora para tus necesidades empresariales."
+"Contáctanos para conocer nuestros precios personalizados, tarifas basadas en servicios específicos y tarifas "
+"por hora para tus necesidades empresariales."
 
 #: templates/html/services.html:196
 msgid "✔ Limpiamos los libros de tu compañía"
@@ -529,21 +491,17 @@ msgstr "Preparación de Impuestos Individuales y Empresariales"
 #: templates/html/services.html:225
 msgid ""
 "\n"
-"                Este servicio garantiza una preparación exhaustiva de "
-"impuestos para individuos y empresas. \n"
-"                Nos enfocamos en maximizar las deducciones y minimizar la "
-"carga tributaria, asegurando que \n"
-"                cada cliente cumpla con todas las regulaciones fiscales. Ya "
-"sea una declaración individual o \n"
-"                corporativa, trabajamos para que el proceso sea fácil y "
-"preciso.\n"
+"                Este servicio garantiza una preparación exhaustiva de impuestos para individuos y empresas. \n"
+"                Nos enfocamos en maximizar las deducciones y minimizar la carga tributaria, asegurando que \n"
+"                cada cliente cumpla con todas las regulaciones fiscales. Ya sea una declaración individual o \n"
+"                corporativa, trabajamos para que el proceso sea fácil y preciso.\n"
 "                "
 msgstr ""
-"Este servicio garantiza una preparación exhaustiva de impuestos para "
-"individuos y empresas. Nos enfocamos en maximizar las deducciones y "
-"minimizar la carga tributaria, asegurando que cada cliente cumpla con todas "
-"las regulaciones fiscales. Ya sea una declaración individual o corporativa, "
-"trabajamos para que el proceso sea fácil y preciso."
+"\n"
+"Este servicio garantiza una preparación exhaustiva de impuestos para individuos y empresas. Nos enfocamos en "
+"maximizar las deducciones y minimizar la carga tributaria, asegurando que cada cliente cumpla con todas las "
+"regulaciones fiscales. Ya sea una declaración individual o corporativa, trabajamos para que el proceso sea "
+"fácil y preciso. "
 
 #: templates/html/services.html:232
 msgid "Consultoría en Planificación Fiscal"
@@ -552,19 +510,16 @@ msgstr "Consultoría en Planificación Fiscal"
 #: templates/html/services.html:234
 msgid ""
 "\n"
-"                La planificación fiscal personalizada permite a nuestros "
-"clientes organizar sus finanzas \n"
-"                con estrategias que optimizan sus impuestos y cumplen con la "
-"normativa. Nos enfocamos en \n"
-"                desarrollar planes a medida que alineen los objetivos "
-"financieros del cliente con una \n"
+"                La planificación fiscal personalizada permite a nuestros clientes organizar sus finanzas \n"
+"                con estrategias que optimizan sus impuestos y cumplen con la normativa. Nos enfocamos en \n"
+"                desarrollar planes a medida que alineen los objetivos financieros del cliente con una \n"
 "                carga tributaria eficiente.\n"
 "                "
 msgstr ""
-"La planificación fiscal personalizada permite a nuestros clientes organizar "
-"sus finanzas con estrategias que optimizan sus impuestos y cumplen con la "
-"normativa. Nos enfocamos en desarrollar planes a medida que alineen los "
-"objetivos financieros del cliente con una carga tributaria eficiente."
+"\n"
+"La planificación fiscal personalizada permite a nuestros clientes organizar sus finanzas con estrategias que "
+"optimizan sus impuestos y cumplen con la normativa. Nos enfocamos en desarrollar planes a medida que alineen "
+"los objetivos financieros del cliente con una carga tributaria eficiente. "
 
 #: templates/html/services.html:241
 msgid "Asistencia en Auditorías y Disputas con el IRS"
@@ -573,19 +528,16 @@ msgstr "Asistencia en Auditorías y Disputas con el IRS"
 #: templates/html/services.html:243
 msgid ""
 "\n"
-"                En caso de una auditoría o disputa con el IRS, representamos "
-"a nuestros clientes para \n"
-"                proteger sus derechos y resolver conflictos fiscales. "
-"Nuestro equipo se encarga de la \n"
-"                comunicación y el proceso para que nuestros clientes puedan "
-"mantener la calma y sentirse \n"
+"                En caso de una auditoría o disputa con el IRS, representamos a nuestros clientes para \n"
+"                proteger sus derechos y resolver conflictos fiscales. Nuestro equipo se encarga de la \n"
+"                comunicación y el proceso para que nuestros clientes puedan mantener la calma y sentirse \n"
 "                respaldados.\n"
 "                "
 msgstr ""
-"En caso de una auditoría o disputa con el IRS, representamos a nuestros "
-"clientes para proteger sus derechos y resolver conflictos fiscales. Nuestro "
-"equipo se encarga de la comunicación y el proceso para que nuestros clientes "
-"puedan mantener la calma y sentirse respaldados."
+"\n"
+"En caso de una auditoría o disputa con el IRS, representamos a nuestros clientes para proteger sus derechos y "
+"resolver conflictos fiscales. Nuestro equipo se encarga de la comunicación y el proceso para que nuestros "
+"clientes puedan mantener la calma y sentirse respaldados. "
 
 #: templates/html/services.html:253
 msgid "Características del Servicio"
@@ -622,19 +574,16 @@ msgstr "Contabilidad y Teneduría de Libros"
 #: templates/html/services.html:284
 msgid ""
 "\n"
-"              Ofrecemos un servicio de contabilidad diario que mantiene los "
-"registros financieros \n"
-"              de la empresa actualizados y precisos. Desde la gestión de "
-"transacciones hasta el \n"
-"              seguimiento de cuentas, aseguramos que nuestros clientes "
-"siempre tengan una visión \n"
+"              Ofrecemos un servicio de contabilidad diario que mantiene los registros financieros \n"
+"              de la empresa actualizados y precisos. Desde la gestión de transacciones hasta el \n"
+"              seguimiento de cuentas, aseguramos que nuestros clientes siempre tengan una visión \n"
 "              clara de su situación financiera.\n"
 "              "
 msgstr ""
-"Ofrecemos un servicio de contabilidad diario que mantiene los registros "
-"financieros de la empresa actualizados y precisos. Desde la gestión de "
-"transacciones hasta el seguimiento de cuentas, aseguramos que nuestros "
-"clientes siempre tengan una visión clara de su situación financiera."
+"\n"
+"Ofrecemos un servicio de contabilidad diario que mantiene los registros financieros de la empresa actualizados "
+"y precisos. Desde la gestión de transacciones hasta el seguimiento de cuentas, aseguramos que nuestros clientes "
+"siempre tengan una visión clara de su situación financiera. "
 
 #: templates/html/services.html:291
 msgid "Asesoría en Cumplimiento Normativo"
@@ -643,24 +592,16 @@ msgstr "Asesoría en Cumplimiento Normativo"
 #: templates/html/services.html:293
 msgid ""
 "\n"
-"              Guiamos a las empresas para asegurar que cumplen con todas las "
-"leyes fiscales, \n"
-"              laborales y ambientales aplicables, especialmente en sectores "
-"altamente regulados. \n"
-"              Nuestro equipo revisa las políticas y procedimientos para "
-"minimizar riesgos y evitar \n"
+"              Guiamos a las empresas para asegurar que cumplen con todas las leyes fiscales, \n"
+"              laborales y ambientales aplicables, especialmente en sectores altamente regulados. \n"
+"              Nuestro equipo revisa las políticas y procedimientos para minimizar riesgos y evitar \n"
 "              sanciones.\n"
 "              "
 msgstr ""
 
-#: templates/html/services.html:303 templates/html/services.html:350
-#: templates/html/services.html:397
+#: templates/html/services.html:303 templates/html/services.html:350 templates/html/services.html:397
 msgid "Características del Servicio Ofrecido"
-msgstr ""
-"Guiamos a las empresas para asegurar que cumplen con todas las leyes "
-"fiscales, laborales y ambientales aplicables, especialmente en sectores "
-"altamente regulados. Nuestro equipo revisa las políticas y procedimientos "
-"para minimizar riesgos y evitar sanciones."
+msgstr "Características del Servicio Ofrecido"
 
 #: templates/html/services.html:306
 msgid "✔ Registros siempre al día"
@@ -697,18 +638,15 @@ msgstr "Asesoramiento para Pequeñas Empresas"
 #: templates/html/services.html:333
 msgid ""
 "\n"
-"              Nuestro servicio de asesoramiento para pequeñas empresas ayuda "
-"a emprendedores \n"
-"              a establecer su negocio, desde la elección de la estructura "
-"hasta la planificación \n"
-"              financiera. Nos enfocamos en crear una base sólida para el "
-"crecimiento y éxito a largo plazo.\n"
+"              Nuestro servicio de asesoramiento para pequeñas empresas ayuda a emprendedores \n"
+"              a establecer su negocio, desde la elección de la estructura hasta la planificación \n"
+"              financiera. Nos enfocamos en crear una base sólida para el crecimiento y éxito a largo plazo.\n"
 "              "
 msgstr ""
-"Nuestro servicio de asesoramiento para pequeñas empresas ayuda a "
-"emprendedores a establecer su negocio, desde la elección de la estructura "
-"hasta la planificación financiera. Nos enfocamos en crear una base sólida "
-"para el crecimiento y éxito a largo plazo."
+"\n"
+"Nuestro servicio de asesoramiento para pequeñas empresas ayuda a emprendedores a establecer su negocio, desde "
+"la elección de la estructura hasta la planificación financiera. Nos enfocamos en crear una base sólida para el "
+"crecimiento y éxito a largo plazo. "
 
 #: templates/html/services.html:339
 msgid "Consultoría en Inmigración y Finanzas"
@@ -717,16 +655,14 @@ msgstr "Consultoría en Inmigración y Finanzas"
 #: templates/html/services.html:341
 msgid ""
 "\n"
-"              Apoyamos a los inmigrantes en EE.UU. a entender sus "
-"implicaciones fiscales y a prepararse \n"
-"              financieramente. Con una guía clara y personalizada, les "
-"ayudamos a navegar las complejidades \n"
+"              Apoyamos a los inmigrantes en EE.UU. a entender sus implicaciones fiscales y a prepararse \n"
+"              financieramente. Con una guía clara y personalizada, les ayudamos a navegar las complejidades \n"
 "              del sistema financiero estadounidense.\n"
 "              "
 msgstr ""
-"Apoyamos a los inmigrantes en EE.UU. a entender sus implicaciones fiscales y "
-"a prepararse financieramente. Con una guía clara y personalizada, les "
-"ayudamos a navegar las complejidades del sistema financiero estadounidense."
+"\n"
+"Apoyamos a los inmigrantes en EE.UU. a entender sus implicaciones fiscales y a prepararse financieramente. Con "
+"una guía clara y personalizada, les ayudamos a navegar las complejidades del sistema financiero estadounidense. "
 
 #: templates/html/services.html:353
 msgid "✔ Soporte en cada etapa"
@@ -759,18 +695,15 @@ msgstr "Servicios de Nómina"
 #: templates/html/services.html:380
 msgid ""
 "\n"
-"              Nuestro servicio de nómina incluye la gestión integral de "
-"pagos y deducciones fiscales, \n"
-"              asegurando el cumplimiento con todas las leyes laborales. Nos "
-"encargamos de la nómina \n"
-"              para que los empleadores puedan enfocarse en el éxito de su "
-"negocio.\n"
+"              Nuestro servicio de nómina incluye la gestión integral de pagos y deducciones fiscales, \n"
+"              asegurando el cumplimiento con todas las leyes laborales. Nos encargamos de la nómina \n"
+"              para que los empleadores puedan enfocarse en el éxito de su negocio.\n"
 "              "
 msgstr ""
-"Nuestro servicio de nómina incluye la gestión integral de pagos y "
-"deducciones fiscales, asegurando el cumplimiento con todas las leyes "
-"laborales. Nos encargamos de la nómina para que los empleadores puedan "
-"enfocarse en el éxito de su negocio."
+"\n"
+"Nuestro servicio de nómina incluye la gestión integral de pagos y deducciones fiscales, asegurando el "
+"cumplimiento con todas las leyes laborales. Nos encargamos de la nómina para que los empleadores puedan "
+"enfocarse en el éxito de su negocio. "
 
 #: templates/html/services.html:386
 msgid "Educación Financiera"
@@ -779,18 +712,15 @@ msgstr "Educación Financiera"
 #: templates/html/services.html:388
 msgid ""
 "\n"
-"              Ofrecemos talleres y capacitaciones en español sobre temas de "
-"educación financiera, \n"
-"              brindando a nuestros clientes las herramientas para una "
-"gestión financiera saludable. \n"
-"              Cubrimos desde ahorro e inversión hasta planificación de "
-"jubilación.\n"
+"              Ofrecemos talleres y capacitaciones en español sobre temas de educación financiera, \n"
+"              brindando a nuestros clientes las herramientas para una gestión financiera saludable. \n"
+"              Cubrimos desde ahorro e inversión hasta planificación de jubilación.\n"
 "              "
 msgstr ""
-"Ofrecemos talleres y capacitaciones en español sobre temas de educación "
-"financiera, brindando a nuestros clientes las herramientas para una gestión "
-"financiera saludable. Cubrimos desde ahorro e inversión hasta planificación "
-"de jubilación."
+"\n"
+"Ofrecemos talleres y capacitaciones en español sobre temas de educación financiera, brindando a nuestros "
+"clientes las herramientas para una gestión financiera saludable. Cubrimos desde ahorro e inversión hasta "
+"planificación de jubilación. "
 
 #: templates/html/services.html:400
 msgid "✔ Gestión de nómina sin errores"
@@ -818,8 +748,7 @@ msgstr "✔ Talleres de educación financiera"
 
 #: utils/constraint_fields.py:53
 msgid ""
-"Please keep filesize under {format_bytes(self.max_upload_size)}. Current "
-"filesize {format_bytes(file.size)}"
+"Please keep filesize under {format_bytes(self.max_upload_size)}. Current filesize {format_bytes(file.size)}"
 msgstr ""
 
 #: utils/constraint_fields.py:55
@@ -840,13 +769,11 @@ msgstr ""
 msgid "Aborted!"
 msgstr ""
 
-#: venv/lib/python3.11/site-packages/click/core.py:1309
-#: venv/lib/python3.11/site-packages/click/decorators.py:559
+#: venv/lib/python3.11/site-packages/click/core.py:1309 venv/lib/python3.11/site-packages/click/decorators.py:559
 msgid "Show this message and exit."
 msgstr ""
 
-#: venv/lib/python3.11/site-packages/click/core.py:1340
-#: venv/lib/python3.11/site-packages/click/core.py:1370
+#: venv/lib/python3.11/site-packages/click/core.py:1340 venv/lib/python3.11/site-packages/click/core.py:1370
 #, python-brace-format
 msgid "(Deprecated) {text}"
 msgstr ""
@@ -1159,14 +1086,11 @@ msgstr ""
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 #: venv/lib/python3.11/site-packages/django/core/validators.py:259
-msgid ""
-"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgid "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/core/validators.py:267
-msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
+msgid "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or hyphens."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/core/validators.py:279
@@ -1211,23 +1135,15 @@ msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/core/validators.py:420
 #, python-format
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
+msgid "Ensure this value has at least %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
 msgstr[0] ""
 msgstr[1] ""
 
 #: venv/lib/python3.11/site-packages/django/core/validators.py:438
 #, python-format
-msgid ""
-"Ensure this value has at most %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at most %(limit_value)d characters (it has "
-"%(show_value)d)."
+msgid "Ensure this value has at most %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at most %(limit_value)d characters (it has %(show_value)d)."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1253,18 +1169,14 @@ msgstr[1] ""
 
 #: venv/lib/python3.11/site-packages/django/core/validators.py:473
 #, python-format
-msgid ""
-"Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural ""
-"Ensure that there are no more than %(max)s digits before the decimal point."
+msgid "Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural "Ensure that there are no more than %(max)s digits before the decimal point."
 msgstr[0] ""
 msgstr[1] ""
 
 #: venv/lib/python3.11/site-packages/django/core/validators.py:544
 #, python-format
-msgid ""
-"File extension “%(extension)s” is not allowed. Allowed extensions are: "
-"%(allowed_extensions)s."
+msgid "File extension “%(extension)s” is not allowed. Allowed extensions are: %(allowed_extensions)s."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/core/validators.py:605
@@ -1308,8 +1220,7 @@ msgstr ""
 #. 'month'. Eg: "Title must be unique for pub_date year"
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:135
 #, python-format
-msgid ""
-"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgid "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:173
@@ -1346,17 +1257,13 @@ msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1354
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
-"format."
+msgid "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD format."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1358
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1493
 #, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
-"date."
+msgid "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid date."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1362
@@ -1365,16 +1272,13 @@ msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1489
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
+msgid "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1497
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1502
@@ -1392,9 +1296,7 @@ msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1789
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
+msgid "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[.uuuuuu] format."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1793
@@ -1476,16 +1378,12 @@ msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2448
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
-"format."
+msgid "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2452
 #, python-format
-msgid ""
-"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
-"invalid time."
+msgid "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an invalid time."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2456
@@ -1604,8 +1502,7 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/forms/fields.py:625
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
-msgid_plural ""
-"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgid_plural "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1614,9 +1511,7 @@ msgid "Please either submit a file or check the clear checkbox, not both."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/forms/fields.py:694
-msgid ""
-"Upload a valid image. The file you uploaded was either not an image or a "
-"corrupted image."
+msgid "Upload a valid image. The file you uploaded was either not an image or a corrupted image."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/forms/fields.py:857
@@ -1658,8 +1553,8 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/forms/formsets.py:63
 #, python-format
 msgid ""
-"ManagementForm data is missing or has been tampered with. Missing fields: "
-"%(field_names)s. You may need to file a bug report if the issue persists."
+"ManagementForm data is missing or has been tampered with. Missing fields: %(field_names)s. You may need to file "
+"a bug report if the issue persists."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/forms/formsets.py:67
@@ -1698,8 +1593,7 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/forms/models.py:898
 #, python-format
 msgid ""
-"Please correct the duplicate data for %(field_name)s which must be unique "
-"for the %(lookup)s in %(date_field)s."
+"Please correct the duplicate data for %(field_name)s which must be unique for the %(lookup)s in %(date_field)s."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/forms/models.py:907
@@ -1722,8 +1616,7 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/forms/utils.py:226
 #, python-format
 msgid ""
-"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
-"may be ambiguous or it may not exist."
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it may be ambiguous or it may not exist."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/forms/widgets.py:463
@@ -2156,39 +2049,35 @@ msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/csrf.py:116
 msgid ""
-"You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your web browser, but none was sent. This header is "
-"required for security reasons, to ensure that your browser is not being "
+"You are seeing this message because this HTTPS site requires a “Referer header” to be sent by your web browser, "
+"but none was sent. This header is required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/csrf.py:122
 msgid ""
-"If you have configured your browser to disable “Referer” headers, please re-"
-"enable them, at least for this site, or for HTTPS connections, or for “same-"
-"origin” requests."
+"If you have configured your browser to disable “Referer” headers, please re-enable them, at least for this "
+"site, or for HTTPS connections, or for “same-origin” requests."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/csrf.py:127
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or including the “Referrer-Policy: no-"
+"referrer” header, please remove them. The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer\" …> for links to third-"
+"party sites."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/csrf.py:136
 msgid ""
-"You are seeing this message because this site requires a CSRF cookie when "
-"submitting forms. This cookie is required for security reasons, to ensure "
-"that your browser is not being hijacked by third parties."
+"You are seeing this message because this site requires a CSRF cookie when submitting forms. This cookie is "
+"required for security reasons, to ensure that your browser is not being hijacked by third parties."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/csrf.py:142
 msgid ""
-"If you have configured your browser to disable cookies, please re-enable "
-"them, at least for this site, or for “same-origin” requests."
+"If you have configured your browser to disable cookies, please re-enable them, at least for this site, or for "
+"“same-origin” requests."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/csrf.py:148
@@ -2225,9 +2114,7 @@ msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/generic/dates.py:652
 #, python-format
-msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
+msgid "Future %(verbose_name_plural)s not available because %(class_name)s.allow_future is False."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/generic/dates.py:692
@@ -2276,17 +2163,15 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:206
 #, python-format
 msgid ""
-"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" target=\"_blank\" "
+"rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:221
 #, python-format
 msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not configured any URLs."
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:229
