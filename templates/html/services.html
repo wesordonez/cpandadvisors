@@ -345,7 +345,7 @@
               {% endblocktrans %}
             </p>
             <div class="accordion-image">
-              <img src="{% static './assets/images/home/Accounting-2.jpg' %}" alt="Service Image">
+              <img src="{% static './assets/images/home/Accounting-1.jpg' %}" alt="Service Image">
               <div class="accordion-features">
                 <strong class="tw-text-xl tw-font-bold">{% trans "Características del Servicio Ofrecido" %}</strong>
                 <div class="additional-features tw-text-lg">
@@ -405,6 +405,52 @@
                   <li>{% trans "✔ Respaldo en auditorías" %}</li>
                   <li>{% trans "✔ Consultoría para casos complejos" %}</li>
                   <li>{% trans "✔ Talleres de educación financiera" %}</li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Accordion Card 5 -->
+        <div class="accordion-card" onclick="toggleAccordion(this)">
+          <div class="accordion-header">
+            <h3 class="accordion-title tw-font-bold tw-text-3xl">{% trans "Notaría Certificada" %}</h3>
+            <div class="accordion-icon">
+                <span class="toggle-icon tw-font-bold tw-text-4xl">▴</span>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <p class="accordion-description tw-text-xl">
+              <strong class="tw-text-2xl">{% trans "Autenticación y Certificación de Documentos" %}</strong>
+              <br><br>
+              {% blocktrans %}
+              Ofrecemos servicios notariales certificados para garantizar la autenticidad y legalidad de tus documentos. 
+              Desde contratos y declaraciones juradas hasta poderes notariales, nos aseguramos de que tus documentos 
+              cumplan con todos los requisitos legales necesarios.
+              {% endblocktrans %}
+              <br><br>
+              <strong class="tw-text-2xl">{% trans "Asesoría Notarial Personalizada" %}</strong>
+              <br><br>
+              {% blocktrans %}
+              Brindamos asesoría experta para facilitar procesos notariales complejos. Nuestro equipo te guía paso a paso, 
+              garantizando un servicio eficiente y adaptado a tus necesidades particulares.
+              {% endblocktrans %}
+            </p>
+            <div class="accordion-image">
+              <img src="{% static './assets/images/home/Accounting-2.jpg' %}" alt="Service Image">
+              <div class="accordion-features">
+                <strong class="tw-text-xl tw-font-bold">{% trans "Características del Servicio Ofrecido" %}</strong>
+                <div class="additional-features tw-text-lg">
+                  <ul>
+                  <li>{% trans "✔ Certificación rápida y confiable" %}</li>
+                  <li>{% trans "✔ Autenticación de documentos legales" %}</li>
+                  <li>{% trans "✔ Asesoría experta" %}</li>
+                  </ul>
+                  <ul>
+                  <li>{% trans "✔ Cumplimiento con regulaciones" %}</li>
+                  <li>{% trans "✔ Atención personalizada" %}</li>
+                  <li>{% trans "✔ Confidencialidad garantizada" %}</li>
                   </ul>
                 </div>
                 </div>
