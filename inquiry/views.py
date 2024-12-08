@@ -2,6 +2,8 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.views.decorators.http import require_http_methods
 
+from django.core.mail import send_mail
+
 from django_ratelimit.decorators import ratelimit
 
 from django.utils.translation import get_language
@@ -24,6 +26,28 @@ def inquiry_view(request):
 
         if form.is_valid():
             form.save()
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            message = form.cleaned_data['description']
+            phone = form.cleaned_data['phone']
+            
+            email_content = f"""
+            <p><strong>New Contact Request</strong></p>
+            <p><strong>From:</strong> {name}</p>
+            <p><strong>Phone:</strong> {phone}</p>
+            <p><strong>Email:</strong> {email}</p>
+            <p><strong>Message:</strong></p>
+            <p>{message}</p>
+            """
+            
+            send_mail(
+                'New Contact Request for CP&A',
+                '',
+                'info@dunosis.com',  # From email
+                ['wesordonez1@gmail.com'],  # To email
+                fail_silently=False,
+                html_message=email_content
+            )
             return redirect("contact-success")
 
         return render(request, 'inquiry/inquiry-create.html', {
