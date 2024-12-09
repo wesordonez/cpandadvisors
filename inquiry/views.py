@@ -5,6 +5,7 @@ from django.views.decorators.http import require_http_methods
 from django.core.mail import send_mail
 from django.conf import settings
 from django.contrib import messages
+from django.utils.html import escape
 
 from django_ratelimit.decorators import ratelimit
 
@@ -28,10 +29,10 @@ def inquiry_view(request):
 
         if form.is_valid():
             form.save()
-            name = form.cleaned_data['name']
-            email = form.cleaned_data['email']
-            message = form.cleaned_data['description']
-            phone = form.cleaned_data['phone']
+            name = escape(form.cleaned_data['name'])
+            email = escape(form.cleaned_data['email'])
+            message = escape(form.cleaned_data['description'])
+            phone = escape(form.cleaned_data['phone'])
             
             email_content = f"""
             <p><strong>New Contact Request</strong></p>
