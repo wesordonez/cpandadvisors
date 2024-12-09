@@ -4,6 +4,7 @@ from django.views.decorators.http import require_http_methods
 
 from django.core.mail import send_mail
 from django.conf import settings
+from django.contrib import messages
 
 from django_ratelimit.decorators import ratelimit
 
@@ -40,21 +41,23 @@ def inquiry_view(request):
             <p><strong>Message:</strong></p>
             <p>{message}</p>
             """
-            
-            send_mail(
-                'New Contact Request for CP&A',
-                '',
-                settings.DEFAULT_FROM_EMAIL,  # From email
-                settings.CONTACT_EMAIL_RECIPIENTS,  # To email
-                fail_silently=False,
-                html_message=email_content
-            )
-            return redirect("contact-success")
-
-        return render(request, 'inquiry/inquiry-create.html', {
-                'errors': form.errors,
-                'data': request.POST,
-        })
+            try:
+                send_mail(
+                    'New Contact Request for CP&A',
+                    '',
+                    settings.DEFAULT_FROM_EMAIL,  # From email
+                    settings.CONTACT_EMAIL_RECIPIENTS,  # To email
+                    fail_silently=False,
+                    html_message=email_content
+                )
+                messages.success(request, 'Your inquiry has been submitted successfully.')
+                return redirect("contact-success")
+            except Exception as e:
+                messages.error(request, 'An error occurred while submitting your inquiry. Please try again later.')
+                return render(request, 'inquiry/inquiry-create.html', {
+                    'errors': form.errors,
+                    'data': request.POST,
+                })
     
 
 @require_http_methods(['POST'])
