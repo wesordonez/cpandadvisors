@@ -150,6 +150,10 @@ ROOT_URLCONF = 'project.urls'
 
 # Email Settings
 
+# Email addresses
+DEFAULT_FROM_EMAIL = 'info@dunosis.com'
+CONTACT_EMAIL_RECIPIENTS = ['wesordonez1@gmail.com']
+
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # This is only for development
     # EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'

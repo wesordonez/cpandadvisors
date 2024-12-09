@@ -3,6 +3,7 @@ from django.shortcuts import render, redirect
 from django.views.decorators.http import require_http_methods
 
 from django.core.mail import send_mail
+from django.conf import settings
 
 from django_ratelimit.decorators import ratelimit
 
@@ -43,8 +44,8 @@ def inquiry_view(request):
             send_mail(
                 'New Contact Request for CP&A',
                 '',
-                'info@dunosis.com',  # From email
-                ['wesordonez1@gmail.com'],  # To email
+                settings.DEFAULT_FROM_EMAIL,  # From email
+                settings.CONTACT_EMAIL_RECIPIENTS,  # To email
                 fail_silently=False,
                 html_message=email_content
             )
