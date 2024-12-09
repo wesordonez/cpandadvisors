@@ -150,24 +150,25 @@ ROOT_URLCONF = 'project.urls'
 
 # Email Settings
 
+# Email addresses
+DEFAULT_FROM_EMAIL = 'info@dunosis.com'
+CONTACT_EMAIL_RECIPIENTS = ['wesordonez1@gmail.com']
+
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # This is only for development
     # EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
 else: 
     pass
-    # uncomment below for production emailing
-    # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # for production
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # for production
 
-    # EMAIL_HOST = env('EMAIL_HOST') #eg: smtpout.secureserver.net
-    # EMAIL_PORT = 465
+    EMAIL_HOST = os.environ.get('EMAIL_HOST') #eg: smtpout.secureserver.net
+    EMAIL_PORT = 587
 
-    # EMAIL_HOST_USER = env('EMAIL_HOST_USER') # eg: info@mail.com
-    # EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER') # eg: info@mail.com
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
-    # DEFAULT_FROM_EMAIL = Address(display_name=env('EMAIL_HOST_USER'), addr_spec=EMAIL_HOST_USER)
-
-    # EMAIL_USE_SSL = True
+    EMAIL_USE_TLS = True
 
 
 TEMPLATES = [
