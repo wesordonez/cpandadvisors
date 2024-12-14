@@ -3,6 +3,9 @@ from django.shortcuts import render, redirect
 from django.views.decorators.http import require_http_methods
 
 from django.core.mail import send_mail
+from django.conf import settings
+from django.contrib import messages
+from django.utils.html import escape
 
 from django_ratelimit.decorators import ratelimit
 
@@ -26,10 +29,10 @@ def inquiry_view(request):
 
         if form.is_valid():
             form.save()
-            name = form.cleaned_data['name']
-            email = form.cleaned_data['email']
-            message = form.cleaned_data['description']
-            phone = form.cleaned_data['phone']
+            name = escape(form.cleaned_data['name'])
+            email = escape(form.cleaned_data['email'])
+            message = escape(form.cleaned_data['description'])
+            phone = escape(form.cleaned_data['phone'])
             
             email_content = f"""
             <p><strong>New Contact Request</strong></p>
@@ -39,21 +42,23 @@ def inquiry_view(request):
             <p><strong>Message:</strong></p>
             <p>{message}</p>
             """
-            
-            send_mail(
-                'New Contact Request for CP&A',
-                '',
-                'info@dunosis.com',  # From email
-                ['wesordonez1@gmail.com'],  # To email
-                fail_silently=False,
-                html_message=email_content
-            )
-            return redirect("contact-success")
-
-        return render(request, 'inquiry/inquiry-create.html', {
-                'errors': form.errors,
-                'data': request.POST,
-        })
+            try:
+                send_mail(
+                    'New Contact Request for CP&A',
+                    '',
+                    settings.DEFAULT_FROM_EMAIL,  # From email
+                    settings.CONTACT_EMAIL_RECIPIENTS,  # To email
+                    fail_silently=False,
+                    html_message=email_content
+                )
+                messages.success(request, 'Your inquiry has been submitted successfully.')
+                return redirect("contact-success")
+            except Exception as e:
+                messages.error(request, 'An error occurred while submitting your inquiry. Please try again later.')
+                return render(request, 'inquiry/inquiry-create.html', {
+                    'errors': form.errors,
+                    'data': request.POST,
+                })
     
 
 @require_http_methods(['POST'])
